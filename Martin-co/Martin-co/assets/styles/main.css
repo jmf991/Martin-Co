@@ -181,6 +181,9 @@ input[type="email"], select, textarea, .fake-select {
 .pt0 {
   padding-top: 0 !important; }
 
+.pt10 {
+  padding-top: 10px !important; }
+
 .pr0 {
   padding-right: 0 !important; }
 
@@ -268,7 +271,7 @@ input[type="button"]:focus,
 input[type="button"]:active,
 .btn:hover,
 .btn:focus,
-.btn.active, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .drop-down-menu .menu-item a:focus, .drop-down-menu .menu-item a.active {
+.btn.active, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .drop-down-menu .menu-item a:focus, .drop-down-menu .menu-item a.active, .item-square-disabled {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1481,6 +1484,20 @@ body {
 
 .header-bottom {
   background: #FFFFFF !important; }
+
+.menu-item-square, .item-square-active, .item-square-disabled {
+  display: inline-block;
+  padding: 10px 20px;
+  color: lightgray;
+  background: white;
+  color: black !important; }
+
+.item-square-active {
+  background: white !important;
+  border: 2px solid black; }
+
+.item-square-disabled {
+  background: white !important; }
 
 /*colors*/
 .bluepurple {

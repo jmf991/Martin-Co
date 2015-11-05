@@ -11,6 +11,11 @@ body { background: #E3E2E7; }
 .header { background: $dark-grey ; }
 .header-top {background: $dark-grey !important; }
 .header-bottom { background: #FFFFFF !important;}
+.menu-item-square { display: inline-block; padding: 10px 20px; color: lightgray; background: white; color:black !important; }
+
+.item-square-active {@extend .menu-item-square; background: white !important; border: 2px solid black;}
+.item-square-disabled {@extend .menu-item-square; background: white !important; @extend .smooth-transition }
+
 
 /*colors*/
 .bluepurple { color: #475179 !important; }
