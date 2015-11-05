@@ -66,7 +66,65 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\largeSpinner.gif" />
+    <Content Include="assets\images\logo.png" />
+    <Content Include="templates\1-homepage.aspx" />
+    <Content Include="to delete\logoInvesmix.png" />
+    <Content Include="to delete\no-image.png" />
+    <Content Include="assets\images\overlay-bg.png" />
+    <Content Include="to delete\river-01.png" />
+    <Content Include="to delete\skyCorpScreenShot.jpg" />
+    <Content Include="assets\images\smallSpinner.gif" />
+    <Content Include="assets\scripts\functions.js" />
+    <Content Include="assets\scripts\lib\bigtext.js" />
+    <Content Include="assets\scripts\lib\filters.js" />
+    <Content Include="assets\scripts\lib\form-customizer.js" />
+    <Content Include="assets\scripts\lib\jquery-ui.js" />
+    <Content Include="assets\scripts\lib\jquery.iosslider.min.js" />
+    <Content Include="assets\scripts\lib\jquery.js" />
+    <Content Include="assets\scripts\lib\text-ellipsis.js" />
+    <Content Include="assets\scripts\lib\validation.js" />
+    <Content Include="assets\scripts\lib\vertical-center.js" />
+    <Content Include="assets\scripts\main.js" />
+    <Content Include="assets\styles\components\icons\css\font-awesome-ie7.css" />
+    <Content Include="assets\styles\components\icons\css\font-awesome.min.css" />
+    <Content Include="assets\styles\components\icons\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\styles\main.css">
+      <DependentUpon>main.scss</DependentUpon>
+    </Content>
     <Content Include="packages.config" />
+    <Content Include="to delete\logoInvesmix.psd" />
+    <Content Include="assets\scripts\_sgbak\functions.js.1107428.15.2014-10-24.12-17-09.3331" />
+    <Content Include="assets\scripts\_sgbak\main.js.1112655.9.2014-11-14.14-57-37.8225" />
+    <Content Include="assets\styles\components\icons\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\styles\components\icons\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\styles\components\icons\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\styles\components\icons\fonts\FontAwesome.otf" />
+    <Content Include="assets\styles\components\modules\_accordion.scss" />
+    <Content Include="assets\styles\components\modules\_forms.scss" />
+    <Content Include="assets\styles\components\modules\_impulses.scss" />
+    <Content Include="assets\styles\components\modules\_lightbox.scss" />
+    <Content Include="assets\styles\components\modules\_navs.scss" />
+    <Content Include="assets\styles\components\modules\_nestedNav.scss" />
+    <Content Include="assets\styles\components\modules\_notifications.scss" />
+    <Content Include="assets\styles\components\modules\_sgbak\_dropdownNav.scss.1112444.2.2014-11-04.11-15-32.2228" />
+    <Content Include="assets\styles\components\modules\_sgbak\_dropdownNav.scss.1112444.2.2014-11-06.16-55-21.0524" />
+    <Content Include="assets\styles\components\modules\_sgbak\_slider.scss.1112445.2.2014-11-06.16-55-21.0654" />
+    <Content Include="assets\styles\components\modules\_shareTools.scss" />
+    <Content Include="assets\styles\components\modules\_slider.scss" />
+    <Content Include="assets\styles\components\modules\_tabs.scss" />
+    <Content Include="assets\styles\components\_animations.scss" />
+    <Content Include="assets\styles\components\_custom.scss" />
+    <Content Include="assets\styles\components\_font.scss" />
+    <Content Include="assets\styles\components\_global.scss" />
+    <Content Include="assets\styles\components\_grid.scss" />
+    <Content Include="assets\styles\components\_hacks.scss" />
+    <Content Include="assets\styles\components\_helpers.scss" />
+    <Content Include="assets\styles\components\_modules.scss" />
+    <Content Include="assets\styles\components\_resets.scss" />
+    <Content Include="assets\styles\main.css.map" />
+    <Content Include="assets\styles\main.scss" />
+    <Content Include="assets\styles\_variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,10 +133,164 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="statics\content\globalElements.html" />
+    <Content Include="statics\content\impulses\entriesImpulse.html" />
+    <Content Include="statics\content\impulses\filterImpulse.html" />
+    <Content Include="statics\content\impulses\imageImpulse.html" />
+    <Content Include="statics\content\impulses\listImpulse.html" />
+    <Content Include="statics\content\impulses\listImpulseContactUs.html" />
+    <Content Include="statics\content\impulses\listImpulseHiUser.html" />
+    <Content Include="statics\content\impulses\listImpulseHiUsuario.html" />
+    <Content Include="statics\content\impulses\listImpulseInvesmixLtd.html" />
+    <Content Include="statics\content\impulses\listImpulseRegister.html" />
+    <Content Include="statics\content\impulses\listImpulseUseful.html" />
+    <Content Include="statics\content\impulses\overlayImpulse.html" />
+    <Content Include="statics\content\listingOverview\filters.html" />
+    <Content Include="statics\content\modules\accordions.html" />
+    <Content Include="to delete\AddListingPageContent1.html" />
+    <Content Include="to delete\AddListingPageContent2.html" />
+    <Content Include="to delete\AddListingPageContent3.html" />
+    <Content Include="to delete\AddListingPageContent4.html" />
+    <Content Include="to delete\AddListingPageContent5.html" />
+    <Content Include="to delete\AddListingPageContent6.html" />
+    <Content Include="to delete\AddListingPageContent7.html" />
+    <Content Include="to delete\AddListingPageContent8.html" />
+    <Content Include="to delete\AddListingPageTop.html" />
+    <Content Include="to delete\contentAddListingPage.html" />
+    <Content Include="statics\content\modules\downloads.html" />
+    <Content Include="to delete\dropdownFindAgentsLandingPage.html" />
+    <Content Include="statics\content\modules\filtersBanner.html" />
+    <Content Include="statics\content\modules\form.html" />
+    <Content Include="to delete\icon-box-home.html" />
+    <Content Include="to delete\icon-box-slider.html" />
+    <Content Include="to delete\icon-box.html" />
+    <Content Include="to delete\image-title-box.html" />
+    <Content Include="statics\content\modules\map.html" />
+    <Content Include="statics\content\modules\searchBanner.html" />
+    <Content Include="statics\content\modules\slideItem.html" />
+    <Content Include="statics\content\modules\slider.html" />
+    <Content Include="to delete\sliderListingPreview.html" />
+    <Content Include="to delete\tableListingPerformanceReportContent.html" />
+    <Content Include="to delete\tableListingPerformanceReportFooter.html" />
+    <Content Include="to delete\tableListingPerformanceReportHeader.html" />
+    <Content Include="to delete\tableListingsOverview.html" />
+    <Content Include="to delete\tableListingsOverviewFooter.html" />
+    <Content Include="statics\content\modules\tabs.html" />
+    <Content Include="to delete\tabsAgentsListingsListPage.html" />
+    <Content Include="to delete\tabsListingPreview.html" />
+    <Content Include="statics\content\modules\textCarousel.html" />
+    <Content Include="to delete\title-icon-box-dual.html" />
+    <Content Include="statics\content\modules\video.html" />
+    <Content Include="to delete\WebForm1.aspx" />
+    <Content Include="statics\content\nav\breadcrumb.html" />
+    <Content Include="statics\content\nestedNav\nav-column-2.html" />
+    <Content Include="statics\content\nestedNav\nav-column-3.html" />
+    <Content Include="statics\content\nestedNav\nav-column-4.html" />
+    <Content Include="statics\content\nestedNav\nav-column.html" />
+    <Content Include="statics\content\nestedNav\nestedNav.html" />
+    <Content Include="statics\content\pagination\pagination.html" />
+    <Content Include="statics\content\resultsGrid\cs-filters.html" />
+    <Content Include="to delete\cs.filtersListingPreview.html" />
+    <Content Include="to delete\cs.filtersListingsOverview.html" />
+    <Content Include="to delete\cs.filtersMainListingPreview.html" />
+    <Content Include="statics\content\resultsGrid\entry.html" />
+    <Content Include="to delete\entryAddListingPage.html" />
+    <Content Include="to delete\entryListingPreview.html" />
+    <Content Include="to delete\entryListings.html" />
+    <Content Include="to delete\entryMyAccount.html" />
+    <Content Include="to delete\entryReports.html" />
+    <Content Include="to delete\entryServices.html" />
+    <Content Include="statics\content\resultsGrid\event.html" />
+    <Content Include="statics\content\resultsGrid\featuredEvent.html" />
+    <Content Include="to delete\GridViewPreview.html" />
+    <Content Include="statics\content\resultsGrid\hp-filters.html" />
+    <Content Include="to delete\ListViewPreview.html" />
+    <Content Include="statics\content\resultsList\entry.html" />
+    <Content Include="statics\content\resultsList\featuredEntry.html" />
+    <Content Include="statics\content\socials\shareTrigger-icons.html" />
+    <Content Include="statics\content\socials\shareTrigger.html" />
+    <Content Include="statics\master\footer\copyright.html" />
+    <Content Include="statics\master\footer\footer.html" />
+    <Content Include="statics\master\header\header.html" />
+    <Content Include="statics\master\header\logo.html" />
+    <Content Include="statics\master\header\mainNav.html" />
+    <Content Include="statics\master\header\user.html" />
+    <Content Include="statics\master\header\head.html" />
+    <Content Include="templates\Homepage.aspx" />
+    <Content Include="templates\T00-homepage.aspx" />
+    <Content Include="templates\T01-filter-grid.aspx" />
+    <Content Include="templates\T02-filter-list.aspx" />
+    <Content Include="templates\T03-Content.aspx" />
+    <Content Include="templates\T04-Contact.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="templates\1-homepage.aspx.cs">
+      <DependentUpon>1-homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\1-homepage.aspx.designer.cs">
+      <DependentUpon>1-homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="to delete\InvesmixAgentsListingsListPage.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="to delete\InvesmixAgentsListingsListPage.aspx.designer.cs">
+      <DependentUpon>InvesmixAgentsListingsListPage.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="to delete\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="to delete\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\T00-homepage.aspx.cs">
+      <DependentUpon>T00-homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\T00-Homepage.aspx.designer.cs">
+      <DependentUpon>T00-homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\T01-filter-grid.aspx.cs">
+      <DependentUpon>T01-filter-grid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\T01-filter-grid.aspx.designer.cs">
+      <DependentUpon>T01-filter-grid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\T02-filter-list.aspx.cs">
+      <DependentUpon>T02-filter-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\T02-filter-list.aspx.designer.cs">
+      <DependentUpon>T02-filter-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\T03-Content.aspx.cs">
+      <DependentUpon>T03-Content.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\T03-Content.aspx.designer.cs">
+      <DependentUpon>T03-Content.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\T04-Contact.aspx.cs">
+      <DependentUpon>T04-Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\T04-Contact.aspx.designer.cs">
+      <DependentUpon>T04-Contact.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\images\samples\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
