@@ -271,7 +271,7 @@ input[type="button"]:focus,
 input[type="button"]:active,
 .btn:hover,
 .btn:focus,
-.btn.active, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .drop-down-menu .menu-item a:focus, .drop-down-menu .menu-item a.active, .item-square-disabled {
+.btn.active, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .menu-item .drop-down-menu a a:hover, .drop-down-menu .menu-item a:focus, .menu-item .drop-down-menu a a:focus, .drop-down-menu .menu-item a.active, .menu-item .drop-down-menu a a.active {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -309,7 +309,7 @@ small {
   font-size: 0.7em;
   line-height: 1em; }
 
-.title, .title-purple, .title-grey {
+.title, .title-purple, .title-grey, .title-white {
   border-bottom: 1px solid #CCC;
   padding-bottom: 10px; }
 
@@ -321,12 +321,16 @@ small {
   color: #8c8989;
   margin: 0px 0px 0px 5px; }
 
+.title-white {
+  color: #FFF;
+  margin: 0px 0px 0px 5px; }
+
 .icon-box-font {
   color: #c8c9dc;
   padding-top: 0px; }
 
 a {
-  color: #343257;
+  color: #8c8989;
   text-decoration: none; }
 
 a:hover, a:focus, a.active {
@@ -377,6 +381,13 @@ pre {
 .box-container {
   max-width: 961px;
   margin: 0 auto;
+  clear: left;
+  overflow: visible;
+  padding: 0; }
+
+.box-container-footer {
+  max-width: 961px;
+  margin: 10px 50px 10px 50px;
   clear: left;
   overflow: visible;
   padding: 0; }
@@ -1033,11 +1044,11 @@ ul.tabs-menu {
 .drop-down-menu, .drop-down {
   margin-left: 0; }
 
-.drop-down-menu .menu-item {
+.drop-down-menu .menu-item, .drop-down-menu .menu-item a, .menu-item .drop-down-menu a {
   position: relative;
   margin-bottom: 0; }
 
-.drop-down-menu .menu-item .menu-indicator {
+.drop-down-menu .menu-item .menu-indicator, .menu-item .drop-down-menu a .menu-indicator {
   margin-left: 10px;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -1048,27 +1059,27 @@ ul.tabs-menu {
   *display: inline;
   float: right; }
 
-.drop-down-menu .menu-item .menu-indicator:before {
+.drop-down-menu .menu-item .menu-indicator:before, .menu-item .drop-down-menu a .menu-indicator:before {
   content: "\f107"; }
 
-.drop-down-menu .menu-item {
+.drop-down-menu .menu-item, .drop-down-menu .menu-item a, .menu-item .drop-down-menu a {
   display: inline-block;
   color: darkgray; }
 
-.drop-down-menu .menu-item a {
+.drop-down-menu .menu-item a, .menu-item .drop-down-menu a a {
   display: block;
   padding: 10px 20px;
   color: lightgray; }
 
-.drop-down-menu .menu-item a:hover, .drop-down-menu .menu-item a:focus, .drop-down-menu .menu-item a.active {
+.drop-down-menu .menu-item a:hover, .menu-item .drop-down-menu a a:hover, .drop-down-menu .menu-item a:focus, .menu-item .drop-down-menu a a:focus, .drop-down-menu .menu-item a.active, .menu-item .drop-down-menu a a.active {
   background: #312e58;
   text-decoration: none;
   color: #fff; }
 
-.drop-down-menu .menu-item .drop-down {
+.drop-down-menu .menu-item .drop-down, .menu-item .drop-down-menu a .drop-down {
   display: none; }
 
-.drop-down-menu .menu-item:hover .drop-down {
+.drop-down-menu .menu-item:hover .drop-down, .drop-down-menu .menu-item a:hover .drop-down, .menu-item .drop-down-menu a:hover .drop-down {
   display: block; }
 
 .drop-down-menu .drop-down {
@@ -1085,25 +1096,25 @@ ul.tabs-menu {
   margin: 0;
   padding: 0; }
 
-.drop-down-menu .drop-down .menu-item {
+.drop-down-menu .drop-down .menu-item, .drop-down-menu .drop-down .menu-item a, .menu-item .drop-down-menu .drop-down a {
   display: block;
   min-width: 160px; }
 
-.drop-down-menu .drop-down .menu-item .menu-indicator:before {
+.drop-down-menu .drop-down .menu-item .menu-indicator:before, .menu-item .drop-down-menu .drop-down a .menu-indicator:before {
   content: "\f105"; }
 
 /*whole width*/
-.drop-down-menu .menu-item.whole-width-dropwon {
+.drop-down-menu .menu-item.whole-width-dropwon, .drop-down-menu .menu-item a.whole-width-dropwon, .menu-item .drop-down-menu a.whole-width-dropwon {
   position: static; }
 
-.drop-down-menu .menu-item.whole-width-dropwon .drop-down {
+.drop-down-menu .menu-item.whole-width-dropwon .drop-down, .drop-down-menu .menu-item a.whole-width-dropwon .drop-down, .menu-item .drop-down-menu a.whole-width-dropwon .drop-down {
   width: 100%; }
 
 .drop-down-menu .drop-down.whole-width {
   top: 100%; }
 
 /*third level*/
-.drop-down-menu .menu-item:hover .drop-down .drop-down {
+.drop-down-menu .menu-item:hover .drop-down .drop-down, .drop-down-menu .menu-item a:hover .drop-down .drop-down, .menu-item .drop-down-menu a:hover .drop-down .drop-down {
   display: none; }
 
 .drop-down-menu .drop-down .drop-down {
@@ -1112,7 +1123,7 @@ ul.tabs-menu {
   display: none;
   border-top: 0px; }
 
-.drop-down-menu .drop-down .menu-item:hover .drop-down {
+.drop-down-menu .drop-down .menu-item:hover .drop-down, .drop-down-menu .drop-down .menu-item a:hover .drop-down, .menu-item .drop-down-menu .drop-down a:hover .drop-down {
   display: block; }
 
 /*mobile trigger*/
@@ -1128,7 +1139,7 @@ ul.tabs-menu {
     opacity: 1 !important; } }
 /*tablet and below*/
 @media only screen and (max-width: 960px) {
-  .drop-down-menu .menu-item {
+  .drop-down-menu .menu-item, .drop-down-menu .menu-item a, .menu-item .drop-down-menu a {
     display: block; }
 
   .drop-down-menu .drop-down {
@@ -1136,18 +1147,20 @@ ul.tabs-menu {
     overflow: hidden; }
 
   .drop-down-menu .drop-down,
-  .drop-down-menu .drop-down .menu-item {
+  .drop-down-menu .drop-down .menu-item,
+  .drop-down-menu .drop-down .menu-item a,
+  .menu-item .drop-down-menu .drop-down a {
     background-color: #FFFFFF;
     top: 0 !important;
     display: block; }
 
-  .drop-down-menu .drop-down .menu-item .menu-indicator:before {
+  .drop-down-menu .drop-down .menu-item .menu-indicator:before, .menu-item .drop-down-menu .drop-down a .menu-indicator:before {
     content: "\f107"; }
 
   .drop-down-menu .drop-down .drop-down {
     left: 0; }
 
-  .drop-down-menu .drop-down .menu-item .drop-down .menu-item a {
+  .drop-down-menu .drop-down .menu-item .drop-down .menu-item a, .menu-item .drop-down-menu .drop-down a .drop-down .menu-item a, .drop-down-menu .drop-down .menu-item .drop-down a a, .drop-down-menu .drop-down .menu-item a .drop-down a a, .menu-item .drop-down-menu .drop-down a .drop-down a a {
     color: #333333; }
 
   .mobile-nav-trigger {
@@ -1158,8 +1171,13 @@ ul.tabs-menu {
     width: 100%;
     clear: both; }
 
-  .drop-down-menu .menu-item:hover .drop-down,
-  .drop-down-menu .menu-item:hover .drop-down .menu-item:hover .drop-down {
+  .drop-down-menu .menu-item:hover .drop-down, .drop-down-menu .menu-item a:hover .drop-down, .menu-item .drop-down-menu a:hover .drop-down,
+  .drop-down-menu .menu-item:hover .drop-down .menu-item:hover .drop-down,
+  .drop-down-menu .menu-item a:hover .drop-down .menu-item:hover .drop-down,
+  .menu-item .drop-down-menu a:hover .drop-down .menu-item:hover .drop-down,
+  .drop-down-menu .menu-item:hover .drop-down a:hover .drop-down,
+  .drop-down-menu .menu-item a:hover .drop-down a:hover .drop-down,
+  .menu-item .drop-down-menu a:hover .drop-down a:hover .drop-down {
     display: none; } }
 /*******DROPDOWN MENU END******/
 /********** START LIGHTBOX OVERLAY **********/
@@ -1485,19 +1503,20 @@ body {
 .header-bottom {
   background: #FFFFFF !important; }
 
-.menu-item-square, .item-square-active, .item-square-disabled {
+.menu-item a {
+  background: white !important;
+  border: 2px solid transparent;
   display: inline-block;
   padding: 10px 20px;
   color: lightgray;
   background: white;
   color: black !important; }
 
-.item-square-active {
+.menu-item a:active,
+.menu-item a:hover,
+.menu-item a:focus {
   background: white !important;
   border: 2px solid black; }
-
-.item-square-disabled {
-  background: white !important; }
 
 /*colors*/
 .bluepurple {
@@ -1510,13 +1529,16 @@ body {
   color: #343458 !important; }
 
 .grey {
-  color: #A7A7A7; }
+  color: #8c8989; }
 
 .light-grey {
   color: #DBDBDB; }
 
 .dark-grey {
   color: #7F7F7F; }
+
+.bg-dark-grey {
+  background: #3A464C; }
 
 .bg-greygradient, .icon-box-home-button {
   background: #e2e2e2;

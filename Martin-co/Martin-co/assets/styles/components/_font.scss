@@ -12,11 +12,12 @@ small { font-size: 0.7em; line-height: 1em; }
 .title { border-bottom: $global-border; padding-bottom: $global-padding; }
 .title-purple { @extend .title; color: #343458; border-bottom: 1px solid #343458; }
 .title-grey { @extend .title; color: #8c8989; margin: 0px 0px 0px 5px ;}
+.title-white { @extend .title; color: #FFF; margin: 0px 0px 0px 5px ;}
 
 
 
 
 .icon-box-font { color:#c8c9dc; padding-top: 0px; }
-a { color: $primary-color; text-decoration: none; }
+a { color: #8c8989; text-decoration: none; }
 a:hover, a:focus, a.active { text-decoration: underline; color: $active-color;   @extend .smooth-transition  }
 /********** END FONT **********/

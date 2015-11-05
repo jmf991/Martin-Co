@@ -5,22 +5,21 @@
 <html lang="en">
 <head>
     <title>Home</title>
-        
+
 </head>
 <body>
     <!--#include virtual="/statics/master/header/head.html"-->
     <!--header -->
-        <!--#include virtual="/statics/master/header/header.html"-->
+    <!--#include virtual="/statics/master/header/header.html"-->
     <!--/ header -->
     <!--content -->
 
-    <div">
+    <div class="box-container">
 
-        <div>
+        <div class="">
             <!-- sidebar -->
             <div>
-                <div">
-                  
+                <div>
                 </div>
             </div>
 
@@ -28,9 +27,12 @@
             <!-- main  content -->
             <div>
                 <div>
-                    </div>
                 </div>
             </div>
         </div>
+
+    </div>
+    <!--#include virtual="/statics/master/footer/footer.html"-->
 </body>
+
 </html>
