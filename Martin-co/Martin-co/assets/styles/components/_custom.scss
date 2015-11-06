@@ -45,7 +45,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', end
 /*box*/
 
 .box { @extend .bg-white;  border: 1px solid #A8A5B5; padding: $global-padding; position: relative; }  
-.padding-box { @extend .box; margin-bottom: 30px; }  
+.padding-footer { padding: 86px 0px 30px 0px; }  
 @media (min-width: $tablet) {
 .padding-box { padding-top: 0px; padding-left: 30px; padding-right: 50px; padding-bottom: 30px;  }  
 }  
@@ -119,11 +119,14 @@ table tr td { padding: 5px 10px; }
 .big-text-area { height:120px;}
 .no-border { border:none !important; }
 
-
+/*borders*/
 .border-radius-tr { border-top-right-radius: 10px !important; overflow: hidden;}
 .border-radius-br { border-bottom-right-radius: 10px !important; overflow: hidden;}
 .border-radius-tl { border-top-left-radius: 10px !important; overflow: hidden;}
 .border-radius-bl { border-bottom-left-radius: 10px !important; overflow: hidden;}
+.border-grey-horizontal { border-left: 1px solid #7F7F7F;; border-right: 1px solid #7F7F7F; }
+.border-grey-vertical { border-top: 1px solid #7F7F7F; }
+
 
 .icon-box-grey { background:#EEEEEE !important; color:#F6D06B; font-size: 50px; text-align:center;}
 .icon-box-slider { background-color:#EBEBEB; height:100%; margin-top:0px !important; padding-top:0px  !important; }

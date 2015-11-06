@@ -71,6 +71,7 @@
     <Content Include="statics\master\footer\footercontent-2.html" />
     <Content Include="statics\master\footer\footercontent-3.html" />
     <Content Include="statics\master\footer\footercontent-1.html" />
+    <Content Include="statics\master\footer\footercontent-4.html" />
     <Content Include="templates\1-homepage.aspx" />
     <Content Include="to delete\logoInvesmix.png" />
     <Content Include="to delete\no-image.png" />
