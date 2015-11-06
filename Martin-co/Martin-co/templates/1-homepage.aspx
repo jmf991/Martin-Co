@@ -14,22 +14,18 @@
     <!--/ header -->
     <!--content -->
 
+
+    <!-- slider -->
+    <!--#include virtual="/statics/content/modules/sliderhomepage.html"-->
+    <!-- / slider -->
+
     <div class="box-container">
-
-        <div class="">
-            <!-- sidebar -->
+        <!-- main  content -->
+        <div>
             <div>
-                <div>
-                </div>
-            </div>
-
-            <!-- / sidebar -->
-            <!-- main  content -->
-            <div>
-                <div>
-                </div>
             </div>
         </div>
+
 
     </div>
     <!--#include virtual="/statics/master/footer/footer.html"-->

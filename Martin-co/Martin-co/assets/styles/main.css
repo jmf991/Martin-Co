@@ -823,8 +823,8 @@ fieldset {
   overflow: hidden;
   position: relative;
   height: 0;
-  padding: 0 0 24.7% 0;
-  /* 24.7% is because ratio: 1110/275 = ~0.247 */
+  padding: 0 0 44% 0;
+  /* 44% is because ratio: 1900/481 = ~0.44 */
   width: 100%; }
 
 .slider-container .slider {
@@ -1769,6 +1769,26 @@ table tr td {
 
 .slider-container .slide-caption {
   padding: 0px; }
+
+.title-box-yellow {
+  background-color: #FED204;
+  color: black;
+  padding: 5px 20px; }
+
+.title-box-blue {
+  background-color: rgba(4, 157, 254, 0.57) !important;
+  color: white;
+  padding: 5px 20px; }
+
+.title-box-black {
+  background-color: rgba(0, 0, 0, 0.57);
+  color: white;
+  padding: 5px 20px; }
+
+.title-box-white {
+  background-color: #FFF;
+  color: black;
+  padding: 5px 20px; }
 
 .fa-big {
   font-size: 70px !important; }

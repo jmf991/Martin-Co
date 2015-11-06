@@ -66,8 +66,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\hd-pictures-8-Awesome-Wallpapers.png" />
     <Content Include="assets\images\largeSpinner.gif" />
     <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\samples\background02.jpg" />
+    <Content Include="assets\images\samples\background04.jpg" />
+    <Content Include="statics\content\modules\slide1.html" />
+    <Content Include="statics\content\modules\slide2.html" />
+    <Content Include="statics\content\modules\sliderhomepage.html" />
     <Content Include="statics\master\footer\footercontent-2.html" />
     <Content Include="statics\master\footer\footercontent-3.html" />
     <Content Include="statics\master\footer\footercontent-1.html" />
@@ -293,9 +299,7 @@
       <DependentUpon>T04-Contact.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="assets\images\samples\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
