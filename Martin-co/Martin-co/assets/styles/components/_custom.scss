@@ -2,6 +2,7 @@
 
 body { background: #E3E2E7; }
 .bg-white { background: #FFF; }
+.bg-yellow { background:#FEC604; }
 .bg-gold { background: #f4cc53 !important; }
 .bg-light-gold { background: #FBDE9F !important; }
 .extra-fucking-big { font-size: 100px; }
@@ -136,7 +137,15 @@ table tr td { padding: 5px 10px; }
 
 .full-width {width:100%;}
 
+
+.slide-item-wrapper { position: absolute; top: 10%; width: 80%; left: 10%;}
+.slide-item-left {     width: 33.33333333%;    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
 .slider-container .slide-caption { padding:0px; }
+
+
 .title-box-yellow { background-color:#FED204; color:black; padding:5px 20px;}
 .title-box-blue { background-color:rgba(4,157,254,0.57) !important; color:white; padding:5px 20px;}
 .title-box-black { background-color:rgba(0,0,0,.57); color:white; padding:5px 20px;}
