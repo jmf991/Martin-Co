@@ -28,6 +28,7 @@ body { background: #E3E2E7; }
 .grey { color:#8c8989; }
 .light-grey { color:#DBDBDB; }
 .dark-grey { color:#7F7F7F; }
+.black { color:black; }
 
 .bg-dark-grey { background:#3A464C; }
 .bg-greygradient {
@@ -57,7 +58,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', end
 .box-title { background: $dark-purple; margin-bottom: 10px; padding: 5px 10px;  color: #fff}
 .box-title p { margin: 0; border: none; color: #fff; padding: 0;}
 .underlined-title {border-bottom: 2px solid #F2F2F2;}
-
+.underline {border-bottom: 1px solid black;}
 
 .box-content { padding-bottom: 30px; }
 .sidebar { background:#EEEEEE !important; height: 100%; }
