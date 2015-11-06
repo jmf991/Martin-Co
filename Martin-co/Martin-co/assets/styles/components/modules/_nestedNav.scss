@@ -8,6 +8,8 @@
 .nested-nav ul li a:focus,
 .nested-nav ul li a.active { background: $active-color; }
 
+.slider li { list-style: none; }
+
 .nav-wrap {  float: left; border-right: 1px solid #fff;   }
 .nav-wrap.collapse {  width: 20px; overflow: hidden; }
 

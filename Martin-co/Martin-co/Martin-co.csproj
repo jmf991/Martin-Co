@@ -71,6 +71,7 @@
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\samples\background02.jpg" />
     <Content Include="assets\images\samples\background04.jpg" />
+    <Content Include="statics\content\modules\homepagecontent1.html" />
     <Content Include="statics\content\modules\slide1.html" />
     <Content Include="statics\content\modules\slide2.html" />
     <Content Include="statics\content\modules\sliderhomepage.html" />

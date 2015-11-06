@@ -5,10 +5,10 @@
 <html lang="en">
 <head>
     <title>Home</title>
-
-</head>
-<body>
     <!--#include virtual="/statics/master/header/head.html"-->
+</head>
+<body class="bg-white">
+    
     <!--header -->
     <!--#include virtual="/statics/master/header/header.html"-->
     <!--/ header -->
@@ -21,12 +21,9 @@
 
     <div class="box-container">
         <!-- main  content -->
-        <div>
-            <div>
-            </div>
-        </div>
+  <!--#include virtual="/statics/content/modules/homepagecontent1.html"-->
 
-
+        <div class="clearfix"></div>
     </div>
     <!--#include virtual="/statics/master/footer/footer.html"-->
 </body>

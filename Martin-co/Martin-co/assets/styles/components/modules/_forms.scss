@@ -27,7 +27,7 @@ select { @extend .input-default; }
 textarea { @extend .input-default; height: 82px; padding: 5px; resize: none; max-width: 505px; }
 input[type="submit"],
 input[type="button"], 
-.btn { display: inline-block; color: White;  border: none; cursor: pointer; margin-right: 10px;  font-size: 16px; background: #6899ce; padding: 9px 10px; }
+.btn { display: inline-block; color: White;  border: none; cursor: pointer; margin-right: 10px;  font-size: 16px; background: black; padding: 9px 10px; }
 input[type="submit"]:disabled,
 input[type="button"]:disabled, 
 .btn.disabled { background-color: $box-color !important; color: #999999 !important; cursor: default; text-decoration: none; }
