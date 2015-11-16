@@ -41,6 +41,12 @@ input[type="button"]:active,
 .btn:focus, 
 .btn.active { text-decoration: none; background: $active-color; color: $shade-2;  @extend .smooth-transition  }
 
+.btn-yellow.disabled { background-color: #F2F2F2 !important; color: #999999 !important; cursor: default; text-decoration: none; }
+.btn-yellow:hover, 
+.btn-yellow:focus, 
+.btn-yellow.active { text-decoration: none; background: $active-color;   @extend .smooth-transition  }
+
+
 .fake-input { color: $primary-color; cursor: pointer; display: inline-block; position: static; text-decoration: none; width:18px;   color: $primary-color !important;  }
 a.fake-input {text-decoration: none; }
 .fake-input.checkbox:before { content: "\f096";}

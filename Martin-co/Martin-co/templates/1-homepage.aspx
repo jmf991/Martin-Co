@@ -16,13 +16,15 @@
 
 
     <!-- slider -->
-    <!--#include virtual="/statics/content/modules/sliderhomepage.html"-->
+    <!--#include virtual="/statics/content/modules/slider/sliderhomepage.html"-->
     <!-- / slider -->
 
     <div class="box-container">
         <!-- main  content -->
-        <!--#include virtual="/statics/content/modules/homepagecontent1.html"-->
-
+        <!--#include virtual="/statics/content/modules/homepagecontent/homepagecontent1.html"-->
+        <!--#include virtual="/statics/content/modules/homepagecontent/homepagecontent2.html"-->
+        <!--#include virtual="/statics/content/modules/homepagecontent/homepagecontent3.html"-->
+        <!--#include virtual="/statics/content/modules/isotope/isotope.html"-->
         <div class="clearfix"></div>
     </div>
     <!--#include virtual="/statics/master/footer/footer.html"-->

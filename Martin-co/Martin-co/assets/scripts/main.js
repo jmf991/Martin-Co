@@ -13,11 +13,8 @@
     var filters = new Filters();
     filters.BindEvents();
     TextCarousel();
-
-    //$(".js-text").change(function () {
-    //    alert( $(this).width());
-       
-    //});
+    bindIsotope();
+    
 });
 
 $(window).load(function () {

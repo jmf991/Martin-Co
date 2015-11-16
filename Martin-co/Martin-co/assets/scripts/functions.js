@@ -301,3 +301,19 @@ function updateLayout() {
     bindIsotope();
     bindBigText();
 }
+
+
+/*ISOTOPE*/
+/****************************/
+function bindIsotope() {
+    $('.js-isotope-container').isotope({
+        itemSelector: '.js-isotope-item'
+    });
+
+    $('.js-isotope-filters').on('click', '.js-filter', function () {
+        var filterValue = $(this).attr('data-filter');
+        // use filterFn if matches value
+
+        $('.js-isotope-container').isotope({ filter: filterValue });
+    });
+}

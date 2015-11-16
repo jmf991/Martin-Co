@@ -94,6 +94,9 @@ body {
 .bg-dark-grey {
     background: #3A464C;
 }
+.bg-light-grey {
+    background: #F2F2F2;
+}
 
 .bg-greygradient {
     background: rgba(226,226,226,1);
@@ -455,6 +458,14 @@ table tr td {
     background: #fed204;
     margin-bottom: 20px;
 }
+.icon-box-light-grey {
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    color: #262625;
+    background: #F2F2F2;
+    margin-bottom: 20px;
+}
 
 
 
@@ -473,6 +484,11 @@ table tr td {
 .btn-border-bottom {
     @extend .btn;
     border-bottom: 3px solid #FED204;
+}
+.btn-yellow {
+    @extend .btn;
+    background: inherit;
+    margin:10px !important;
 }
 
 .title-padding {

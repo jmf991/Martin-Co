@@ -162,6 +162,9 @@ input[type="email"], select, textarea, .fake-select {
 .mb50 {
   margin-bottom: 50px !important; }
 
+.mb120 {
+  margin-bottom: 120px !important; }
+
 .mvertical10 {
   margin: 10px 0px 10px 0px !important; }
 
@@ -286,10 +289,13 @@ input[type="button"]:focus,
 input[type="button"]:active,
 .btn:hover,
 .btn-border-bottom:hover,
+.btn-yellow:hover,
 .btn:focus,
 .btn-border-bottom:focus,
+.btn-yellow:focus,
 .btn.active,
-.active.btn-border-bottom, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .menu-item .drop-down-menu a a:hover, .drop-down-menu .menu-item a:focus, .menu-item .drop-down-menu a a:focus, .drop-down-menu .menu-item a.active, .menu-item .drop-down-menu a a.active {
+.active.btn-border-bottom,
+.active.btn-yellow, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .menu-item .drop-down-menu a a:hover, .drop-down-menu .menu-item a:focus, .menu-item .drop-down-menu a a:focus, .drop-down-menu .menu-item a.active, .menu-item .drop-down-menu a a.active {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -568,7 +574,8 @@ textarea {
 input[type="submit"],
 input[type="button"],
 .btn,
-.btn-border-bottom {
+.btn-border-bottom,
+.btn-yellow {
   display: inline-block;
   color: White;
   border: none;
@@ -581,7 +588,8 @@ input[type="button"],
 input[type="submit"]:disabled,
 input[type="button"]:disabled,
 .btn.disabled,
-.disabled.btn-border-bottom {
+.disabled.btn-border-bottom,
+.disabled.btn-yellow {
   background-color: #FFFFFF !important;
   color: #999999 !important;
   cursor: default;
@@ -595,13 +603,28 @@ input[type="button"]:focus,
 input[type="button"]:active,
 .btn:hover,
 .btn-border-bottom:hover,
+.btn-yellow:hover,
 .btn:focus,
 .btn-border-bottom:focus,
+.btn-yellow:focus,
 .btn.active,
-.active.btn-border-bottom {
+.active.btn-border-bottom,
+.active.btn-yellow {
   text-decoration: none;
   background: #F7CE58;
   color: #EEEEEE; }
+
+.btn-yellow.disabled {
+  background-color: #F2F2F2 !important;
+  color: #999999 !important;
+  cursor: default;
+  text-decoration: none; }
+
+.btn-yellow:hover,
+.btn-yellow:focus,
+.btn-yellow.active {
+  text-decoration: none;
+  background: #F7CE58; }
 
 .fake-input {
   color: #343257;
@@ -1579,6 +1602,9 @@ body {
 .bg-dark-grey {
   background: #3A464C; }
 
+.bg-light-grey {
+  background: #F2F2F2; }
+
 .bg-greygradient, .icon-box-home-button {
   background: #e2e2e2;
   background: -moz-linear-gradient(top, #e2e2e2 0%, #d1d1d1 1%, #dbdbdb 24%, #fefefe 100%);
@@ -1860,6 +1886,14 @@ table tr td {
   background: #fed204;
   margin-bottom: 20px; }
 
+.icon-box-light-grey {
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  color: #262625;
+  background: #F2F2F2;
+  margin-bottom: 20px; }
+
 .fa-big {
   font-size: 70px !important; }
 
@@ -1871,6 +1905,10 @@ table tr td {
 
 .btn-border-bottom {
   border-bottom: 3px solid #FED204; }
+
+.btn-yellow {
+  background: inherit;
+  margin: 10px !important; }
 
 .title-padding {
   padding: 5px 20px; }
