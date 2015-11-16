@@ -187,6 +187,9 @@ input[type="email"], select, textarea, .fake-select {
 .pt10 {
   padding-top: 10px !important; }
 
+.pt20 {
+  padding-top: 20px !important; }
+
 .pr0 {
   padding-right: 0 !important; }
 
@@ -213,6 +216,9 @@ input[type="email"], select, textarea, .fake-select {
 
 .pr10 {
   padding-right: 10px !important; }
+
+.pr50 {
+  padding-right: 50px !important; }
 
 .p20 {
   padding: 20px !important; }
@@ -391,7 +397,7 @@ pre {
 */
 /*0. Global*/
 .box-container {
-  max-width: 961px;
+  max-width: 1170px;
   margin: 0 auto;
   clear: left;
   overflow: visible;
@@ -1439,7 +1445,7 @@ body.loading .overlay-impulse .item-overlay {
 @media (min-width: 960px) {
   .box-6 > .box-12 > .box-12 > .inner > .overlay-impulse:hover .item-overlay {
     top: calc(33% + 20px); } }
-@media (max-width: 961px) and (min-width: 960px) {
+@media (max-width: 1170px) and (min-width: 960px) {
   .box-6 > .box-12 > .box-12 > .inner > .overlay-impulse:hover .item-overlay {
     top: calc(50% + 10px); } }
 /********** END IMPULSES **********/
@@ -1792,7 +1798,7 @@ table tr td {
   background-color: #EBEBEB;
   height: 100%;
   margin-top: 0px !important;
-  padding-top: 0px  !important; }
+  padding-top: 0px !important; }
 
 .sidebar-home {
   width: 25%;
@@ -1847,8 +1853,12 @@ table tr td {
   color: black; }
 
 .icon-box-yellow {
-  background-color: #FED204;
-  color: black; }
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  color: #262625;
+  background: #fed204;
+  margin-bottom: 20px; }
 
 .fa-big {
   font-size: 70px !important; }
