@@ -76,6 +76,7 @@
     <Content Include="assets\images\samples\service3.jpg" />
     <Content Include="assets\images\samples\service4.jpg" />
     <Content Include="assets\scripts\lib\isotope.js" />
+    <Content Include="statics\content\modules\homepagecontent\content-flow.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent1.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent2.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent3.html" />

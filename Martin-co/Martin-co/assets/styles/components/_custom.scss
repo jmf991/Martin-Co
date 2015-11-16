@@ -94,6 +94,7 @@ body {
 .bg-dark-grey {
     background: #3A464C;
 }
+
 .bg-light-grey {
     background: #F2F2F2;
 }
@@ -131,7 +132,11 @@ body {
     }
 }
 
-box-container-wide {@extend .box-container; padding-left: 0 !important; padding-right: 0 !important; }
+box-container-wide {
+    @extend .box-container;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 
 .box-number {
     position: absolute;
@@ -329,6 +334,13 @@ table tr td {
     right: 0;
     margin-right: 0;
 }
+.corner-button-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 0;
+    z-index: 2;
+}
 
 .big-text-area {
     height: 120px;
@@ -458,7 +470,9 @@ table tr td {
     color: #262625;
     background: #fed204;
     margin-bottom: 20px;
+    padding: 5px;
 }
+
 .icon-box-light-grey {
     display: inline-block;
     text-align: center;
@@ -466,6 +480,7 @@ table tr td {
     color: #262625;
     background: #F2F2F2;
     margin-bottom: 20px;
+    padding: 5px;
 }
 
 
@@ -486,16 +501,34 @@ table tr td {
     @extend .btn;
     border-bottom: 3px solid #FED204;
 }
+
 .btn-yellow {
     @extend .btn;
     background: inherit;
-    margin:10px !important;
+    margin: 10px !important;
 }
 
 .title-padding {
     padding: 5px 20px;
 }
 
-.box-overlay { position: relative; }
-.box-overlay-content { position: absolute; top: 0; left: 0; width: 100%; height:100%; background: rgba(4,157,254,0.57) !important; opacity: 0; @extend .smooth-transition; }
-.box-overlay-content:hover { opacity: 1; }
+.box-overlay {
+    position: relative;
+    z-index: 0;
+}
+
+.box-overlay .box-overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(4,157,254,0.57) !important;
+    opacity: 0;
+    z-index: 1;
+    @extend .smooth-transition;
+}
+
+.box-overlay:hover .box-overlay-content {
+    opacity: 1;
+}
