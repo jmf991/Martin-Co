@@ -8,7 +8,7 @@
     <!--#include virtual="/statics/master/header/head.html"-->
 </head>
 <body class="bg-white">
-    
+
     <!--header -->
     <!--#include virtual="/statics/master/header/header.html"-->
     <!--/ header -->
@@ -21,7 +21,7 @@
 
     <div class="box-container">
         <!-- main  content -->
-  <!--#include virtual="/statics/content/modules/homepagecontent1.html"-->
+        <!--#include virtual="/statics/content/modules/homepagecontent1.html"-->
 
         <div class="clearfix"></div>
     </div>

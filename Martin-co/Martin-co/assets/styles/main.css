@@ -279,8 +279,11 @@ input[type="button"]:hover,
 input[type="button"]:focus,
 input[type="button"]:active,
 .btn:hover,
+.btn-border-bottom:hover,
 .btn:focus,
-.btn.active, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .menu-item .drop-down-menu a a:hover, .drop-down-menu .menu-item a:focus, .menu-item .drop-down-menu a a:focus, .drop-down-menu .menu-item a.active, .menu-item .drop-down-menu a a.active {
+.btn-border-bottom:focus,
+.btn.active,
+.active.btn-border-bottom, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .menu-item .drop-down-menu a a:hover, .drop-down-menu .menu-item a:focus, .menu-item .drop-down-menu a a:focus, .drop-down-menu .menu-item a.active, .menu-item .drop-down-menu a a.active {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -558,7 +561,8 @@ textarea {
 
 input[type="submit"],
 input[type="button"],
-.btn {
+.btn,
+.btn-border-bottom {
   display: inline-block;
   color: White;
   border: none;
@@ -570,7 +574,8 @@ input[type="button"],
 
 input[type="submit"]:disabled,
 input[type="button"]:disabled,
-.btn.disabled {
+.btn.disabled,
+.disabled.btn-border-bottom {
   background-color: #FFFFFF !important;
   color: #999999 !important;
   cursor: default;
@@ -583,8 +588,11 @@ input[type="button"]:hover,
 input[type="button"]:focus,
 input[type="button"]:active,
 .btn:hover,
+.btn-border-bottom:hover,
 .btn:focus,
-.btn.active {
+.btn-border-bottom:focus,
+.btn.active,
+.active.btn-border-bottom {
   text-decoration: none;
   background: #F7CE58;
   color: #EEEEEE; }
@@ -1820,23 +1828,27 @@ table tr td {
 
 .title-box-yellow {
   background-color: #FED204;
-  color: black;
-  padding: 5px 20px; }
+  color: black; }
 
 .title-box-blue {
   background-color: rgba(4, 157, 254, 0.57) !important;
-  color: white;
-  padding: 5px 20px; }
+  color: white; }
 
 .title-box-black {
   background-color: rgba(0, 0, 0, 0.57);
-  color: white;
-  padding: 5px 20px; }
+  color: white; }
 
 .title-box-white {
   background-color: #FFF;
-  color: black;
-  padding: 5px 20px; }
+  color: black; }
+
+.title-box-white-p0 {
+  background-color: #FFF;
+  color: black; }
+
+.icon-box-yellow {
+  background-color: #FED204;
+  color: black; }
 
 .fa-big {
   font-size: 70px !important; }
@@ -1846,6 +1858,12 @@ table tr td {
 
 .tc {
   text-align: center !important; }
+
+.btn-border-bottom {
+  border-bottom: 3px solid #FED204; }
+
+.title-padding {
+  padding: 5px 20px; }
 
 /********** END CSS **********/
 
