@@ -131,6 +131,7 @@ body {
     }
 }
 
+box-container-wide {@extend .box-container; padding-left: 0 !important; padding-right: 0 !important; }
 
 .box-number {
     position: absolute;
@@ -494,3 +495,7 @@ table tr td {
 .title-padding {
     padding: 5px 20px;
 }
+
+.box-overlay { position: relative; }
+.box-overlay-content { position: absolute; top: 0; left: 0; width: 100%; height:100%; background: rgba(4,157,254,0.57) !important; opacity: 0; @extend .smooth-transition; }
+.box-overlay-content:hover { opacity: 1; }

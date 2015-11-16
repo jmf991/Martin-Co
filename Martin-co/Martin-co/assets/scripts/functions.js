@@ -307,7 +307,8 @@ function updateLayout() {
 /****************************/
 function bindIsotope() {
     $('.js-isotope-container').isotope({
-        itemSelector: '.js-isotope-item'
+        itemSelector: '.js-isotope-item',
+        layoutMode: 'fitRows'
     });
 
     $('.js-isotope-filters').on('click', '.js-filter', function () {

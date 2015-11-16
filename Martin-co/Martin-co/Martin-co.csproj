@@ -71,7 +71,10 @@
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\samples\background02.jpg" />
     <Content Include="assets\images\samples\background04.jpg" />
+    <Content Include="assets\images\samples\service2 %281%29.jpg" />
     <Content Include="assets\images\samples\service2.jpg" />
+    <Content Include="assets\images\samples\service3.jpg" />
+    <Content Include="assets\images\samples\service4.jpg" />
     <Content Include="assets\scripts\lib\isotope.js" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent1.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent2.html" />
@@ -81,7 +84,11 @@
     <Content Include="statics\content\modules\isotope\isotope.html" />
     <Content Include="statics\content\modules\isotope\item3.html" />
     <Content Include="statics\content\modules\isotope\item2.html" />
-    <Content Include="statics\content\modules\isotope\item.html" />
+    <Content Include="statics\content\modules\isotope\item1.html" />
+    <Content Include="statics\content\modules\isotope\item4.html" />
+    <Content Include="statics\content\modules\isotope\item5.html" />
+    <Content Include="statics\content\modules\isotope\item6.html" />
+    <Content Include="statics\content\modules\isotope\item7.html" />
     <Content Include="statics\content\modules\slider\slide1.html" />
     <Content Include="statics\content\modules\slider\slide2.html" />
     <Content Include="statics\content\modules\slider\sliderhomepage.html" />
