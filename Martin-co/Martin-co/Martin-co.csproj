@@ -71,6 +71,7 @@
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\samples\background02.jpg" />
     <Content Include="assets\images\samples\background04.jpg" />
+    <Content Include="assets\images\samples\cta.png" />
     <Content Include="assets\images\samples\service2 %281%29.jpg" />
     <Content Include="assets\images\samples\service2.jpg" />
     <Content Include="assets\images\samples\service3.jpg" />
@@ -91,6 +92,7 @@
     <Content Include="statics\content\modules\homepagecontent\homepagecontent1.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent2.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent3.html" />
+    <Content Include="statics\content\modules\homepagecontent\overflowimagebox.html" />
     <Content Include="statics\content\modules\icon-title-box\icon-title-box.html" />
     <Content Include="statics\content\modules\image-content\image-content-box.html" />
     <Content Include="statics\content\modules\isotope\isotope.html" />
@@ -186,7 +188,7 @@
     <Content Include="statics\content\impulses\listImpulseUseful.html" />
     <Content Include="statics\content\impulses\overlayImpulse.html" />
     <Content Include="statics\content\listingOverview\filters.html" />
-    <Content Include="statics\content\modules\accordions.html" />
+    <Content Include="statics\content\modules\accordions\accordions.html" />
     <Content Include="to delete\AddListingPageContent1.html" />
     <Content Include="to delete\AddListingPageContent2.html" />
     <Content Include="to delete\AddListingPageContent3.html" />
@@ -215,7 +217,7 @@
     <Content Include="to delete\tableListingPerformanceReportHeader.html" />
     <Content Include="to delete\tableListingsOverview.html" />
     <Content Include="to delete\tableListingsOverviewFooter.html" />
-    <Content Include="statics\content\modules\tabs.html" />
+    <Content Include="statics\content\modules\tabs\tabs.html" />
     <Content Include="to delete\tabsAgentsListingsListPage.html" />
     <Content Include="to delete\tabsListingPreview.html" />
     <Content Include="statics\content\modules\textCarousel.html" />

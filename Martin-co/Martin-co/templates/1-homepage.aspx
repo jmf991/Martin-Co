@@ -32,6 +32,7 @@
     </div>
     <div class="box-container">
         <!--#include virtual="/statics/content/modules/homepagecontent/content-flow.html"-->
+        <!--#include virtual="/statics/content/modules/homepagecontent/overflowimagebox.html"-->
         <div class="clearfix"></div>
     </div>
     <!--#include virtual="/statics/master/footer/footer.html"-->
