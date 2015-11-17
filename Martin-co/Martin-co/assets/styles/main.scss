@@ -1,15 +1,24 @@
-/********** START CSS **********/
-@import "_variables";
-@import "components/icons/css/font-awesome.min.css";
-@import "components/_resets";
-@import "components/_helpers";
-@import "components/_animations";
-@import "components/_font";
-@import "components/_global";
-@import "components/_grid";
+@import "../../assets/gstring/main.scss";
+@import "../../assets/styles/content/borders.css";
+@import "../../assets/styles/content/boxes.css";
+@import "../../assets/styles/content/colors.css";
+@import "../../assets/styles/content/tables.css";
+@import "../../assets/styles/content/paddings.css";
+@import "../../assets/styles/content/slider.css";
+@import "../../assets/styles/content/buttons.css";
+@import "../../assets/styles/content/menu.css";
 
-@import "components/_modules";
-@import "components/_hacks";
-@import "components/_custom";
+/*general styles*/
 
-/********** END CSS **********/
+.extra-fucking-big {font-size: 100px;}
+
+.full-width {width: 100%;}
+@media (min-width: $tablet) {.drop-down-wrapper {float: right;}}
+.big-text-area {height: 120px;}
+.fa-big {font-size: 70px !important;}
+
+.tc {text-align: center !important;}
+
+.logo {border: 50px;}
+
+

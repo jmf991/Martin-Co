@@ -298,8 +298,8 @@ function bindBigText() {
 function updateLayout() {
     textEllipsis();
     verticalAlign();
-    bindIsotope();
     bindBigText();
+    updateIsotope();
 }
 
 
@@ -308,7 +308,7 @@ function updateLayout() {
 function bindIsotope() {
     $('.js-isotope-container').isotope({
         itemSelector: '.js-isotope-item',
-        layoutMode: 'fitRows'
+        layoutMode: 'packery'
     });
 
     $('.js-isotope-filters').on('click', '.js-filter', function () {
@@ -317,4 +317,8 @@ function bindIsotope() {
 
         $('.js-isotope-container').isotope({ filter: filterValue });
     });
+}
+
+function updateIsotope() {
+    $('.js-isotope-container').isotope('layout');
 }
