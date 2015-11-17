@@ -1687,7 +1687,7 @@ box-container-wide {
   font-size: 12px; }
 
 .icon-box-square {
-  background: inherit;
+  background: #FFFFFF;
   line-height: 60px;
   text-align: center;
   color: #CACACA;
@@ -1966,6 +1966,27 @@ table tr td {
 .box-overlay:hover .box-overlay-content {
   opacity: 1; }
 
+.line-container {
+  position: relative; }
+
+.line-container:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: calc(100% - 200px);
+  height: 1px;
+  border: 1px dashed #ccc;
+  top: 90px;
+  left: 0;
+  z-index: -1;
+  margin: 0 98px; }
+
+@media only screen and (max-width: 520px) {
+  .line-container:after {
+    width: 1px;
+    height: 100%;
+    left: 50%;
+    margin: 0; } }
 /********** END CSS **********/
 
 /*# sourceMappingURL=main.css.map */
