@@ -35,6 +35,15 @@
         <!--#include virtual="/statics/content/modules/homepagecontent/overflowimagebox.html"-->
         <div class="clearfix"></div>
     </div>
+    <div class="box-12">
+        <!--#include virtual="/statics/content/modules/homepagecontent/counterwrap.html"-->
+        <div class="clearfix"></div>
+    </div>
+        <div class="box-container">
+        <!--#include virtual="/statics/content/modules/homepagecontent/sliderswrapper/sliderswrapper.html"-->
+            <div class="clearfix"></div>
+    </div>
+
     <!--#include virtual="/statics/master/footer/footer.html"-->
 </body>
 

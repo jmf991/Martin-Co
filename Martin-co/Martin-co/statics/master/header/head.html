@@ -2,6 +2,8 @@
 <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
 <link href="/assets/gstring/main.css" rel="stylesheet" type="text/css" />
 <link href="/assets/styles/main.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Poiret+One' type='text/css' rel='stylesheet'>
+
 <!--[if IE 7]>
 <link rel="stylesheet" href="/assets/styles/icons/css/font-awesome-ie7.css">
 <![endif]-->
@@ -13,18 +15,9 @@
 <script src="/assets/scripts/lib/vertical-center.js" type="text/javascript"></script>
 <script src="/assets/scripts/lib/bigtext.js" type="text/javascript"></script>
 <script src="/assets/scripts/lib/isotope.js" type="text/javascript"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="/assets/scripts/lib/counter.js"></script>
+
 <script src="/assets/scripts/functions.js" type="text/javascript"></script>
 <script src="/assets/scripts/main.js" type="text/javascript"></script>
-<script src="http://maps.googleapis.com/maps/api/js"></script>
-<script>
-    function initialize() {
-        var mapProp = {
-            center: new google.maps.LatLng(51.508742, -0.120850),
-            zoom: 5,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>

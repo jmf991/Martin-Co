@@ -612,16 +612,20 @@ input[type="button"]:active,
   color: #EEEEEE; }
 
 .btn-yellow.disabled {
+  cursor: pointer;
+  padding: 10px;
   background-color: #F2F2F2 !important;
   color: #999999 !important;
-  cursor: default;
   text-decoration: none; }
 
 .btn-yellow:hover,
 .btn-yellow:focus,
 .btn-yellow.active {
+  cursor: pointer;
+  padding: 10px;
   text-decoration: none;
-  background: #F7CE58; }
+  background: #F7CE58;
+  color: black; }
 
 .fake-input {
   color: #343257;
@@ -1535,6 +1539,9 @@ body.loading .overlay-impulse .item-overlay {
 
 .fa-big {
   font-size: 70px !important; }
+
+.fa-medium {
+  font-size: 50px !important; }
 
 .tc {
   text-align: center !important; }

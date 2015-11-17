@@ -71,11 +71,13 @@
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\samples\background02.jpg" />
     <Content Include="assets\images\samples\background04.jpg" />
+    <Content Include="assets\images\samples\blog-post-image1-360x194.jpg" />
     <Content Include="assets\images\samples\cta.png" />
     <Content Include="assets\images\samples\service2 %281%29.jpg" />
     <Content Include="assets\images\samples\service2.jpg" />
     <Content Include="assets\images\samples\service3.jpg" />
     <Content Include="assets\images\samples\service4.jpg" />
+    <Content Include="assets\scripts\lib\counter.js" />
     <Content Include="assets\scripts\lib\isotope.js" />
     <Content Include="assets\styles\content\borders.css" />
     <Content Include="assets\styles\content\boxes.css" />
@@ -89,10 +91,20 @@
       <DependentUpon>main.scss</DependentUpon>
     </Content>
     <Content Include="statics\content\modules\homepagecontent\content-flow.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrap.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrapcontent\counteritem1.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrapcontent\counteritem2.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrapcontent\counteritem3.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrapcontent\counteritem4.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrapcontent\counteritem5.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrapcontent\counteritem6.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent1.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent2.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent3.html" />
     <Content Include="statics\content\modules\homepagecontent\overflowimagebox.html" />
+    <Content Include="statics\content\modules\homepagecontent\sliderswrapper\slideblog.html" />
+    <Content Include="statics\content\modules\homepagecontent\sliderswrapper\sliderswrapper.html" />
+    <Content Include="statics\content\modules\homepagecontent\sliderswrapper\wrapperslider1.html" />
     <Content Include="statics\content\modules\icon-title-box\icon-title-box.html" />
     <Content Include="statics\content\modules\image-content\image-content-box.html" />
     <Content Include="statics\content\modules\isotope\isotope.html" />
@@ -105,7 +117,9 @@
     <Content Include="statics\content\modules\isotope\item7.html" />
     <Content Include="statics\content\modules\slider\slide1.html" />
     <Content Include="statics\content\modules\slider\slide2.html" />
+    <Content Include="statics\content\modules\homepagecontent\sliderswrapper\slideimage.html" />
     <Content Include="statics\content\modules\slider\sliderhomepage.html" />
+    <Content Include="statics\content\modules\homepagecontent\sliderswrapper\slidevideo.html" />
     <Content Include="statics\master\footer\footercontent-2.html" />
     <Content Include="statics\master\footer\footercontent-3.html" />
     <Content Include="statics\master\footer\footercontent-1.html" />
