@@ -1686,6 +1686,18 @@ box-container-wide {
   color: #F7CE58;
   font-size: 12px; }
 
+.icon-box-square {
+  background: inherit;
+  line-height: 60px;
+  text-align: center;
+  color: #CACACA;
+  font-size: 20px !important;
+  border: 4px solid #CACACA;
+  height: 80px;
+  width: 85px;
+  margin: 30px auto;
+  position: relative; }
+
 .icon-box-home-button {
   position: absolute;
   bottom: 0;
@@ -1748,6 +1760,17 @@ box-container-wide {
 .user-box {
   border: 1px solid #bcbac6;
   padding: 5px 3px; }
+
+.number-box {
+  background: #FED204;
+  height: 25px;
+  width: 25px;
+  margin: 0px auto;
+  padding: 3px;
+  position: absolute;
+  top: -12.5px;
+  left: 50%;
+  margin-left: -12.5px; }
 
 /*tables*/
 table {
