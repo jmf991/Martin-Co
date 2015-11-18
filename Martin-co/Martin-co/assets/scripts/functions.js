@@ -51,10 +51,14 @@ function TextCarousel() {
         $('.js-text-slides').each(function () {
             var slider = $(this);
             function sliderChange(args) {
-                slider.find('.js-slide-indicator.active').removeClass('active');
-                slider.find('.sliding-banner .indicators .js-slide-indicator:eq(' + (args.currentSlideNumber - 1) + ')').addClass('active');
-                var newHeight = slider.find(".slide-item-" + args.currentSlideNumber).height();
-                slider.animate({ height: newHeight });
+                lastArgs = args;
+                item = args != null ? (args.currentSlideNumber - 1) : "0";
+                var slide = slider.find('.item:eq(' + item + ')');
+                if (args != null) {
+                    slide = slider.find('.item:eq(' + (args.currentSlideNumber - 1) + ')');
+                }
+                var mobileCaptionHeight = slide.outerHeight();
+                slider.find(".js-text-slides-wrapper").css("height", mobileCaptionHeight);
             }
             slider.iosSlider({
                 snapToChildren: true,

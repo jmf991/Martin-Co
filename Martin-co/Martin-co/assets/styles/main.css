@@ -927,7 +927,7 @@ fieldset {
   font-size: 44px;
   line-height: 48px; }
 
-slider-navigation:hover, .slider-navigation:focus, .slider-navigation.active {
+.slider-navigation:hover, .slider-navigation:focus, .slider-navigation.active {
   background-color: #343257;
   color: #fff; }
 
@@ -938,6 +938,31 @@ slider-navigation:hover, .slider-navigation:focus, .slider-navigation.active {
 .slider-navigation.next-slide-button {
   right: 0;
   border-radius: 10px 0 0 10px; }
+
+.slider-navigation-corner.prev-slide-button {
+  position: absolute !important;
+  top: 0 !important;
+  right: 28px !important;
+  border-radius: 10px 0 0 10px  !important;
+  font-size: 20px !important;
+  padding: 9px 10px !important;
+  background: #5E5C5C !important;
+  color: white !important; }
+
+.slider-navigation-corner.next-slide-button {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  border-radius: 0 10px 10px 0 !important;
+  font-size: 20px !important;
+  padding: 9px 10px !important;
+  background: #5E5C5C !important;
+  color: white !important; }
+
+.slider-navigation-corner:hover,
+.slider-navigation-corner:focus,
+.slider-navigation-corner.active {
+  background: #049DFE !important; }
 
 .slider-container .selectors-block {
   overflow: hidden;
