@@ -102,6 +102,11 @@
     <Content Include="statics\content\modules\homepagecontent\homepagecontent1.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent2.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent3.html" />
+    <Content Include="statics\content\modules\homepagecontent\minimalslider\minimalslideritem1.html" />
+    <Content Include="statics\content\modules\homepagecontent\minimalslider\minimalslideritem2.html" />
+    <Content Include="statics\content\modules\homepagecontent\minimalslider\minimalslideritem3.html" />
+    <Content Include="statics\content\modules\homepagecontent\minimalslider\minimalsliderwrapper.html" />
+    <Content Include="statics\content\modules\homepagecontent\minimalslider\minimalslider.html" />
     <Content Include="statics\content\modules\homepagecontent\overflowimagebox.html" />
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\slideblog.html" />
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\sliderswrapper.html" />
@@ -121,6 +126,7 @@
     <Content Include="statics\content\modules\slider\slide1.html" />
     <Content Include="statics\content\modules\slider\slide2.html" />
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\slideimage.html" />
+    <Content Include="statics\content\modules\slider\slide3.html" />
     <Content Include="statics\content\modules\slider\sliderhomepage.html" />
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\slidevideo.html" />
     <Content Include="statics\master\footer\footercontent-2.html" />

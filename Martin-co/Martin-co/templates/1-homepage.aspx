@@ -41,6 +41,7 @@
     </div>
         <div class="box-container">
         <!--#include virtual="/statics/content/modules/homepagecontent/sliderswrapper/sliderswrapper.html"-->
+          <!--#include virtual="/statics/content/modules/homepagecontent/minimalslider/minimalsliderwrapper.html"-->  
             <div class="clearfix"></div>
     </div>
 
