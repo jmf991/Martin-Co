@@ -77,6 +77,7 @@
     <Content Include="assets\images\samples\service2.jpg" />
     <Content Include="assets\images\samples\service3.jpg" />
     <Content Include="assets\images\samples\service4.jpg" />
+    <Content Include="assets\images\samples\userpic.jpg" />
     <Content Include="assets\scripts\lib\counter.js" />
     <Content Include="assets\scripts\lib\isotope.js" />
     <Content Include="assets\styles\content\borders.css" />
@@ -91,13 +92,13 @@
       <DependentUpon>main.scss</DependentUpon>
     </Content>
     <Content Include="statics\content\modules\homepagecontent\content-flow.html" />
-    <Content Include="statics\content\modules\homepagecontent\counterwrap.html" />
-    <Content Include="statics\content\modules\homepagecontent\counterwrapcontent\counteritem1.html" />
-    <Content Include="statics\content\modules\homepagecontent\counterwrapcontent\counteritem2.html" />
-    <Content Include="statics\content\modules\homepagecontent\counterwrapcontent\counteritem3.html" />
-    <Content Include="statics\content\modules\homepagecontent\counterwrapcontent\counteritem4.html" />
-    <Content Include="statics\content\modules\homepagecontent\counterwrapcontent\counteritem5.html" />
-    <Content Include="statics\content\modules\homepagecontent\counterwrapcontent\counteritem6.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrap\counterwrap.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrap\counteritem1.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrap\counteritem2.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrap\counteritem3.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrap\counteritem4.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrap\counteritem5.html" />
+    <Content Include="statics\content\modules\homepagecontent\counterwrap\counteritem6.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent1.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent2.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent3.html" />
@@ -105,6 +106,7 @@
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\slideblog.html" />
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\sliderswrapper.html" />
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\wrapperslider1.html" />
+    <Content Include="statics\content\modules\homepagecontent\sliderswrapper\wrapperslider2.html" />
     <Content Include="statics\content\modules\icon-title-box\icon-title-box.html" />
     <Content Include="statics\content\modules\image-content\image-content-box.html" />
     <Content Include="statics\content\modules\isotope\isotope.html" />

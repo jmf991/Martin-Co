@@ -36,7 +36,7 @@
         <div class="clearfix"></div>
     </div>
     <div class="box-12">
-        <!--#include virtual="/statics/content/modules/homepagecontent/counterwrap.html"-->
+        <!--#include virtual="/statics/content/modules/homepagecontent/counterwrap/counterwrap.html"-->
         <div class="clearfix"></div>
     </div>
         <div class="box-container">
