@@ -47,24 +47,33 @@ function gtCarousel() {
 
 function TextCarousel() {
     if ($('.js-text-slides').length) {
-        function sliderChange(args) {
-            $('.js-slide-indicator.active').removeClass('active');
-            $('.sliding-banner .indicators .js-slide-indicator:eq(' + (args.currentSlideNumber - 1) + ')').addClass('active');
-            var newHeight = $(".slide-item-" + args.currentSlideNumber).height();
-            $('.js-text-slides').animate({ height: newHeight });
-        }
-        $('.js-text-slides').iosSlider({
-            snapToChildren: true,
-            onSlideChange: sliderChange,
-            autoSlide: true,
-            navSlideSelector: $('.js-slide-indicator'),
-            infiniteSlider: true,
-            autoSlideTimer: 2000,
-            autoSlideTransTimer: 1000
+
+        $('.js-text-slides').each(function () {
+            var slider = $(this);
+            function sliderChange(args) {
+                slider.find('.js-slide-indicator.active').removeClass('active');
+                slider.find('.sliding-banner .indicators .js-slide-indicator:eq(' + (args.currentSlideNumber - 1) + ')').addClass('active');
+                var newHeight = slider.find(".slide-item-" + args.currentSlideNumber).height();
+                slider.animate({ height: newHeight });
+            }
+            slider.iosSlider({
+                snapToChildren: true,
+                onSlideChange: sliderChange,
+                autoSlide: true,
+                navNextSelector: slider.find('.js-slide-button-prev'),
+                navPrevSelector: slider.find('.js-slide-button-next'),
+                navSlideSelector: slider.closest(".js-text-carrousel-container").find('.js-slider-selector'),
+                infiniteSlider: true,
+                autoSlideTimer: 2000,
+                autoSlideTransTimer: 1000
+            });
+
+            var newHeight = slider.find(".slide-item-1").height();
+            slider.find('.js-text-slides').animate({ height: newHeight });
+
         });
 
-        var newHeight = $(".slide-item-1").height();
-        $('.js-text-slides').animate({ height: newHeight });
+        
 
 
     }

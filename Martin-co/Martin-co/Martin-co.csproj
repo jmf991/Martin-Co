@@ -107,6 +107,7 @@
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\sliderswrapper.html" />
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\wrapperslider1.html" />
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\wrapperslider2.html" />
+    <Content Include="statics\content\modules\homepagecontent\sliderswrapper\wrapperslider3.html" />
     <Content Include="statics\content\modules\icon-title-box\icon-title-box.html" />
     <Content Include="statics\content\modules\image-content\image-content-box.html" />
     <Content Include="statics\content\modules\isotope\isotope.html" />

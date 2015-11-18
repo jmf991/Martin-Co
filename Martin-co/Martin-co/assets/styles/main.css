@@ -204,6 +204,9 @@ input[type="email"], select, textarea, .fake-select {
 .pt20 {
   padding-top: 20px !important; }
 
+.pt50 {
+  padding-top: 50px !important; }
+
 .pr0 {
   padding-right: 0 !important; }
 
@@ -216,8 +219,14 @@ input[type="email"], select, textarea, .fake-select {
 .pb40 {
   padding-bottom: 40px !important; }
 
+.pb50 {
+  padding-bottom: 50px !important; }
+
 .pl0 {
   padding-left: 0 !important; }
+
+.pl20 {
+  padding-left: 20px !important; }
 
 .p5 {
   padding: 5px !important; }
@@ -230,6 +239,9 @@ input[type="email"], select, textarea, .fake-select {
 
 .pr10 {
   padding-right: 10px !important; }
+
+.pr20 {
+  padding-right: 20px !important; }
 
 .pr50 {
   padding-right: 50px !important; }
