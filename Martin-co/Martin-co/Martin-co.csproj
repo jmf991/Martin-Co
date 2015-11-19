@@ -117,7 +117,10 @@
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\wrapperslider2.html" />
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\wrappersubscribe.html" />
     <Content Include="statics\content\modules\icon-title-box\icon-title-box.html" />
-    <Content Include="statics\content\modules\image-content\image-content-box.html" />
+    <Content Include="statics\content\modules\image-content\image-content-box1.html" />
+    <Content Include="statics\content\modules\image-content\image-content-box4.html" />
+    <Content Include="statics\content\modules\image-content\image-content-box2.html" />
+    <Content Include="statics\content\modules\image-content\image-content-box3.html" />
     <Content Include="statics\content\modules\isotope\isotope.html" />
     <Content Include="statics\content\modules\isotope\item3.html" />
     <Content Include="statics\content\modules\isotope\item2.html" />

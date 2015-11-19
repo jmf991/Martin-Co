@@ -39,11 +39,11 @@
         <!--#include virtual="/statics/content/modules/homepagecontent/counterwrap/counterwrap.html"-->
         <div class="clearfix"></div>
     </div>
-        <div class="box-container">
+    <div class="box-container">
         <!--#include virtual="/statics/content/modules/homepagecontent/sliderswrapper/sliderswrapper.html"-->
-          <!--#include virtual="/statics/content/modules/homepagecontent/minimalslider/minimalsliderwrapper.html"-->  
+        <!--#include virtual="/statics/content/modules/homepagecontent/minimalslider/minimalsliderwrapper.html"-->
 
-            <div class="clearfix"></div>
+        <div class="clearfix"></div>
     </div>
 
     <!--#include virtual="/statics/master/footer/footer.html"-->
