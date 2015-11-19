@@ -1,0 +1,50 @@
+﻿
+.btn { display: inline-block; 
+       color: White;  
+       border: none; 
+       cursor: pointer; 
+       margin-right: 10px;  
+       font-size: 16px; 
+       background: black; 
+       padding: 9px 10px; 
+
+}
+
+.corner-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 0;
+}
+
+.corner-button-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 0;
+    z-index: 2;
+}
+
+.btn-border-bottom {
+    display: inline-block; 
+    color: White;  
+    border: none; 
+    cursor: pointer; 
+    margin-right: 10px;  
+    font-size: 16px; 
+    background: black; 
+    padding: 9px 10px; 
+    border-bottom: 3px solid #FED204;
+}
+
+.btn-yellow {  @extend .btn; background: inherit; margin: 10px !important;}
+.btn-grey { display: inline-block; 
+            border: none; 
+            cursor: pointer;
+            font-size: 16px; 
+            padding: 9px 10px; 
+            background: #FFFFFF; 
+            color:black; 
+            margin: 10px !important;
+            align-content:center;            
+}

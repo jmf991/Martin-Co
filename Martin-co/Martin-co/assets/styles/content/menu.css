@@ -1,0 +1,16 @@
+﻿.menu-item a {
+    @extend .menu-item;
+    background: white !important;
+    border: 2px solid transparent;
+    display: inline-block;
+    padding: 10px 20px;
+    color: lightgray;
+    background: white;
+    color: black !important;
+}
+.menu-item a:active,
+.menu-item a:hover,
+.menu-item a:focus {
+    background: white !important;
+    border: 2px solid black;
+}

@@ -91,9 +91,6 @@
     <Content Include="assets\styles\content\paddings.css" />
     <Content Include="assets\styles\content\slider.css" />
     <Content Include="assets\styles\content\tables.css" />
-    <Content Include="assets\styles\main.css">
-      <DependentUpon>main.scss</DependentUpon>
-    </Content>
     <Content Include="statics\content\modules\homepagecontent\content-flow.html" />
     <Content Include="statics\content\modules\homepagecontent\counterwrap\counterwrap.html" />
     <Content Include="statics\content\modules\homepagecontent\counterwrap\counteritem1.html" />

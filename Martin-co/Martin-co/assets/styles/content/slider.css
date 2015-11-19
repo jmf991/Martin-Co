@@ -1,0 +1,18 @@
+﻿.slide-item-wrapper {
+    position: absolute;
+    top: 10%;
+    width: 80%;
+    left: 10%;
+}
+
+.slide-item-left {
+    width: 33.33333333%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.slider-container .slide-caption {
+    padding: 0px;
+}
