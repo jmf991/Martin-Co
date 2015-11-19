@@ -71,8 +71,11 @@
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\samples\background02.jpg" />
     <Content Include="assets\images\samples\background04.jpg" />
+    <Content Include="assets\images\samples\backgroundbridge.jpg" />
+    <Content Include="assets\images\samples\backgroundguy.jpg" />
     <Content Include="assets\images\samples\blog-post-image1-360x194.jpg" />
     <Content Include="assets\images\samples\cta.png" />
+    <Content Include="assets\images\samples\portfolio05.jpg" />
     <Content Include="assets\images\samples\service2 %281%29.jpg" />
     <Content Include="assets\images\samples\service2.jpg" />
     <Content Include="assets\images\samples\service3.jpg" />
