@@ -1,126 +1,48 @@
-﻿
-/*boxes*/
+﻿/*boxes*/
 /*------------------------------------------*/
+.box { @extend .bg-white; border: 1px solid #A8A5B5; position: relative; }
 
-
-/*box*/
+/*Box overlays*/
 /*------------------------------------------*/
+.box .overlay-content { @extend .smooth-transition; position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; background: rgba(4,157,254,0.57) !important; z-index: 1;  }
+.box:hover .overlay-content { opacity: 1;  }
 
-.box {
-    @extend .bg-white;
-    border: 1px solid #A8A5B5;
-    padding: $global-padding;
-    position: relative;
-}
+/*image boxes*/
+/*------------------------------------------*/
+.image-box { position: relative; z-index: 0; overflow: hidden; background: #f2f2f2; border: none; }
+.image-box  .image-wrapper img { display: block; }
+.image-box  .content-wrapper { padding: 20px; padding-right: 60px; position: relative; }
+.image-box  .content-wrapper .link {  position: absolute; top: 50%; right: 10px; height: 40px; line-height: 40px; font-size: 40px; margin-top: -20px; }
+
+/*isotope boxes*/
+/*------------------------------------------*/
+.isotope-box { position: relative; z-index: 0; overflow: hidden; background: #f2f2f2; border: none; padding-bottom: 66%; height: 0; }
+.isotope-box .image-wrapper { position: absolute; top: 0; left: 0; height: 100%; width: 100%; }
+.isotope-box .image-wrapper img { display: block;  height: 100%; width: 100%;}
+.isotope-box .content-wrapper { text-align: center; }
+
 
 /*boxes with colors*/
 /*------------------------------------------*/
 
-.title-box-yellow {
-    background-color: #FED204 !important;
-    color: black !important;
-    padding:5px !important;
-    margin-bottom:10px !important;
-}
-
-.title-box-blue {
-    background-color: rgba(4,157,254,0.57) !important;
-    color: white;
-}
-
-.title-box-black {
-    background-color: rgba(0,0,0,.57) !important;
-    color: white !important;
-}
-
-.title-box-white {
-    background-color: #FFF !important;
-    color: black !important;
-}
-
-.title-box-white-p0 {
-    background-color: #FFF !important;
-    color: black !important;
-}
-
-.box-light-grey {
-    color: #262625;
-    background: #F2F2F2;
-}
-
-.box-grey {
-    background: #EEEEEE !important;
-    color: #F6D06B;
-}
+.title-box-yellow { background-color: #FED204 !important; color: black !important; padding:5px !important; margin-bottom:10px !important; }
+.title-box-blue { background-color: rgba(4,157,254,0.57) !important; color: white; }
+.title-box-black { background-color: rgba(0,0,0,.57) !important; color: white !important; }
+.title-box-white { background-color: #FFF !important; color: black !important; }
+.title-box-white-p0 { background-color: #FFF !important; color: black !important; }
+.box-light-grey { color: #262625; background: #F2F2F2; }
+.box-grey { background: #EEEEEE !important; color: #F6D06B; }
 
 /*icon boxes*/
 /*------------------------------------------*/
 
-.icon-box {
-    background: #FED204;
-    padding: 10px 10px 50px 10px;
-}
+.icon-box { background: #FED204; padding: 10px 10px 50px 10px; }
+.icon-box-yellow { display: inline-block; text-align: center; font-size: 20px; color: #262625; background: #fed204; margin-bottom: 20px; padding: 10px; }
+.icon-box-light-grey { display: inline-block; text-align: center; font-size: 24px; color: #262625; background: #F2F2F2; margin-bottom: 20px; padding: 5px; }
 
-.icon-box-yellow {
-    display: inline-block;
-    text-align: center;
-    font-size: 20px;
-    color: #262625;
-    background: #fed204;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-
-.icon-box-light-grey {
-    display: inline-block;
-    text-align: center;
-    font-size: 24px;
-    color: #262625;
-    background: #F2F2F2;
-    margin-bottom: 20px;
-    padding: 5px;
-}
-.icon-box-transparent {
-    display: inline-block;
-    text-align: center;
-    font-size: 40px;
-    color: white;    
-    background: transparent;
-    position: absolute;
-    right: 0;
-    width: 40px;
-    line-height: 40px;
-    top: calc(50% - 20px);
-    z-index: 2;
-   
-    
-}
-
-.icon-box-grey {
-    background: #EEEEEE !important;
-    color: #F6D06B;
-    font-size: 50px;
-    text-align: center;
-}
-
-.icon-box-slider {
-    background-color: #EBEBEB;
-    height: 100%;
-    margin-top: 0px !important;
-    padding-top: 0px !important;
-}
-
-
-.icon-box-small {
-    background: $dark-purple;
-    border-radius: 100%;
-    margin-top: 10px;
-    width: 20px;
-    line-height: 20px;
-    text-align: center;
-    color: #F7CE58;
-    font-size: 12px;
-}
+.icon-box-grey { background: #EEEEEE !important; color: #F6D06B; font-size: 50px; text-align: center; }
+.icon-box-slider { background-color: #EBEBEB; height: 100%; margin-top: 0px !important; padding-top: 0px !important; }
+.icon-box-small { background: $dark-purple; border-radius: 100%; margin-top: 10px; width: 20px; line-height: 20px; text-align: center; color: #F7CE58; font-size: 12px; }
 
 .icon-box-square {
     background: #FFFFFF;
@@ -252,22 +174,6 @@
     color: #fff;
 }
 
-/*overlay boxes*/
-/*------------------------------------------*/
-
-.box-overlay { position: relative; z-index: 0; overflow: hidden;  }
-.box-overlay .box-overlay-content { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; background: rgba(4,157,254,0.57) !important; z-index: 1; @extend .smooth-transition; }
-
-.box-overlay img { /*display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%;*/  }
-.box-overlay .box-overlay-overflow {position: relative;z-index: 0; padding-left: 25%;}
-
-.box-overlay .box-overlay-overflow .overlay-image {position: absolute; z-index:1; bottom:0; left:0;}
-.box-overlay .box-overlay-overflow .overlay-image img { display: block; }
-
-.box-overlay .link { opacity: 0; display: inline-block; text-align: center; font-size: 40px; color: white; background: transparent; position: absolute; right: 0; width: 40px; line-height: 40px; top: calc(50% - 20px); z-index: 2; }
-
-.box-overlay:hover .box-overlay-content,
-.box-overlay:hover .link {opacity: 1;}
 
 /*line boxes*/
 /*------------------------------------------*/
