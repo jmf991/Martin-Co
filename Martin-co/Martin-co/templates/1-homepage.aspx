@@ -13,38 +13,55 @@
     <!--#include virtual="/statics/master/header/header.html"-->
     <!--/ header -->
     <!--content -->
+    <section>
+        <!-- slider -->
+        <!--#include virtual="/statics/content/modules/slider/sliderhomepage.html"-->
+        <!-- / slider -->
+    </section>
+    <section>
 
 
-    <!-- slider -->
-    <!--#include virtual="/statics/content/modules/slider/sliderhomepage.html"-->
-    <!-- / slider -->
+        <div class="box-container">
+            <!-- main  content -->
+            <!--#include virtual="/statics/content/modules/homepagecontent/logoiconboxes.html"-->
+            <!--#include virtual="/statics/content/modules/homepagecontent/imageboxes.html"-->
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <section>
 
-    <div class="box-container">
-        <!-- main  content -->
-        <!--#include virtual="/statics/content/modules/homepagecontent/homepagecontent1.html"-->
-        <!--#include virtual="/statics/content/modules/homepagecontent/homepagecontent2.html"-->
-        <div class="clearfix"></div>
-    </div>
-    <div class="box-container-wide">
-        <!--#include virtual="/statics/content/modules/homepagecontent/mansory-container.html"-->
-        
-        <div class="clearfix"></div>
-    </div>
-    <div class="box-container">
-        <!--#include virtual="/statics/content/modules/homepagecontent/content-flow/content-flow.html"-->
-        <!--#include virtual="/statics/content/modules/homepagecontent/overflowimagebox.html"-->
-        <div class="clearfix"></div>
-    </div>
-    <div class="box-12">
-        <!--#include virtual="/statics/content/modules/homepagecontent/counterwrap/counterwrap.html"-->
-        <div class="clearfix"></div>
-    </div>
-    <div class="box-container">
-        <!--#include virtual="/statics/content/modules/homepagecontent/sliderswrapper/sliderswrapper.html"-->
-        <!--#include virtual="/statics/content/modules/homepagecontent/minimalslider/minimalsliderwrapper.html"-->
 
-        <div class="clearfix"></div>
-    </div>
+        <div class="box-container-wide">
+            <!--#include virtual="/statics/content/modules/homepagecontent/mansorycontainer.html"-->
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <section>
+
+        <div class="box-container">
+            <!--#include virtual="/statics/content/modules/homepagecontent/content-flow/content-flow.html"-->
+            <!--#include virtual="/statics/content/modules/homepagecontent/overflowimagebox.html"-->
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <section>
+
+        <div class="box-12">
+            <!--#include virtual="/statics/content/modules/homepagecontent/counterwrap/counterwrap.html"-->
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <section>
+
+
+        <div class="box-container">
+            <!--#include virtual="/statics/content/modules/homepagecontent/sliderswrapper/sliderswrapper.html"-->
+            <!--#include virtual="/statics/content/modules/homepagecontent/minimalslider/minimalsliderwrapper.html"-->
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
 
     <!--#include virtual="/statics/master/footer/footer.html"-->
 </body>

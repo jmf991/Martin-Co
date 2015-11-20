@@ -181,9 +181,6 @@ input[type="email"], select, textarea, .fake-select {
 .pvertical10 {
   padding: 10px 0px 10px 0px !important; }
 
-.phorizontal10 {
-  padding: 0px 10px 0px 10px !important; }
-
 .global-border {
   border: 1px solid #CCC; }
 
@@ -1741,7 +1738,7 @@ body {
 .title-box-yellow {
   background-color: #FED204 !important;
   color: black !important;
-  padding: 5px !important;
+  padding: 5px;
   margin-bottom: 10px !important; }
 
 .title-box-blue {
@@ -1948,7 +1945,7 @@ body {
     left: 50%;
     margin: 0;
     top: 0;
-    top: 55px; } }
+    top: 44px; } }
 /*sidebar boxes*/
 /*------------------------------------------*/
 .sidebar, .sidebar-home {

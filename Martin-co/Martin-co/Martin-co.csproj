@@ -112,9 +112,9 @@
     <Content Include="statics\content\modules\homepagecontent\counterwrap\counteritem4.html" />
     <Content Include="statics\content\modules\homepagecontent\counterwrap\counteritem5.html" />
     <Content Include="statics\content\modules\homepagecontent\counterwrap\counteritem6.html" />
-    <Content Include="statics\content\modules\homepagecontent\homepagecontent1.html" />
-    <Content Include="statics\content\modules\homepagecontent\homepagecontent2.html" />
-    <Content Include="statics\content\modules\homepagecontent\mansory-container.html" />
+    <Content Include="statics\content\modules\homepagecontent\logoiconboxes.html" />
+    <Content Include="statics\content\modules\homepagecontent\imageboxes.html" />
+    <Content Include="statics\content\modules\homepagecontent\mansorycontainer.html" />
     <Content Include="statics\content\modules\homepagecontent\minimalslider\minimalslideritem1.html" />
     <Content Include="statics\content\modules\homepagecontent\minimalslider\minimalslideritem2.html" />
     <Content Include="statics\content\modules\homepagecontent\minimalslider\minimalslideritem3.html" />
@@ -153,6 +153,8 @@
     <Content Include="statics\master\footer\footercontent-3.html" />
     <Content Include="statics\master\footer\footercontent-1.html" />
     <Content Include="statics\master\footer\footercontent-4.html" />
+    <Content Include="statics\master\header\headerbottom.html" />
+    <Content Include="statics\master\header\headertop.html" />
     <Content Include="templates\1-homepage.aspx" />
     <Content Include="to delete\logoInvesmix.png" />
     <Content Include="to delete\no-image.png" />
