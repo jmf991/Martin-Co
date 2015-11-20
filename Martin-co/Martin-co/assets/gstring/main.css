@@ -85,7 +85,8 @@ input[type="email"], select, textarea, .fake-select {
   height: 1px;
   zoom: 1;
   width: 100%;
-  clear: both; }
+  clear: both;
+  margin-bottom: -1px; }
 
 /*text align*/
 .tl {
@@ -626,7 +627,7 @@ input[type="button"]:active,
 
 .btn-yellow.disabled {
   cursor: pointer;
-  padding: 10px;
+  padding: 9px 10px;
   background-color: #F2F2F2 !important;
   color: #999999 !important;
   text-decoration: none; }
@@ -635,7 +636,7 @@ input[type="button"]:active,
 .btn-yellow:focus,
 .btn-yellow.active {
   cursor: pointer;
-  padding: 10px;
+  padding: 9px 10px;
   text-decoration: none;
   background: #F7CE58;
   color: black; }

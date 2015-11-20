@@ -19,7 +19,7 @@
 /*float*/
 .fl { float: left !important; }
 .fr { float: right !important; }
-.clearfix { display: block; height: 1px; zoom: 1; width: 100%; clear: both; }
+.clearfix { display: block; height: 1px; zoom: 1; width: 100%; clear: both; margin-bottom: -1px; }
 /*text align*/
 .tl { text-align: left !important; }
 .tr { text-align: right !important; }

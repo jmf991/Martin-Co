@@ -76,6 +76,12 @@
     <Content Include="assets\images\samples\blog-post-image1-360x194.jpg" />
     <Content Include="assets\images\samples\cta.png" />
     <Content Include="assets\images\samples\portfolio05.jpg" />
+    <Content Include="assets\images\samples\portfoliobeach house.jpg" />
+    <Content Include="assets\images\samples\portfoliolivingroom.jpg" />
+    <Content Include="assets\images\samples\portfoliopaintingguyjpg.jpg" />
+    <Content Include="assets\images\samples\portfoliopoolhouse.jpg" />
+    <Content Include="assets\images\samples\portfoliosunsetbridge.jpg" />
+    <Content Include="assets\images\samples\portfoliotwistedbridge.jpg" />
     <Content Include="assets\images\samples\service2 %281%29.jpg" />
     <Content Include="assets\images\samples\service2.jpg" />
     <Content Include="assets\images\samples\service3.jpg" />
@@ -94,7 +100,11 @@
     <Content Include="assets\styles\main.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>
-    <Content Include="statics\content\modules\homepagecontent\content-flow.html" />
+    <Content Include="statics\content\modules\homepagecontent\content-flow\content-flow.html" />
+    <Content Include="statics\content\modules\homepagecontent\content-flow\content-flowitem1.html" />
+    <Content Include="statics\content\modules\homepagecontent\content-flow\content-flowitem2.html" />
+    <Content Include="statics\content\modules\homepagecontent\content-flow\content-flowitem3.html" />
+    <Content Include="statics\content\modules\homepagecontent\content-flow\content-flowitem4.html" />
     <Content Include="statics\content\modules\homepagecontent\counterwrap\counterwrap.html" />
     <Content Include="statics\content\modules\homepagecontent\counterwrap\counteritem1.html" />
     <Content Include="statics\content\modules\homepagecontent\counterwrap\counteritem2.html" />
@@ -104,7 +114,7 @@
     <Content Include="statics\content\modules\homepagecontent\counterwrap\counteritem6.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent1.html" />
     <Content Include="statics\content\modules\homepagecontent\homepagecontent2.html" />
-    <Content Include="statics\content\modules\homepagecontent\homepagecontent3.html" />
+    <Content Include="statics\content\modules\homepagecontent\mansory-container.html" />
     <Content Include="statics\content\modules\homepagecontent\minimalslider\minimalslideritem1.html" />
     <Content Include="statics\content\modules\homepagecontent\minimalslider\minimalslideritem2.html" />
     <Content Include="statics\content\modules\homepagecontent\minimalslider\minimalslideritem3.html" />
@@ -113,10 +123,12 @@
     <Content Include="statics\content\modules\homepagecontent\overflowimagebox.html" />
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\slideblog.html" />
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\sliderswrapper.html" />
-    <Content Include="statics\content\modules\homepagecontent\sliderswrapper\wrapperslider1.html" />
-    <Content Include="statics\content\modules\homepagecontent\sliderswrapper\wrapperslider2.html" />
-    <Content Include="statics\content\modules\homepagecontent\sliderswrapper\wrappersubscribe.html" />
-    <Content Include="statics\content\modules\icon-title-box\icon-title-box.html" />
+    <Content Include="statics\content\modules\homepagecontent\sliderswrapper\entries-slider.html" />
+    <Content Include="statics\content\modules\homepagecontent\sliderswrapper\testimonials-slider.html" />
+    <Content Include="statics\content\modules\homepagecontent\sliderswrapper\subscribe.html" />
+    <Content Include="statics\content\modules\icon-title-box\icon-title-box1.html" />
+    <Content Include="statics\content\modules\icon-title-box\icon-title-box2.html" />
+    <Content Include="statics\content\modules\icon-title-box\icon-title-box3.html" />
     <Content Include="statics\content\modules\image-content\image-content-box1.html" />
     <Content Include="statics\content\modules\image-content\image-content-box4.html" />
     <Content Include="statics\content\modules\image-content\image-content-box2.html" />
@@ -129,6 +141,8 @@
     <Content Include="statics\content\modules\isotope\item5.html" />
     <Content Include="statics\content\modules\isotope\item6.html" />
     <Content Include="statics\content\modules\isotope\item7.html" />
+    <Content Include="statics\content\modules\isotope\item8.html" />
+    <Content Include="statics\content\modules\isotope\item9.html" />
     <Content Include="statics\content\modules\slider\slide1.html" />
     <Content Include="statics\content\modules\slider\slide2.html" />
     <Content Include="statics\content\modules\homepagecontent\sliderswrapper\slideimage.html" />

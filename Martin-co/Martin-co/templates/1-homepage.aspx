@@ -26,12 +26,12 @@
         <div class="clearfix"></div>
     </div>
     <div class="box-container-wide">
-        <!--#include virtual="/statics/content/modules/homepagecontent/homepagecontent3.html"-->
-        <!--#include virtual="/statics/content/modules/isotope/isotope.html"-->
+        <!--#include virtual="/statics/content/modules/homepagecontent/mansory-container.html"-->
+        
         <div class="clearfix"></div>
     </div>
     <div class="box-container">
-        <!--#include virtual="/statics/content/modules/homepagecontent/content-flow.html"-->
+        <!--#include virtual="/statics/content/modules/homepagecontent/content-flow/content-flow.html"-->
         <!--#include virtual="/statics/content/modules/homepagecontent/overflowimagebox.html"-->
         <div class="clearfix"></div>
     </div>
