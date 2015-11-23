@@ -8,29 +8,24 @@
     <!--#include virtual="/statics/master/header/head.html"-->
 </head>
 <body class="bg-white">
-
     <!--header -->
     <!--#include virtual="/statics/master/header/header.html"-->
     <!--/ header -->
     <!--content -->
     <section>
         <!-- slider -->
-        <!--#include virtual="/statics/content/modules/slider/sliderhomepage.html"-->
+        <!--#include virtual="/statics/content/modules/homepagecontent/slider/sliderhomepage.html"-->
         <!-- / slider -->
     </section>
     <section>
-
-
         <div class="box-container">
             <!-- main  content -->
-            <!--#include virtual="/statics/content/modules/homepagecontent/logoiconboxes.html"-->
+            <!--#include virtual="/statics/content/modules/homepagecontent/logoiconboxes/logoiconboxes.html"-->
             <!--#include virtual="/statics/content/modules/homepagecontent/imageboxes.html"-->
             <div class="clearfix"></div>
         </div>
     </section>
     <section>
-
-
         <div class="box-container-wide">
             <!--#include virtual="/statics/content/modules/homepagecontent/mansorycontainer.html"-->
 

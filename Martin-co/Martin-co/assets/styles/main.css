@@ -1743,7 +1743,8 @@ body {
 
 .title-box-blue {
   background-color: rgba(4, 157, 254, 0.57) !important;
-  color: white; }
+  color: white;
+  padding: 5px; }
 
 .title-box-black {
   background-color: rgba(0, 0, 0, 0.57) !important;
