@@ -1707,6 +1707,12 @@ body {
 @media only screen and (max-width: 520px) {
   .overflow-box .image-overflow-box {
     display: none; } }
+.background-image-wrapper {
+  position: absolute;
+  top: 10%;
+  width: 80%;
+  left: 10%; }
+
 /*isotope boxes*/
 /*------------------------------------------*/
 .isotope-box {

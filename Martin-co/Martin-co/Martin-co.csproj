@@ -75,6 +75,7 @@
     <Content Include="assets\images\samples\backgroundguy.jpg" />
     <Content Include="assets\images\samples\blog-post-image1-360x194.jpg" />
     <Content Include="assets\images\samples\cta.png" />
+    <Content Include="assets\images\samples\oldguyworking.jpg" />
     <Content Include="assets\images\samples\portfolio05.jpg" />
     <Content Include="assets\images\samples\portfoliobeachhouse.jpg" />
     <Content Include="assets\images\samples\portfoliolivingroom.jpg" />
@@ -158,6 +159,7 @@
     <Content Include="statics\master\header\headerbottom.html" />
     <Content Include="statics\master\header\headertop.html" />
     <Content Include="templates\1-homepage.aspx" />
+    <Content Include="templates\projectspage.aspx" />
     <Content Include="to delete\logoInvesmix.png" />
     <Content Include="to delete\no-image.png" />
     <Content Include="assets\images\overlay-bg.png" />
@@ -321,6 +323,13 @@
     </Compile>
     <Compile Include="templates\1-homepage.aspx.designer.cs">
       <DependentUpon>1-homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\projectspage.aspx.cs">
+      <DependentUpon>projectspage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\projectspage.aspx.designer.cs">
+      <DependentUpon>projectspage.aspx</DependentUpon>
     </Compile>
     <Compile Include="to delete\InvesmixAgentsListingsListPage.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
