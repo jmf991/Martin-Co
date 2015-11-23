@@ -134,6 +134,7 @@
     <Content Include="statics\content\modules\minimalslider\minimalsliderwrapper.html" />
     <Content Include="statics\content\modules\minimalslider\minimalslider.html" />
     <Content Include="statics\content\modules\overflowimagebox\overflowimagebox.html" />
+    <Content Include="statics\content\modules\sidebar\sidebar.html" />
     <Content Include="statics\content\modules\sliderswrapper\slideblog.html" />
     <Content Include="statics\content\modules\sliderswrapper\sliderswrapper.html" />
     <Content Include="statics\content\modules\sliderswrapper\entries-slider.html" />

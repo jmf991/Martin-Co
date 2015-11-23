@@ -1966,7 +1966,6 @@ body {
 /*sidebar boxes*/
 /*------------------------------------------*/
 .sidebar, .sidebar-home {
-  background: #EEEEEE !important;
   height: 100%; }
 
 .sidebar-home {

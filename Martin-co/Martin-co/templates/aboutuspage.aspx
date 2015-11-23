@@ -32,8 +32,21 @@
         <div class="clearfix"></div>
     </section>
     <section>
-        <!--#include virtual="/statics/content/modules/contentflow/contentflowvertical.html"-->
-        <div class="clearfix"></div>
+        <div class="box-container">
+            <div class="box-9 fl">
+                <!--#include virtual="/statics/content/modules/contentflow/contentflowvertical.html"-->
+            </div>
+            <div class="box-3 sidebar-container bg-grey fr">
+                <div class="inner bg-yellow fr mb20">
+                    <!--#include virtual="/statics/content/modules/sidebar/sidebar.html"-->
+                </div>
+                <div class="inner bg-light-grey fr pb20">
+                    <!--#include virtual="/statics/content/modules/sidebar/sidebar.html"-->
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
     </section>
     <section>
         <div class="box-container">
