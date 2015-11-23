@@ -93,22 +93,28 @@
 
 
 
+
 /*line boxes*/
 /*------------------------------------------*/
 
 .line-container { position: relative; }
 .line-container:after { content: " "; display: block; position: absolute; width: calc(100% - 200px); height: 1px; border: 1px dashed #ccc; top: 90px; left: 0; z-index: -1; margin: 0 98px; }
-        
+/*history*/
+/*------------------------------------------*/
+.history-container {position: relative; }
+.history-container:after {  content: " "; display: block; position: absolute; border: 2px solid #ccc; z-index: -1; width: 1px; height: calc(100% - 110px); left: 60px; margin: 0; top: 25px; }  
+
+.history-container .icon-box-square { margin: 0; }
+
 @media only screen and (max-width: $mobile) {
-    .line-container:after {
+    .history-container:after { 
     width: 1px;
-    height: calc(100% - 200px);
-    left: 50%;
-    margin: 0;
-    top: 0;
-    top: 44px;
-    }
+    height: calc(100% - 350px);
+    left: 25%;
+    margin: 0;    
+    top: 25px !important; }
 }
+
 
 
 

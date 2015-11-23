@@ -111,6 +111,11 @@
     <Content Include="statics\content\modules\contentflow\contentflowitem2.html" />
     <Content Include="statics\content\modules\contentflow\contentflowitem3.html" />
     <Content Include="statics\content\modules\contentflow\contentflowitem4.html" />
+    <Content Include="statics\content\modules\contentflow\contentflowvertical.html" />
+    <Content Include="statics\content\modules\contentflow\contentflowverticalitem1.html" />
+    <Content Include="statics\content\modules\contentflow\contentflowverticalitem2.html" />
+    <Content Include="statics\content\modules\contentflow\contentflowverticalitem3.html" />
+    <Content Include="statics\content\modules\contentflow\contentflowverticalitem4.html" />
     <Content Include="statics\content\modules\counterwrap\counterwrap.html" />
     <Content Include="statics\content\modules\counterwrap\counteritem1.html" />
     <Content Include="statics\content\modules\counterwrap\counteritem2.html" />
