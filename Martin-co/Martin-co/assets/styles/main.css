@@ -1704,9 +1704,9 @@ body {
   bottom: 0px;
   display: block; }
 
-.overflow-box .image-overflow-box img {
-  display: block; }
-
+@media only screen and (max-width: 520px) {
+  .overflow-box .image-overflow-box {
+    display: none; } }
 /*isotope boxes*/
 /*------------------------------------------*/
 .isotope-box {
@@ -1979,6 +1979,10 @@ box-container-wide {
 .box-content {
   padding-bottom: 30px; }
 
+@media only screen and (max-width: 520px) {
+  .counter-box {
+    text-align: center;
+    border: none; } }
 /*borders*/
 /*------------------------------------------*/
 .no-border {

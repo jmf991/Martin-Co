@@ -14,51 +14,50 @@
     <!--content -->
     <section>
         <!-- slider -->
-        <!--#include virtual="/statics/content/modules/homepagecontent/slider/sliderhomepage.html"-->
+        <!--#include virtual="/statics/content/modules/slider/sliderhomepage.html"-->
         <!-- / slider -->
     </section>
     <section>
         <div class="box-container">
             <!-- main  content -->
-            <!--#include virtual="/statics/content/modules/homepagecontent/logoiconboxes/logoiconboxes.html"-->
-            <!--#include virtual="/statics/content/modules/homepagecontent/imageboxes.html"-->
+            <!--#include virtual="/statics/content/modules/logoiconboxes/logoiconboxes.html"-->
+            <!--#include virtual="/statics/content/modules/image-content/imageboxes.html"-->
             <div class="clearfix"></div>
         </div>
     </section>
     <section>
         <div class="box-container-wide">
-            <!--#include virtual="/statics/content/modules/homepagecontent/mansorycontainer.html"-->
+            <!--#include virtual="/statics/content/modules/masonry/mansorycontainer.html"-->
 
             <div class="clearfix"></div>
         </div>
     </section>
     <section>
-
         <div class="box-container">
-            <!--#include virtual="/statics/content/modules/homepagecontent/content-flow/content-flow.html"-->
-            <!--#include virtual="/statics/content/modules/homepagecontent/overflowimagebox.html"-->
-            <div class="clearfix"></div>
+            <!--#include virtual="/statics/content/modules/content-flow/content-flow.html"-->
         </div>
     </section>
     <section>
-
+        <div class="box-container">
+            <!--#include virtual="/statics/content/modules/overflowimagebox/overflowimagebox.html"-->
+            <div class="clearfix"></div>
+        </div>
         <div class="box-12">
-            <!--#include virtual="/statics/content/modules/homepagecontent/counterwrap/counterwrap.html"-->
+            <!--#include virtual="/statics/content/modules/counterwrap/counterwrap.html"-->
             <div class="clearfix"></div>
         </div>
     </section>
     <section>
-
-
         <div class="box-container">
-            <!--#include virtual="/statics/content/modules/homepagecontent/sliderswrapper/sliderswrapper.html"-->
-            <!--#include virtual="/statics/content/modules/homepagecontent/minimalslider/minimalsliderwrapper.html"-->
-
+            <!--#include virtual="/statics/content/modules/sliderswrapper/sliderswrapper.html"-->
+        </div>
+    </section>
+    <section>
+        <div class="box-container">
+            <!--#include virtual="/statics/content/modules/minimalslider/minimalsliderwrapper.html"-->
             <div class="clearfix"></div>
         </div>
     </section>
-
     <!--#include virtual="/statics/master/footer/footer.html"-->
 </body>
-
 </html>
