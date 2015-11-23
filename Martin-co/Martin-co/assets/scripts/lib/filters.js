@@ -10,7 +10,7 @@
     this.resetFiltersTrigger = ".js-reset-filters-trigger";
     this.removeFilterTrigger = ".js-remove-filter-trigger";
     this.inputs = ["currentPagePiD", "parentFolderPiD", "categoriesPiD", "assetType", "authorPid", "queryString", "orderBy", "take", "skip"]
-    this.ajaxLoadingHTML = "<div class='ajax-loading inner'><div class='form-notification js-form-notification info'><div class='icon'><i class='fa fa-cog fa-spin text-gold'></i></div><div class='copy'><p><strong>Loading:</strong> Please wait...</p></div></div></div>";
+    this.ajaxLoadingHTML = "<div class='ajax-loading inner'><div class='form-notification js-form-notification info'><div class='icon'><i class='fa fa-cog fa-spin text-gold'></span></div><div class='copy'><p><strong>Loading:</strong> Please wait...</p></div></div></div>";
     this.twitterImpulseAjaxLoadingHTML = "<div class='spinner-blue twitter-ajax-loading'><p>Please wait...</p></div>";
     this.twitterImpulseWrapper = ".js-twitter-impulse";
     this.categoryFilterItem = ".js-category-filter-item";

@@ -1913,15 +1913,6 @@ body {
   left: 50%;
   margin-left: -12.5px; }
 
-.box-number {
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  background: #343257;
-  margin-bottom: 10px;
-  padding: 5px 10px;
-  color: #fff; }
-
 /*line boxes*/
 /*------------------------------------------*/
 .line-container {
