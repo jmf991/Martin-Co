@@ -75,6 +75,7 @@
     <Content Include="assets\images\samples\backgroundguy.jpg" />
     <Content Include="assets\images\samples\blog-post-image1-360x194.jpg" />
     <Content Include="assets\images\samples\cta.png" />
+    <Content Include="assets\images\samples\happyhelmetguy.jpg" />
     <Content Include="assets\images\samples\oldguyworking.jpg" />
     <Content Include="assets\images\samples\portfolio05.jpg" />
     <Content Include="assets\images\samples\portfoliobeachhouse.jpg" />
@@ -101,11 +102,15 @@
     <Content Include="assets\styles\main.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>
-    <Content Include="statics\content\modules\content-flow\content-flow.html" />
-    <Content Include="statics\content\modules\content-flow\content-flowitem1.html" />
-    <Content Include="statics\content\modules\content-flow\content-flowitem2.html" />
-    <Content Include="statics\content\modules\content-flow\content-flowitem3.html" />
-    <Content Include="statics\content\modules\content-flow\content-flowitem4.html" />
+    <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem.html" />
+    <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem2.html" />
+    <Content Include="statics\content\modules\backgroundimagewrap\backgroundimagewrapper.html" />
+    <Content Include="statics\content\modules\backgroundimagewrap\backgroundimagewrapper2.html" />
+    <Content Include="statics\content\modules\contentflow\contentflow.html" />
+    <Content Include="statics\content\modules\contentflow\contentflowitem1.html" />
+    <Content Include="statics\content\modules\contentflow\contentflowitem2.html" />
+    <Content Include="statics\content\modules\contentflow\contentflowitem3.html" />
+    <Content Include="statics\content\modules\contentflow\contentflowitem4.html" />
     <Content Include="statics\content\modules\counterwrap\counterwrap.html" />
     <Content Include="statics\content\modules\counterwrap\counteritem1.html" />
     <Content Include="statics\content\modules\counterwrap\counteritem2.html" />
@@ -159,6 +164,7 @@
     <Content Include="statics\master\header\headerbottom.html" />
     <Content Include="statics\master\header\headertop.html" />
     <Content Include="templates\1-homepage.aspx" />
+    <Content Include="templates\aboutuspage.aspx" />
     <Content Include="templates\projectspage.aspx" />
     <Content Include="to delete\logoInvesmix.png" />
     <Content Include="to delete\no-image.png" />
@@ -323,6 +329,13 @@
     </Compile>
     <Compile Include="templates\1-homepage.aspx.designer.cs">
       <DependentUpon>1-homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\aboutuspage.aspx.cs">
+      <DependentUpon>aboutuspage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\aboutuspage.aspx.designer.cs">
+      <DependentUpon>aboutuspage.aspx</DependentUpon>
     </Compile>
     <Compile Include="templates\projectspage.aspx.cs">
       <DependentUpon>projectspage.aspx</DependentUpon>

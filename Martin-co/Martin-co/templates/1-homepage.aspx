@@ -34,7 +34,7 @@
     </section>
     <section>
         <div class="box-container">
-            <!--#include virtual="/statics/content/modules/content-flow/content-flow.html"-->
+            <!--#include virtual="/statics/content/modules/contentflow/contentflow.html"-->
         </div>
     </section>
     <section>

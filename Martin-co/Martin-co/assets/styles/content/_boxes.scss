@@ -23,12 +23,13 @@
     .overflow-box .image-overflow-box { display:none; }
 }
 
-.background-image-wrapper {
-    position: absolute;
-    top: 10%;
-    width: 80%;
-    left: 10%;
-}
+
+.page-title {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
 
 /*isotope boxes*/
 /*------------------------------------------*/

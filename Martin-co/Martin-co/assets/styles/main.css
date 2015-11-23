@@ -1707,11 +1707,11 @@ body {
 @media only screen and (max-width: 520px) {
   .overflow-box .image-overflow-box {
     display: none; } }
-.background-image-wrapper {
-  position: absolute;
-  top: 10%;
-  width: 80%;
-  left: 10%; }
+.page-title {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
 
 /*isotope boxes*/
 /*------------------------------------------*/
@@ -2170,5 +2170,11 @@ table tr td {
 
 .logo {
   border: 50px; }
+
+.logo img {
+  max-width: 175px; }
+
+.logo-small img {
+  max-width: 60px; }
 
 /*# sourceMappingURL=main.css.map */

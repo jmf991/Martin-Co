@@ -12,33 +12,9 @@
     <!--/ header -->
     <!--content -->
     <section>
-
-
-    <img class="background-image" alt="Lorem ipsum" src="/assets/images/samples/oldguyworking.jpg" />
-          <div class="box-container background-image-wrapper mt60">
-            <!--item left -->
-            <!-- title-->
-            <div class="box-12">
-                <div class="inner fl">
-                    <div class="btn title-box-white mb10">
-                        <h4 class="m0"><strong>WE BUILD</strong></h4>
-                    </div>
-                    <h3 class="white m0"><strong>AWESOME WEBS</strong></h3>
-                </div>
-            </div>
-            <!-- /title-->
-            <!--buton -->            
-                    <div class="bg-yellow btn fl m0 pb12"><strong>HOME</strong></div>
-                    <a href="#" class="btn-border-bottom"><strong>Projects full width</strong></a>       
-            <!--/buton -->
-            <div class="clearfix"></div>
-            <!--/item left -->
-            <a title="lorem ipsum" href="/templates/T03-Content.aspx">
-            </a>
-        </div>
-    
-
-<!--slide -->
+        
+       <!--#include virtual="/statics/content/modules/backgroundimagewrap/backgroundimagewrapper.html"-->
+          
     </section>
 
     <section>
