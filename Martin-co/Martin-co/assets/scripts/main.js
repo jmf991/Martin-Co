@@ -15,11 +15,9 @@
     TextCarousel();
     bindIsotope();
 
+    $('.scrollbar-inner').scrollbar();
 
-    $('.js-counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
+    $('.js-counter').counterUp({ delay: 10, time: 1000 });
     
 });
 

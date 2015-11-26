@@ -7,10 +7,12 @@
 @import "content/_slider";
 @import "content/_buttons";
 @import "content/_menu";
+@import "content/_scrollbar";
 
 /*general styles*/
 
 .extra-fucking-big {font-size: 100px;}
+.big-font {font-size: 20px;}
 
 .full-width {width: 100%;}
 @media (min-width: $tablet) {.drop-down-wrapper {float: right;}}

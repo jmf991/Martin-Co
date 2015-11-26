@@ -37,11 +37,11 @@
                 <!--#include virtual="/statics/content/modules/contentflow/contentflowvertical.html"-->
             </div>
             <div class="box-3 sidebar-container bg-grey fr">
-                <div class="inner bg-yellow fr mb20">
+                <div class="inner bg-yellow mb20">
                     <!--#include virtual="/statics/content/modules/sidebar/sidebar.html"-->
                 </div>
-                <div class="inner bg-light-grey fr pb20">
-                    <!--#include virtual="/statics/content/modules/sidebar/sidebar.html"-->
+                <div class="inner bg-mild-grey pb20">
+                    <!--#include virtual="/statics/content/modules/sidebar/sidebar2.html"-->
                 </div>
                 <div class="clearfix"></div>
             </div>

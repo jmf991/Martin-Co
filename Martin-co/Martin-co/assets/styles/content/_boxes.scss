@@ -24,12 +24,17 @@
 }
 
 
-.page-title {
+.banner {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     }
+
+@media only screen and (min-width: $tablet) {
+    .banner { height:0; 
+    padding-bottom:25%; }
+}
 
 /*isotope boxes*/
 /*------------------------------------------*/
@@ -44,6 +49,7 @@
 
 .title-box-yellow { background-color: #FED204 !important; color: black !important; padding:5px; margin-bottom:10px !important; }
 .title-box-blue { background-color: rgba(4,157,254,0.57) !important; color: white; padding:5px;}
+.title-box-blue-solid { background-color: #049DFE !important; color: white; padding:3px 5px !important;}
 .title-box-black { background-color: rgba(0,0,0,.57) !important; color: white !important; }
 .title-box-white { background-color: #FFF !important; color: black !important; }
 .title-box-white-p0 { background-color: #FFF !important; color: black !important; }
@@ -61,7 +67,7 @@
 .icon-box-slider { background-color: #EBEBEB; height: 100%; margin-top: 0px !important; padding-top: 0px !important; }
 .icon-box-small { background: $dark-purple; border-radius: 100%; margin-top: 10px; width: 20px; line-height: 20px; text-align: center; color: #F7CE58; font-size: 12px; }
 
-.icon-box-square {background: #FFFFFF; line-height: 75px; text-align: center; color: #CACACA; font-size: 35px !important; border: 4px solid #CACACA; height: 80px; width: 85px; margin: 30px auto; position: relative;}
+.icon-box-square {background: #FFFFFF; line-height: 75px; text-align: center; color: #CACACA; font-size: 55px !important; border: 2px solid #ECECEC; height: 80px; width: 85px; margin: 30px auto; padding-top:27px; position: relative;}
 .icon-box-home-button { position: absolute; bottom: 0; @extend .bg-greygradient; color: #635F7C; }
 
 .icon-box-home-1,
@@ -102,7 +108,7 @@
 /*history*/
 /*------------------------------------------*/
 .history-container {position: relative; }
-.history-container:after {  content: " "; display: block; position: absolute; border: 2px solid #ccc; z-index: -1; width: 1px; height: calc(100% - 110px); left: 60px; margin: 0; top: 25px; }  
+.history-container:after {  content: " "; display: block; position: absolute; border: 2px solid #ECECEC; z-index: -1; width: 1px; height: calc(100% - 110px); left: 60px; margin: 0; top: 25px; }  
 
 .history-container .icon-box-square { margin: 0; }
 

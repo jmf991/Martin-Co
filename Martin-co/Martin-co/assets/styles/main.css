@@ -1612,7 +1612,10 @@ body.loading .overlay-impulse .item-overlay {
   background: #FBDE9F !important; }
 
 .bg-dark-grey {
-  background: #3A464C !important; }
+  background: #2E2E2E !important; }
+
+.bg-mild-grey {
+  background: #DEDEDE !important; }
 
 .bg-light-grey {
   background: #F2F2F2 !important; }
@@ -1707,12 +1710,16 @@ body {
 @media only screen and (max-width: 520px) {
   .overflow-box .image-overflow-box {
     display: none; } }
-.page-title {
+.banner {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
 
+@media only screen and (min-width: 960px) {
+  .banner {
+    height: 0;
+    padding-bottom: 25%; } }
 /*isotope boxes*/
 /*------------------------------------------*/
 .isotope-box {
@@ -1751,6 +1758,11 @@ body {
   background-color: rgba(4, 157, 254, 0.57) !important;
   color: white;
   padding: 5px; }
+
+.title-box-blue-solid {
+  background-color: #049DFE !important;
+  color: white;
+  padding: 3px 5px !important; }
 
 .title-box-black {
   background-color: rgba(0, 0, 0, 0.57) !important;
@@ -1823,11 +1835,12 @@ body {
   line-height: 75px;
   text-align: center;
   color: #CACACA;
-  font-size: 35px !important;
-  border: 4px solid #CACACA;
+  font-size: 55px !important;
+  border: 2px solid #ECECEC;
   height: 80px;
   width: 85px;
   margin: 30px auto;
+  padding-top: 27px;
   position: relative; }
 
 .icon-box-home-button {
@@ -1945,7 +1958,7 @@ body {
   content: " ";
   display: block;
   position: absolute;
-  border: 2px solid #ccc;
+  border: 2px solid #ECECEC;
   z-index: -1;
   width: 1px;
   height: calc(100% - 110px);
@@ -2164,9 +2177,145 @@ table tr td {
   background: white !important;
   border: 2px solid black; }
 
+/*************** SCROLLBAR BASE CSS ***************/
+.scroll-wrapper {
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: relative;
+  max-height: 230px; }
+
+.scroll-wrapper > .scroll-content {
+  border: none !important;
+  box-sizing: content-box !important;
+  height: auto;
+  left: 0;
+  margin: 0;
+  max-height: none;
+  max-width: none !important;
+  overflow: scroll !important;
+  padding: 0;
+  position: relative !important;
+  top: 0;
+  width: auto !important; }
+
+.scroll-wrapper > .scroll-content::-webkit-scrollbar {
+  height: 0;
+  width: 0; }
+
+.scroll-element {
+  display: none; }
+
+.scroll-element, .scroll-element div {
+  box-sizing: content-box; }
+
+.scroll-element.scroll-x.scroll-scrollx_visible,
+.scroll-element.scroll-y.scroll-scrolly_visible {
+  display: block; }
+
+.scroll-element .scroll-bar,
+.scroll-element .scroll-arrow {
+  cursor: default; }
+
+.scroll-textarea {
+  border: 1px solid #cccccc;
+  border-top-color: #999999; }
+
+.scroll-textarea > .scroll-content {
+  overflow: hidden !important; }
+
+.scroll-textarea > .scroll-content > textarea {
+  border: none !important;
+  box-sizing: border-box;
+  height: 100% !important;
+  margin: 0;
+  max-height: none !important;
+  max-width: none !important;
+  overflow: scroll !important;
+  outline: none;
+  padding: 2px;
+  position: relative !important;
+  top: 0;
+  width: 100% !important; }
+
+.scroll-textarea > .scroll-content > textarea::-webkit-scrollbar {
+  height: 0;
+  width: 0; }
+
+/*************** SIMPLE INNER SCROLLBAR ***************/
+.scrollbar-inner > .scroll-element,
+.scrollbar-inner > .scroll-element div {
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 10; }
+
+.scrollbar-inner > .scroll-element div {
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%; }
+
+.scrollbar-inner > .scroll-element.scroll-x {
+  bottom: 2px;
+  height: 8px;
+  left: 0;
+  width: 100%; }
+
+.scrollbar-inner > .scroll-element.scroll-y {
+  height: 100%;
+  right: 2px;
+  top: 0;
+  width: 8px; }
+
+.scrollbar-inner > .scroll-element .scroll-element_outer {
+  overflow: hidden; }
+
+.scrollbar-inner > .scroll-element .scroll-element_outer,
+.scrollbar-inner > .scroll-element .scroll-element_track,
+.scrollbar-inner > .scroll-element .scroll-bar {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px; }
+
+.scrollbar-inner > .scroll-element .scroll-element_track,
+.scrollbar-inner > .scroll-element .scroll-bar {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: alpha(opacity=40);
+  opacity: 0.4; }
+
+.scrollbar-inner > .scroll-element .scroll-element_track {
+  background-color: #e0e0e0; }
+
+.scrollbar-inner > .scroll-element .scroll-bar {
+  background-color: #c2c2c2; }
+
+.scrollbar-inner > .scroll-element:hover .scroll-bar {
+  background-color: #919191; }
+
+.scrollbar-inner > .scroll-element.scroll-draggable .scroll-bar {
+  background-color: #919191; }
+
+/* update scrollbar offset if both scrolls are visible */
+.scrollbar-inner > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track {
+  left: -12px; }
+
+.scrollbar-inner > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track {
+  top: -12px; }
+
+.scrollbar-inner > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size {
+  left: -12px; }
+
+.scrollbar-inner > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size {
+  top: -12px; }
+
 /*general styles*/
 .extra-fucking-big {
   font-size: 100px; }
+
+.big-font {
+  font-size: 20px; }
 
 .full-width {
   width: 100%; }

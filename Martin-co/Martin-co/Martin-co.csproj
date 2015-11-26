@@ -99,13 +99,17 @@
     <None Include="assets\styles\content\_paddings.scss" />
     <None Include="assets\styles\content\_slider.scss" />
     <None Include="assets\styles\content\_tables.scss" />
+    <Content Include="assets\scripts\lib\scrollbar.js" />
+    <None Include="assets\styles\content\_scrollbar.scss" />
     <Content Include="assets\styles\main.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem.html" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem2.html" />
+    <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem3.html" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimagewrapper.html" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimagewrapper2.html" />
+    <Content Include="statics\content\modules\backgroundimagewrap\backgroundimagewrapper3.html" />
     <Content Include="statics\content\modules\contentflow\contentflow.html" />
     <Content Include="statics\content\modules\contentflow\contentflowitem1.html" />
     <Content Include="statics\content\modules\contentflow\contentflowitem2.html" />
@@ -135,6 +139,7 @@
     <Content Include="statics\content\modules\minimalslider\minimalslider.html" />
     <Content Include="statics\content\modules\overflowimagebox\overflowimagebox.html" />
     <Content Include="statics\content\modules\sidebar\sidebar.html" />
+    <Content Include="statics\content\modules\sidebar\sidebar2.html" />
     <Content Include="statics\content\modules\sliderswrapper\slideblog.html" />
     <Content Include="statics\content\modules\sliderswrapper\sliderswrapper.html" />
     <Content Include="statics\content\modules\sliderswrapper\entries-slider.html" />
@@ -172,6 +177,7 @@
     <Content Include="templates\1-homepage.aspx" />
     <Content Include="templates\aboutuspage.aspx" />
     <Content Include="templates\projectspage.aspx" />
+    <Content Include="templates\servicespage.aspx" />
     <Content Include="to delete\logoInvesmix.png" />
     <Content Include="to delete\no-image.png" />
     <Content Include="assets\images\overlay-bg.png" />
@@ -349,6 +355,13 @@
     </Compile>
     <Compile Include="templates\projectspage.aspx.designer.cs">
       <DependentUpon>projectspage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\servicespage.aspx.cs">
+      <DependentUpon>servicespage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\servicespage.aspx.designer.cs">
+      <DependentUpon>servicespage.aspx</DependentUpon>
     </Compile>
     <Compile Include="to delete\InvesmixAgentsListingsListPage.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>

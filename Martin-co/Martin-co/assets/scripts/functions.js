@@ -335,3 +335,5 @@ function bindIsotope() {
 function updateIsotope() {
     $('.js-isotope-container').isotope('layout');
 }
+
+
