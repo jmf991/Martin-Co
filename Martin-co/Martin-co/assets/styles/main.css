@@ -212,6 +212,9 @@ input[type="email"], select, textarea, .fake-select {
 .pt50 {
   padding-top: 50px !important; }
 
+.pt90 {
+  padding-top: 90px !important; }
+
 .pr0 {
   padding-right: 0 !important; }
 
@@ -323,10 +326,13 @@ input[type="button"]:focus,
 input[type="button"]:active,
 .btn:hover,
 .btn-yellow:hover,
+.icon-box-square-little:hover,
 .btn:focus,
 .btn-yellow:focus,
+.icon-box-square-little:focus,
 .btn.active,
-.active.btn-yellow, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .menu-item .drop-down-menu a a:hover, .drop-down-menu .menu-item a:focus, .menu-item .drop-down-menu a a:focus, .drop-down-menu .menu-item a.active, .menu-item .drop-down-menu a a.active, .box .overlay-content,
+.active.btn-yellow,
+.active.icon-box-square-little, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .menu-item .drop-down-menu a a:hover, .drop-down-menu .menu-item a:focus, .menu-item .drop-down-menu a a:focus, .drop-down-menu .menu-item a.active, .menu-item .drop-down-menu a a.active, .box .overlay-content,
 .padding-button:hover,
 .padding-button:focus,
 .padding-button.active {
@@ -608,7 +614,8 @@ textarea {
 input[type="submit"],
 input[type="button"],
 .btn,
-.btn-yellow {
+.btn-yellow,
+.icon-box-square-little {
   display: inline-block;
   color: White;
   border: none;
@@ -621,7 +628,8 @@ input[type="button"],
 input[type="submit"]:disabled,
 input[type="button"]:disabled,
 .btn.disabled,
-.disabled.btn-yellow {
+.disabled.btn-yellow,
+.disabled.icon-box-square-little {
   background-color: #FFFFFF !important;
   color: #999999 !important;
   cursor: default;
@@ -635,10 +643,13 @@ input[type="button"]:focus,
 input[type="button"]:active,
 .btn:hover,
 .btn-yellow:hover,
+.icon-box-square-little:hover,
 .btn:focus,
 .btn-yellow:focus,
+.icon-box-square-little:focus,
 .btn.active,
-.active.btn-yellow {
+.active.btn-yellow,
+.active.icon-box-square-little {
   text-decoration: none;
   background: #F7CE58;
   color: #EEEEEE; }
@@ -1709,6 +1720,9 @@ body {
   margin-top: -20px;
   z-index: 2; }
 
+.image-block {
+  display: block; }
+
 .overflow-box {
   z-index: 0;
   overflow: visible;
@@ -1721,6 +1735,13 @@ body {
   background: transparent;
   bottom: 0px;
   display: block; }
+
+.overflow-box .buttons-wrapper {
+  z-index: 1;
+  position: absolute;
+  background: transparent;
+  display: block;
+  top: -50px; }
 
 @media only screen and (max-width: 520px) {
   .overflow-box .image-overflow-box {
@@ -1854,18 +1875,6 @@ body {
   border: 2px solid #2E2E2E;
   height: 80px;
   width: 85px;
-  margin: 30px auto;
-  position: relative; }
-
-.icon-box-square-little {
-  background: #F2F2F2;
-  line-height: 31px;
-  text-align: center;
-  color: #CACACA;
-  font-size: 30px !important;
-  border: 2px solid #8C8989;
-  height: 35px;
-  width: 40px;
   margin: 30px auto;
   position: relative; }
 
@@ -2140,7 +2149,7 @@ table tr td {
 .slider-container .slide-caption {
   padding: 0px; }
 
-.btn, .btn-yellow {
+.btn, .btn-yellow, .icon-box-square-little {
   color: White;
   border: none;
   cursor: pointer;
@@ -2189,15 +2198,16 @@ table tr td {
   align-content: center; }
 
 .padding-button {
-  padding: 0px 45px;
   margin: 0px 15px;
   display: inline-block;
-  cursor: pointer; }
+  cursor: pointer;
+  background: white;
+  text-align: center; }
 
 input[type="submit"]:disabled,
 input[type="button"]:disabled,
 .padding-button.disabled {
-  background-color: #FFFFFF !important;
+  background: white !important;
   color: #FED204 !important;
   cursor: default;
   text-decoration: none; }
@@ -2212,6 +2222,41 @@ input[type="button"]:active,
   border: 1px solid #F7CE58;
   background: #F7CE58;
   color: #EEEEEE; }
+
+@media only screen and (max-width: 520px) {
+  .padding-button {
+    margin: auto; } }
+.icon-box-square-little {
+  background: #F2F2F2;
+  line-height: 31px !important;
+  text-align: center !important;
+  color: #CACACA !important;
+  font-size: 30px !important;
+  border: 2px solid #8C8989 !important;
+  height: 35px !important;
+  width: 40px !important;
+  padding-top: 0 !important;
+  margin: 30px auto !important;
+  position: relative !important; }
+
+input[type="submit"]:disabled,
+input[type="button"]:disabled,
+.icon-box-square-little.disabled {
+  background-color: #F2F2F2 !important;
+  color: #CACACA !important;
+  cursor: default;
+  text-decoration: none; }
+
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active,
+.icon-box-square-little:hover,
+.icon-box-square-little:focus,
+.icon-box-square-little.active {
+  text-decoration: none;
+  background: #F7CE58 !important;
+  color: black !important;
+  border: 2px solid black !important; }
 
 .menu-item a {
   background: white !important;

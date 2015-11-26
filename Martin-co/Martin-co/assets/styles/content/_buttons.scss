@@ -49,13 +49,31 @@
             align-content:center;            
 }
 
-.padding-button { @extend .global-border; padding:0px 45px; margin:0px 15px; display: inline-block; cursor: pointer;}
+.padding-button { @extend .global-border; margin:0px 15px; display: inline-block; cursor: pointer; background: white; text-align:center;}
 input[type="submit"]:disabled,
 input[type="button"]:disabled, 
-.padding-button.disabled { background-color: $box-color !important; color: #FED204 !important; cursor: default; text-decoration: none; }
+.padding-button.disabled { background: white !important; color: #FED204 !important; cursor: default; text-decoration: none; }
 input[type="button"]:hover, 
 input[type="button"]:focus, 
 input[type="button"]:active,
 .padding-button:hover, 
 .padding-button:focus, 
 .padding-button.active { text-decoration: none; border: 1px solid $active-color; background: $active-color; color: $shade-2; @extend .smooth-transition  }
+
+@media only screen and (max-width: $mobile) {
+    .padding-button { margin:auto; }
+}
+
+
+
+
+.icon-box-square-little { @extend .btn; background: #F2F2F2 ; line-height: 31px !important; text-align: center !important; color: #CACACA !important; font-size: 30px !important; border: 2px solid #8C8989 !important; height: 35px !important; width: 40px !important; padding-top:0 !important; margin: 30px auto !important; position: relative !important; }
+input[type="submit"]:disabled,
+input[type="button"]:disabled, 
+.icon-box-square-little.disabled { background-color: #F2F2F2 !important; color: #CACACA !important; cursor: default; text-decoration: none; }
+input[type="submit"]:hover, 
+input[type="submit"]:focus, 
+input[type="submit"]:active,
+.icon-box-square-little:hover, 
+.icon-box-square-little:focus, 
+.icon-box-square-little.active { text-decoration: none; background: $active-color !important; color: black !important; border: 2px solid black !important;  @extend .smooth-transition  }

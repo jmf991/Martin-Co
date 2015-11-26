@@ -272,7 +272,8 @@ function QueryStringGetParameterByName(name) {
 /*******************************/
 function isIOS() {
     return (
-        (navigator.userAgent.match(/(iPod|iPhone|iPad)/))
+        //(navigator.userAgent.match(/(iPod|iPhone|iPad)/))
+        (navigator.userAgent.match(/(iPod|iPhone|iPad)/) || navigator.userAgent.indexOf("Safari") > -1)
     );
 }
 
