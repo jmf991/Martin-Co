@@ -48,3 +48,14 @@
             margin: 10px !important;
             align-content:center;            
 }
+
+.padding-button { @extend .global-border; padding:0px 45px; margin:0px 15px; display: inline-block; cursor: pointer;}
+input[type="submit"]:disabled,
+input[type="button"]:disabled, 
+.padding-button.disabled { background-color: $box-color !important; color: #FED204 !important; cursor: default; text-decoration: none; }
+input[type="button"]:hover, 
+input[type="button"]:focus, 
+input[type="button"]:active,
+.padding-button:hover, 
+.padding-button:focus, 
+.padding-button.active { text-decoration: none; border: 1px solid $active-color; background: $active-color; color: $shade-2; @extend .smooth-transition  }

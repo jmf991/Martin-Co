@@ -89,6 +89,7 @@
     <Content Include="assets\images\samples\service3.jpg" />
     <Content Include="assets\images\samples\service4.jpg" />
     <Content Include="assets\images\samples\userpic.jpg" />
+    <Content Include="assets\images\samples\worker.png" />
     <Content Include="assets\scripts\lib\counter.js" />
     <Content Include="assets\scripts\lib\isotope.js" />
     <None Include="assets\styles\content\_borders.scss" />
@@ -139,7 +140,7 @@
     <Content Include="statics\content\modules\minimalslider\minimalslider.html" />
     <Content Include="statics\content\modules\overflowimagebox\overflowimagebox.html" />
     <Content Include="statics\content\modules\sectionbuttons\sectionbuttons.html" />
-    <Content Include="statics\content\modules\sectionservices.html" />
+    <Content Include="statics\content\modules\services\sectionservices.html" />
     <Content Include="statics\content\modules\services\servicesitemcenter.html" />
     <Content Include="statics\content\modules\services\servicesitemleft.html" />
     <Content Include="statics\content\modules\services\servicesitemright.html" />

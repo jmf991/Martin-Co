@@ -160,6 +160,15 @@ input[type="email"], select, textarea, .fake-select {
 .ml10 {
   margin-left: 10px !important; }
 
+.ml70 {
+  margin-left: 70px !important; }
+
+.ml80 {
+  margin-left: 80px !important; }
+
+.ml90 {
+  margin-left: 90px !important; }
+
 .mb20 {
   margin-bottom: 20px !important; }
 
@@ -181,7 +190,7 @@ input[type="email"], select, textarea, .fake-select {
 .pvertical10 {
   padding: 10px 0px 10px 0px !important; }
 
-.global-border {
+.global-border, .padding-button {
   border: 1px solid #CCC; }
 
 /*paddings*/
@@ -223,6 +232,9 @@ input[type="email"], select, textarea, .fake-select {
 
 .pl0 {
   padding-left: 0 !important; }
+
+.pl10 {
+  padding-left: 10px !important; }
 
 .pl20 {
   padding-left: 20px !important; }
@@ -314,7 +326,10 @@ input[type="button"]:active,
 .btn:focus,
 .btn-yellow:focus,
 .btn.active,
-.active.btn-yellow, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .menu-item .drop-down-menu a a:hover, .drop-down-menu .menu-item a:focus, .menu-item .drop-down-menu a a:focus, .drop-down-menu .menu-item a.active, .menu-item .drop-down-menu a a.active, .box .overlay-content {
+.active.btn-yellow, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .menu-item .drop-down-menu a a:hover, .drop-down-menu .menu-item a:focus, .menu-item .drop-down-menu a a:focus, .drop-down-menu .menu-item a.active, .menu-item .drop-down-menu a a.active, .box .overlay-content,
+.padding-button:hover,
+.padding-button:focus,
+.padding-button.active {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1834,13 +1849,24 @@ body {
   background: #FFFFFF;
   line-height: 75px;
   text-align: center;
-  color: #CACACA;
-  font-size: 55px !important;
-  border: 2px solid #ECECEC;
+  color: #737373;
+  font-size: 30px !important;
+  border: 2px solid #2E2E2E;
   height: 80px;
   width: 85px;
   margin: 30px auto;
-  padding-top: 27px;
+  position: relative; }
+
+.icon-box-square-little {
+  background: #F2F2F2;
+  line-height: 31px;
+  text-align: center;
+  color: #CACACA;
+  font-size: 30px !important;
+  border: 2px solid #8C8989;
+  height: 35px;
+  width: 40px;
+  margin: 30px auto;
   position: relative; }
 
 .icon-box-home-button {
@@ -2161,6 +2187,31 @@ table tr td {
   color: black;
   margin: 10px !important;
   align-content: center; }
+
+.padding-button {
+  padding: 0px 45px;
+  margin: 0px 15px;
+  display: inline-block;
+  cursor: pointer; }
+
+input[type="submit"]:disabled,
+input[type="button"]:disabled,
+.padding-button.disabled {
+  background-color: #FFFFFF !important;
+  color: #FED204 !important;
+  cursor: default;
+  text-decoration: none; }
+
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="button"]:active,
+.padding-button:hover,
+.padding-button:focus,
+.padding-button.active {
+  text-decoration: none;
+  border: 1px solid #F7CE58;
+  background: #F7CE58;
+  color: #EEEEEE; }
 
 .menu-item a {
   background: white !important;

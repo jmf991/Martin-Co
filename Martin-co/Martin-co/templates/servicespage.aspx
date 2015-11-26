@@ -25,7 +25,7 @@
     </section>
     <section>
         <div class="box-container-wide">
-            <!--#include virtual="/statics/content/modules/sectionservices.html"-->
+            <!--#include virtual="/statics/content/modules/services/sectionservices.html"-->
             <div class="clearfix"></div>
         </div>
     </section>
