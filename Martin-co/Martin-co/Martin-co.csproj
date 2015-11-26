@@ -138,6 +138,12 @@
     <Content Include="statics\content\modules\minimalslider\minimalsliderwrapper.html" />
     <Content Include="statics\content\modules\minimalslider\minimalslider.html" />
     <Content Include="statics\content\modules\overflowimagebox\overflowimagebox.html" />
+    <Content Include="statics\content\modules\sectionbuttons\sectionbuttons.html" />
+    <Content Include="statics\content\modules\sectionservices.html" />
+    <Content Include="statics\content\modules\services\servicesitemcenter.html" />
+    <Content Include="statics\content\modules\services\servicesitemleft.html" />
+    <Content Include="statics\content\modules\services\servicesitemright.html" />
+    <Content Include="statics\content\modules\services\serviceswraper.html" />
     <Content Include="statics\content\modules\sidebar\sidebar.html" />
     <Content Include="statics\content\modules\sidebar\sidebar2.html" />
     <Content Include="statics\content\modules\sliderswrapper\slideblog.html" />
