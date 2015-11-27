@@ -142,6 +142,10 @@
     <Content Include="statics\content\modules\minimalslider\minimalsliderwrapper.html" />
     <Content Include="statics\content\modules\minimalslider\minimalslider.html" />
     <Content Include="statics\content\modules\overflowimagebox\overflowimagebox.html" />
+    <Content Include="statics\content\modules\postboxes\postbig.html" />
+    <Content Include="statics\content\modules\postboxes\postimage.html" />
+    <Content Include="statics\content\modules\postboxes\posttext.html" />
+    <Content Include="statics\content\modules\postboxes\postwide.html" />
     <Content Include="statics\content\modules\sectionbuttons\sectionbuttons.html" />
     <Content Include="statics\content\modules\services\sectionservices.html" />
     <Content Include="statics\content\modules\services\servicesitemcenter.html" />

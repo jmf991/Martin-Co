@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Home</title>
+    <title>Blog Page</title>
     <!--#include virtual="/statics/master/header/head.html"-->
 </head>
 <body class="bg-white">
@@ -13,14 +13,24 @@
     <!--content -->
     <section>
         <!-- slider -->
+        <div class="mb40">
         <!--#include virtual="/statics/content/modules/backgroundimagewrap/backgroundimagewrapper4.html"-->
+            </div>
         <!-- / slider -->
     </section>
     <section>
         <div class="box-container">
             <!-- main  content -->
-            <!--#include virtual="/statics/content/modules/logoiconboxes/logoiconboxes.html"-->
-            <!--#include virtual="/statics/content/modules/image-content/imageboxes.html"-->
+            <div class="box-8">
+                <!--#include virtual="/statics/content/modules/postboxes/postbig.html"-->
+            </div>
+            <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
+            <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
+            <!--#include virtual="/statics/content/modules/postboxes/posttext.html"-->
+            <!--#include virtual="/statics/content/modules/postboxes/postwide.html"-->
+            <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
+            <!--#include virtual="/statics/content/modules/postboxes/posttext.html"-->
+
             <div class="clearfix"></div>
         </div>
     </section>

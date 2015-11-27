@@ -1759,10 +1759,20 @@ body {
   background-size: cover;
   position: relative; }
 
+.banner2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
 @media only screen and (min-width: 960px) {
   .banner {
     height: 0;
     padding-bottom: 25%; } }
+@media only screen and (min-width: 960px) {
+  .banner2 {
+    height: 0;
+    padding-bottom: 60%; } }
 /*isotope boxes*/
 /*------------------------------------------*/
 .isotope-box {
