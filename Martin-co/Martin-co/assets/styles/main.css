@@ -160,6 +160,9 @@ input[type="email"], select, textarea, .fake-select {
 .ml10 {
   margin-left: 10px !important; }
 
+.ml20 {
+  margin-left: 20px !important; }
+
 .ml70 {
   margin-left: 70px !important; }
 
@@ -1969,6 +1972,10 @@ body {
   padding-top: 0;
   padding-left: 0px;
   margin-left: 0px; }
+
+.icons-wrapper {
+  display: inline-block;
+  list-style: none; }
 
 /*title boxes*/
 /*------------------------------------------*/
