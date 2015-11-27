@@ -14,8 +14,8 @@
     <section>
         <!-- slider -->
         <div class="mb40">
-        <!--#include virtual="/statics/content/modules/backgroundimagewrap/backgroundimagewrapper4.html"-->
-            </div>
+            <!--#include virtual="/statics/content/modules/backgroundimagewrap/backgroundimagewrapper4.html"-->
+        </div>
         <!-- / slider -->
     </section>
     <section>
@@ -24,13 +24,27 @@
             <div class="box-8">
                 <!--#include virtual="/statics/content/modules/postboxes/postbig.html"-->
             </div>
-            <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
-            <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
-            <!--#include virtual="/statics/content/modules/postboxes/posttext.html"-->
-            <!--#include virtual="/statics/content/modules/postboxes/postwide.html"-->
-            <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
-            <!--#include virtual="/statics/content/modules/postboxes/posttext.html"-->
-
+            <div class="box-3">
+                <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
+            </div>
+            <div class="box-3">
+                <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
+            </div>
+            <div class="box-3">
+                <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
+            </div>
+            <div class="box-3">
+                <!--#include virtual="/statics/content/modules/postboxes/posttext.html"-->
+            </div>
+                        <div class="box-3">
+                <!--#include virtual="/statics/content/modules/postboxes/posttext.html"-->
+            </div>
+                        <div class="box-3">
+                <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
+            </div>
+                                    <div class="box-8">
+                <!--#include virtual="/statics/content/modules/postboxes/postwide.html"-->
+            </div>
             <div class="clearfix"></div>
         </div>
     </section>
