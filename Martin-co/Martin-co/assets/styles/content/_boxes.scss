@@ -78,8 +78,8 @@
 .icon-box-small { background: $dark-purple; border-radius: 100%; margin-top: 10px; width: 20px; line-height: 20px; text-align: center; color: #F7CE58; font-size: 12px; }
 
 .icon-box-square {background: #FFFFFF; line-height: 75px; text-align: center; color: #737373; font-size: 30px !important; border: 2px solid #737373; height: 80px; width: 85px; margin: 30px auto; position: relative;}
-
-
+.icon-box-square-padding {background: #FFFFFF; line-height: 75px; text-align: center; color: #737373; font-size: 30px !important; border: 2px solid #737373; height: 80px; width: 85px; margin: 30px auto; position: relative; padding: 25px 15px;}
+    
 .icon-box-home-button { position: absolute; bottom: 0; @extend .bg-greygradient; color: #635F7C; }
 
 .icon-box-home-1,
@@ -120,7 +120,17 @@
 /*history*/
 /*------------------------------------------*/
 .history-container {position: relative; }
-.history-container:after {  content: " "; display: block; position: absolute; border: 2px solid #ECECEC; z-index: -1; width: 1px; height: calc(100% - 110px); left: 60px; margin: 0; top: 25px; }  
+.history-container:after {      content: " ";
+    display: block;
+    position: absolute;
+    border: 2px solid #ECECEC;
+    z-index: -1;
+    width: 1px;
+    height: calc(100% - 110px);
+    left: 70px;
+    margin: 0;
+    top: 50px;
+}  
 
 .history-container .icon-box-square { margin: 0; }
 
@@ -128,9 +138,9 @@
     .history-container:after { 
     width: 1px;
     height: calc(100% - 350px);
-    left: 25%;
+    left: calc(25% - 5px);
     margin: 0;    
-    top: 25px !important; }
+    top: 55px !important; }
 }
 @media only screen and (max-width: $tablet) {
     .line-container:after { 

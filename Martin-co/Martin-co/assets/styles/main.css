@@ -1885,6 +1885,19 @@ body {
   margin: 30px auto;
   position: relative; }
 
+.icon-box-square-padding {
+  background: #FFFFFF;
+  line-height: 75px;
+  text-align: center;
+  color: #737373;
+  font-size: 30px !important;
+  border: 2px solid #737373;
+  height: 80px;
+  width: 85px;
+  margin: 30px auto;
+  position: relative;
+  padding: 25px 15px; }
+
 .icon-box-home-button {
   position: absolute;
   bottom: 0;
@@ -2004,9 +2017,9 @@ body {
   z-index: -1;
   width: 1px;
   height: calc(100% - 110px);
-  left: 60px;
+  left: 70px;
   margin: 0;
-  top: 25px; }
+  top: 50px; }
 
 .history-container .icon-box-square {
   margin: 0; }
@@ -2015,9 +2028,9 @@ body {
   .history-container:after {
     width: 1px;
     height: calc(100% - 350px);
-    left: 25%;
+    left: calc(25% - 5px);
     margin: 0;
-    top: 25px !important; } }
+    top: 55px !important; } }
 @media only screen and (max-width: 960px) {
   .line-container:after {
     content: " ";

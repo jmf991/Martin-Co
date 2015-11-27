@@ -72,6 +72,7 @@
     <Content Include="assets\images\samples\background02.jpg" />
     <Content Include="assets\images\samples\background04.jpg" />
     <Content Include="assets\images\samples\backgroundbridge.jpg" />
+    <Content Include="assets\images\samples\backgroundgalsses.jpg" />
     <Content Include="assets\images\samples\backgroundguy.jpg" />
     <Content Include="assets\images\samples\blog-post-image1-360x194.jpg" />
     <Content Include="assets\images\samples\cta.png" />
@@ -108,9 +109,11 @@
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem.html" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem2.html" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem3.html" />
+    <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem4.html" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimagewrapper.html" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimagewrapper2.html" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimagewrapper3.html" />
+    <Content Include="statics\content\modules\backgroundimagewrap\backgroundimagewrapper4.html" />
     <Content Include="statics\content\modules\contentflow\contentflow.html" />
     <Content Include="statics\content\modules\contentflow\contentflowitem1.html" />
     <Content Include="statics\content\modules\contentflow\contentflowitem2.html" />
@@ -183,6 +186,7 @@
     <Content Include="statics\master\header\headertop.html" />
     <Content Include="templates\1-homepage.aspx" />
     <Content Include="templates\aboutuspage.aspx" />
+    <Content Include="templates\blogpage.aspx" />
     <Content Include="templates\projectspage.aspx" />
     <Content Include="templates\servicespage.aspx" />
     <Content Include="to delete\logoInvesmix.png" />
@@ -355,6 +359,13 @@
     </Compile>
     <Compile Include="templates\aboutuspage.aspx.designer.cs">
       <DependentUpon>aboutuspage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\blogpage.aspx.cs">
+      <DependentUpon>blogpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\blogpage.aspx.designer.cs">
+      <DependentUpon>blogpage.aspx</DependentUpon>
     </Compile>
     <Compile Include="templates\projectspage.aspx.cs">
       <DependentUpon>projectspage.aspx</DependentUpon>
