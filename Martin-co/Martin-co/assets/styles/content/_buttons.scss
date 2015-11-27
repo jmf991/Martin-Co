@@ -49,7 +49,7 @@
             align-content:center;            
 }
 
-.padding-button { @extend .global-border; margin:0px 15px; display: inline-block; cursor: pointer; background: white; text-align:center;}
+.padding-button { @extend .global-border; padding: 10px 75px; display: inline-block; cursor: pointer; background: white; width: 95%;}
 input[type="submit"]:disabled,
 input[type="button"]:disabled, 
 .padding-button.disabled { background: white !important; color: #FED204 !important; cursor: default; text-decoration: none; }

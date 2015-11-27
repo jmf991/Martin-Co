@@ -1746,6 +1746,13 @@ body {
 @media only screen and (max-width: 520px) {
   .overflow-box .image-overflow-box {
     display: none; } }
+@media only screen and (max-width: 960px) {
+  .overflow-box .buttons-wrapper {
+    position: relative; } }
+@media only screen and (max-width: 960px) {
+  .buttons-wrapper .padding-button {
+    margin: 2%;
+    padding: 10px; } }
 .banner {
   background-position: center;
   background-repeat: no-repeat;
@@ -1872,7 +1879,7 @@ body {
   text-align: center;
   color: #737373;
   font-size: 30px !important;
-  border: 2px solid #2E2E2E;
+  border: 2px solid #737373;
   height: 80px;
   width: 85px;
   margin: 30px auto;
@@ -2011,6 +2018,18 @@ body {
     left: 25%;
     margin: 0;
     top: 25px !important; } }
+@media only screen and (max-width: 960px) {
+  .line-container:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: calc(100% - 250px);
+    border: 1px dashed #ccc;
+    top: 90px;
+    left: 50%;
+    z-index: -1;
+    margin: 0; } }
 /*sidebar boxes*/
 /*------------------------------------------*/
 .sidebar, .sidebar-home {
@@ -2198,11 +2217,11 @@ table tr td {
   align-content: center; }
 
 .padding-button {
-  margin: 0px 15px;
+  padding: 10px 75px;
   display: inline-block;
   cursor: pointer;
   background: white;
-  text-align: center; }
+  width: 95%; }
 
 input[type="submit"]:disabled,
 input[type="button"]:disabled,

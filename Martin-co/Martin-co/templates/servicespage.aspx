@@ -12,11 +12,10 @@
     <!--/ header -->
     <!--content -->
     <section>
-
-        <!--#include virtual="/statics/content/modules/backgroundimagewrap/backgroundimagewrapper3.html"-->
-
+        <div class="mb40">
+            <!--#include virtual="/statics/content/modules/backgroundimagewrap/backgroundimagewrapper3.html"-->
+        </div>
     </section>
-
     <section>
         <div class="box-container">
             <!--#include virtual="/statics/content/modules/image-content/imageboxes.html"-->
@@ -41,7 +40,6 @@
             <div class="clearfix"></div>
         </div>
     </section>
-
     <!--#include virtual="/statics/master/footer/footer.html"-->
 </body>
 </html>

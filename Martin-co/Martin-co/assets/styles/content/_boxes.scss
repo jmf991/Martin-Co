@@ -25,7 +25,14 @@
 @media only screen and (max-width: $mobile) {
     .overflow-box .image-overflow-box { display:none; }
 }
-
+@media only screen and (max-width: $tablet) {
+    .overflow-box .buttons-wrapper { position:relative; }
+}
+@media only screen and (max-width: $tablet) {
+    .buttons-wrapper .padding-button { margin:2%; padding:10px; }
+}
+ 
+     
 
 .banner {
     background-position: center;
@@ -70,7 +77,7 @@
 .icon-box-slider { background-color: #EBEBEB; height: 100%; margin-top: 0px !important; padding-top: 0px !important; }
 .icon-box-small { background: $dark-purple; border-radius: 100%; margin-top: 10px; width: 20px; line-height: 20px; text-align: center; color: #F7CE58; font-size: 12px; }
 
-.icon-box-square {background: #FFFFFF; line-height: 75px; text-align: center; color: #737373; font-size: 30px !important; border: 2px solid #2E2E2E; height: 80px; width: 85px; margin: 30px auto; position: relative;}
+.icon-box-square {background: #FFFFFF; line-height: 75px; text-align: center; color: #737373; font-size: 30px !important; border: 2px solid #737373; height: 80px; width: 85px; margin: 30px auto; position: relative;}
 
 
 .icon-box-home-button { position: absolute; bottom: 0; @extend .bg-greygradient; color: #635F7C; }
@@ -125,7 +132,20 @@
     margin: 0;    
     top: 25px !important; }
 }
-
+@media only screen and (max-width: $tablet) {
+    .line-container:after { 
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: calc(100% - 250px);
+    border: 1px dashed #ccc;
+    top: 90px;
+    left: 50%;
+    z-index: -1;
+    margin: 0; }
+}
+    
 
 
 
