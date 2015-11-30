@@ -130,6 +130,9 @@ input[type="email"], select, textarea, .fake-select {
 .m10 {
   margin: 10px !important; }
 
+.m20 {
+  margin: 20px !important; }
+
 .mt5 {
   margin-top: 5px !important; }
 

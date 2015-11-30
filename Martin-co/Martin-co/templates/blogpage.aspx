@@ -19,42 +19,9 @@
         <!-- / slider -->
     </section>
     <section>
-        <div class="box-container">
-            <!-- main  content -->
-            <div class="box-8">
-                <!--#include virtual="/statics/content/modules/postboxes/postbig.html"-->
-            </div>
-            <div class="box-3">
-                <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
-            </div>
-            <div class="box-3">
-                <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
-            </div>
-            <div class="box-3">
-                <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
-            </div>
-            <div class="box-3">
-                <!--#include virtual="/statics/content/modules/postboxes/posttext.html"-->
-            </div>
-                        <div class="box-3">
-                <!--#include virtual="/statics/content/modules/postboxes/posttext.html"-->
-            </div>
-                        <div class="box-3">
-                <!--#include virtual="/statics/content/modules/postboxes/postimage.html"-->
-            </div>
-                                    <div class="box-8">
-                <!--#include virtual="/statics/content/modules/postboxes/postwide.html"-->
-            </div>
-            <div class="clearfix"></div>
-        </div>
+        <!--#include virtual="/statics/content/modules/masonry/isotope/isotoperandom.html"-->
     </section>
-    <section>
-        <div class="box-container-wide">
-            <!--#include virtual="/statics/content/modules/masonry/mansorycontainer.html"-->
 
-            <div class="clearfix"></div>
-        </div>
-    </section>
     <section>
         <div class="box-container">
             <!--#include virtual="/statics/content/modules/contentflow/contentflow.html"-->

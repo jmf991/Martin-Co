@@ -137,6 +137,7 @@
     <Content Include="statics\content\modules\logoiconboxes\logoiconboxes.html" />
     <Content Include="statics\content\modules\image-content\imageboxes.html" />
     <Content Include="statics\content\modules\logoiconboxes\logotext.html" />
+    <Content Include="statics\content\modules\masonry\isotope\isotoperandom.html" />
     <Content Include="statics\content\modules\masonry\mansorycontainer.html" />
     <Content Include="statics\content\modules\minimalslider\minimalslideritem1.html" />
     <Content Include="statics\content\modules\minimalslider\minimalslideritem2.html" />

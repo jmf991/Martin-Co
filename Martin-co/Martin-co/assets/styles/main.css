@@ -130,6 +130,9 @@ input[type="email"], select, textarea, .fake-select {
 .m10 {
   margin: 10px !important; }
 
+.m20 {
+  margin: 20px !important; }
+
 .mt5 {
   margin-top: 5px !important; }
 
@@ -1781,11 +1784,13 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%; }
 
 /*isotope boxes*/
 /*------------------------------------------*/
+.isotope-container {
+  height: 100% !important; }
+
 .isotope-box {
   position: relative;
   z-index: 0;
@@ -2104,7 +2109,6 @@ body {
     text-align: center;
     border: none; } }
 .wide-post {
-  width: 100%;
   height: 233px;
   position: relative; }
 
