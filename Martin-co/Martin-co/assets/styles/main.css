@@ -445,14 +445,14 @@ pre {
     3. Mobile
 */
 /*0. Global*/
-.box-container, box-container-wide {
+.box-container, .box-container-wide {
   max-width: 1170px;
   margin: 0 auto;
   clear: left;
   overflow: visible;
   padding: 0; }
 
-.box-container .box-container, box-container-wide .box-container, .box-container box-container-wide, box-container-wide box-container-wide {
+.box-container .box-container, .box-container-wide .box-container, .box-container .box-container-wide, .box-container-wide .box-container-wide {
   width: 100%; }
 
 .inner {
@@ -1594,10 +1594,10 @@ body.loading .overlay-impulse .item-overlay {
 /********** IE9 **********/
 /********** IE8 **********/
 @media \0screen {
-  .box-container, box-container-wide {
+  .box-container, .box-container-wide {
     width: 1140px; } }
 /********** IE7 **********/
-.box-container, box-container-wide {
+.box-container, .box-container-wide {
   *width: 1140px; }
 
 /********** END HACKS **********/
@@ -1762,20 +1762,28 @@ body {
   background-size: cover;
   position: relative; }
 
-.banner2 {
+@media only screen and (min-width: 960px) {
+  .banner {
+    height: 0;
+    padding-bottom: 25%; } }
+.banner-wide {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
 
 @media only screen and (min-width: 960px) {
-  .banner {
-    height: 0;
-    padding-bottom: 25%; } }
-@media only screen and (min-width: 960px) {
-  .banner2 {
+  .banner-wide {
     height: 0;
     padding-bottom: 60%; } }
+.banner-nocover {
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 /*isotope boxes*/
 /*------------------------------------------*/
 .isotope-box {
@@ -2079,7 +2087,7 @@ body {
   border: 1px solid #bcbac6;
   padding: 5px 3px; }
 
-box-container-wide {
+.box-container-wide {
   padding-left: 0 !important;
   padding-right: 0 !important; }
 
@@ -2095,6 +2103,11 @@ box-container-wide {
   .counter-box {
     text-align: center;
     border: none; } }
+.wide-post {
+  width: 100%;
+  height: 233px;
+  position: relative; }
+
 /*borders*/
 /*------------------------------------------*/
 .no-border {
