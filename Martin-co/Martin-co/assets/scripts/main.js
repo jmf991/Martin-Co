@@ -14,6 +14,7 @@
     filters.BindEvents();
     TextCarousel();
     bindIsotope();
+    startMap();
 
     $('.scrollbar-inner').scrollbar();
 

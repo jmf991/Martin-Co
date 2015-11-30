@@ -31,6 +31,8 @@
 @media only screen and (max-width: $tablet) {
     .buttons-wrapper .padding-button { margin:2%; padding:10px; }
 }
+
+
  
      
 
@@ -82,7 +84,7 @@
 
 .title-box-yellow { background-color: #FED204 !important; color: black !important; padding:5px; margin-bottom:10px !important; }
 .title-box-blue { background-color: rgba(4,157,254,0.57) !important; color: white; padding:5px;}
-.title-box-blue-solid { background-color: #049DFE !important; color: white; padding:3px 5px !important;}
+.title-box-blue-solid { background-color: #0E9AF2 !important; color: white; padding:5px 10px !important;}
 .title-box-black { background-color: rgba(0,0,0,.57) !important; color: white !important; }
 .title-box-white { background-color: #FFF !important; color: black !important; }
 .title-box-white-p0 { background-color: #FFF !important; color: black !important; }
@@ -205,7 +207,7 @@
 @media only screen and (max-width: $mobile) {
      .counter-box { text-align:center; border:none; }
 }
-
+.contact-form-wrap {position:relative;}
 .wide-post { height:233px; position:relative;}
 
 

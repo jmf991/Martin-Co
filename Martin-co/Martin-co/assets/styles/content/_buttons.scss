@@ -16,6 +16,12 @@
     right: 0;
     margin-right: 0;
 }
+.corner-bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    margin-right: 0;
+}
 
 .corner-button-top {
     position: absolute;
@@ -61,7 +67,7 @@ input[type="button"]:active,
 .padding-button.active { text-decoration: none; border: 1px solid $active-color; background: $active-color; color: $shade-2; @extend .smooth-transition  }
 
 @media only screen and (max-width: $mobile) {
-    .padding-button { margin:auto; }
+    .padding-button { margin:auto; margin-top:0 !important; margin-bottom:0 !important; }
 }
 
 
