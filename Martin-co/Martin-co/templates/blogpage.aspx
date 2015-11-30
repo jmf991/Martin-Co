@@ -20,31 +20,17 @@
     </section>
     <section>
         <!--#include virtual="/statics/content/modules/masonry/isotope/isotoperandom.html"-->
-    </section>
-
-    <section>
         <div class="box-container">
-            <!--#include virtual="/statics/content/modules/contentflow/contentflow.html"-->
+            <div class="inner tc">
+                <div class="btn-border-bottom js-filter" data-filter=".class-1">
+                    <a class="m0 white">LOAD MORE</a>
+                </div>
+            </div>
         </div>
     </section>
     <section>
         <div class="box-container">
             <!--#include virtual="/statics/content/modules/overflowimagebox/overflowimagebox.html"-->
-            <div class="clearfix"></div>
-        </div>
-        <div class="box-12">
-            <!--#include virtual="/statics/content/modules/counterwrap/counterwrap.html"-->
-            <div class="clearfix"></div>
-        </div>
-    </section>
-    <section>
-        <div class="box-container">
-            <!--#include virtual="/statics/content/modules/sliderswrapper/sliderswrapper.html"-->
-        </div>
-    </section>
-    <section>
-        <div class="box-container">
-            <!--#include virtual="/statics/content/modules/minimalslider/minimalsliderwrapper.html"-->
             <div class="clearfix"></div>
         </div>
     </section>

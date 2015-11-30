@@ -1786,6 +1786,9 @@ body {
   left: 0;
   height: 100%; }
 
+@media only screen and (max-width: 960px) {
+  .banner-nocover {
+    display: none; } }
 /*isotope boxes*/
 /*------------------------------------------*/
 .isotope-container {
