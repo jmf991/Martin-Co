@@ -157,6 +157,9 @@ input[type="email"], select, textarea, .fake-select {
 .mr10 {
   margin-right: 10px !important; }
 
+.mb5 {
+  margin-bottom: 5px !important; }
+
 .mb10 {
   margin-bottom: 10px !important; }
 
@@ -454,7 +457,7 @@ pre {
     3. Mobile
 */
 /*0. Global*/
-.box-container, .box-container-wide {
+.box-container, {
   max-width: 1170px;
   margin: 0 auto;
   clear: left;
@@ -1689,6 +1692,14 @@ body {
 .box {
   position: relative; }
 
+.box-full-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
 /*Box overlays*/
 /*------------------------------------------*/
 .box .overlay-content {
@@ -1779,6 +1790,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
+
+.box-post .image-wrapper img {
+  width: 100%;
+  display: block; }
 
 @media only screen and (min-width: 960px) {
   .banner-wide {
@@ -2305,6 +2320,7 @@ input[type="button"]:active,
   width: 100%; }
 
 .buttons-wrapper .button-item-wrapper .button-item {
+  position: relative;
   width: 280px;
   max-width: 100%;
   margin: 0 auto;

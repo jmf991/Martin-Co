@@ -71,13 +71,14 @@ input[type="button"]:active,
 }*/
 .buttons-wrapper {}
 .buttons-wrapper .button-item-wrapper { @extend .global-border; background: white; width: 100%; }
-.buttons-wrapper .button-item-wrapper .button-item { width: 280px; max-width: 100%; margin: 0 auto; overflow: hidden; padding: 20px; }
+.buttons-wrapper .button-item-wrapper .button-item { position: relative; width: 280px; max-width: 100%; margin: 0 auto; overflow: hidden; padding: 20px; }
 .buttons-wrapper .button-item-wrapper:hover,
 .buttons-wrapper .button-item-wrapper:focus,
 .buttons-wrapper .button-item-wrapper.active {text-decoration: none; border: 1px solid $active-color; background: $active-color; color: $shade-2; @extend .smooth-transition }
 .buttons-wrapper .button-item-wrapper .button-item .icon-wrapper { display: block; float: left; text-align: center; width: 70px; padding-right: 10px; margin-right: 10px; }
 .buttons-wrapper .button-item-wrapper .button-item .copy-wrapper { display: block; float: left; width: calc(100% - 80px); text-align: center; }
 .buttons-wrapper .button-item-wrapper .button-item .copy-wrapper p:last-child { margin-bottom: 0; width: 100%; display: block; max-height: 20px; text-overflow: ellipsis; }
+
 .buttons-wrapper .box-4 .inner {margin-bottom:0; padding-bottom:0; }
  
 @media only screen and (max-width: $mobile) {

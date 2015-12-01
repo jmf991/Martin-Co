@@ -1,6 +1,7 @@
 ﻿/*boxes*/
 /*------------------------------------------*/
 .box { position: relative; }
+.box-full-link { display: block; height: 100%; width: 100%; position: absolute; top: 0; left: 0; }
 
 /*Box overlays*/
 /*------------------------------------------*/
@@ -53,6 +54,10 @@
     background-size: cover;
     position: relative;
     }
+
+.box-post {}
+.box-post .image-wrapper {}
+.box-post .image-wrapper img { width: 100%; display: block; }
 
 @media only screen and (min-width: $tablet) {
     .banner-wide { height:0; 
