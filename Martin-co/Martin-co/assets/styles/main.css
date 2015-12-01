@@ -454,8 +454,13 @@ pre {
     3. Mobile
 */
 /*0. Global*/
-.box-container, .box-container-wide {
+.box-container {
   max-width: 1170px;
+  margin: 0 auto;
+  clear: left;
+  overflow: visible;
+  padding: 0; }
+.box-container-wide { 
   margin: 0 auto;
   clear: left;
   overflow: visible;
