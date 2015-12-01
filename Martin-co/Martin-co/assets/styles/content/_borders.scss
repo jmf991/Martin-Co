@@ -24,6 +24,9 @@
 /*------------------------------------------*/
 
 .border-horizontal-right { border-right: 1px solid #ffffff;}
+@media only screen and (max-width: $mobile) {
+    .border-horizontal-right { border:none; }
+}
 
 .border-grey-vertical {border-top: 1px solid #7F7F7F;}
 .border-grey-horizontal {border-left: 1px solid #7F7F7F; border-right: 1px solid #7F7F7F;}
