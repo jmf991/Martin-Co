@@ -55,7 +55,7 @@
             align-content:center;            
 }
 
-.padding-button { @extend .global-border; padding: 10px 75px; display: inline-block; cursor: pointer; background: white; width: 95%;}
+/*.padding-button { @extend .global-border; padding: 10px 75px; display: inline-block; cursor: pointer; background: white; width: 95%;}
 input[type="submit"]:disabled,
 input[type="button"]:disabled, 
 .padding-button.disabled { background: white !important; color: #FED204 !important; cursor: default; text-decoration: none; }
@@ -68,8 +68,28 @@ input[type="button"]:active,
 
 @media only screen and (max-width: $mobile) {
     .padding-button { margin:auto; margin-top:0 !important; margin-bottom:0 !important; }
+}*/
+.buttons-wrapper {}
+.buttons-wrapper .button-item-wrapper { @extend .global-border; background: white; width: 100%; }
+.buttons-wrapper .button-item-wrapper .button-item { width: 280px; max-width: 100%; margin: 0 auto; overflow: hidden; padding: 20px; }
+.buttons-wrapper .button-item-wrapper:hover,
+.buttons-wrapper .button-item-wrapper:focus,
+.buttons-wrapper .button-item-wrapper.active {text-decoration: none; border: 1px solid $active-color; background: $active-color; color: $shade-2; @extend .smooth-transition }
+.buttons-wrapper .button-item-wrapper .button-item .icon-wrapper { display: block; float: left; text-align: center; width: 70px; padding-right: 10px; margin-right: 10px; }
+.buttons-wrapper .button-item-wrapper .button-item .copy-wrapper { display: block; float: left; width: calc(100% - 80px); text-align: center; }
+.buttons-wrapper .button-item-wrapper .button-item .copy-wrapper p:last-child { margin-bottom: 0; width: 100%; display: block; max-height: 20px; text-overflow: ellipsis; }
+.buttons-wrapper .box-4 .inner {margin-bottom:0; padding-bottom:0; }
+ 
+@media only screen and (max-width: $mobile) {
+    .buttons-wrapper .box-4 .inner { margin-top:0; padding-top:0; }
 }
 
+/*input[type="button"]:hover, 
+input[type="button"]:focus, 
+input[type="button"]:active,
+.padding-button:hover, 
+.padding-button:focus, 
+.padding-button.active {  }*/
 
 
 
