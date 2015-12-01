@@ -1,7 +1,7 @@
 ﻿/*boxes*/
 /*------------------------------------------*/
 .box { position: relative; }
-.box-full-link { display: block; height: 100%; width: 100%; position: absolute; top: 0; left: 0; }
+.box-full-link { display: block; height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index:1; }
 
 /*Box overlays*/
 /*------------------------------------------*/

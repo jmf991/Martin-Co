@@ -157,6 +157,9 @@ input[type="email"], select, textarea, .fake-select {
 .mr10 {
   margin-right: 10px !important; }
 
+.mr15 {
+  margin-right: 15px !important; }
+
 .mb5 {
   margin-bottom: 5px !important; }
 
