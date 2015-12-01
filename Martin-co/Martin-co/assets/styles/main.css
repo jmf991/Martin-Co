@@ -2519,7 +2519,9 @@ input[type="submit"]:active,
   border: 50px; }
 
 .logo img {
-  max-width: 175px; }
+  max-width: 175px;
+  display:block;
+}
 
 .logo-small img {
   max-width: 100px; }
