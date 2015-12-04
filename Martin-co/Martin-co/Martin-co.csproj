@@ -113,8 +113,11 @@
     <Content Include="assets\styles\main.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>
+    <Content Include="default.aspx" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem6.html" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimagewrapper6.html" />
+    <Content Include="statics\content\modules\commentsforms\comments.html" />
+    <Content Include="statics\content\modules\commentsforms\commentsform.html" />
     <Content Include="statics\content\modules\map\map.html" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem.html" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem2.html" />
@@ -156,6 +159,7 @@
     <Content Include="statics\content\modules\minimalslider\minimalsliderwrapper.html" />
     <Content Include="statics\content\modules\minimalslider\minimalslider.html" />
     <Content Include="statics\content\modules\overflowimagebox\overflowimagebox.html" />
+    <Content Include="statics\content\modules\postboxes\blogpost.html" />
     <Content Include="statics\content\modules\postboxes\postbig.html" />
     <Content Include="statics\content\modules\postboxes\postimage.html" />
     <Content Include="statics\content\modules\postboxes\posttext.html" />
@@ -369,6 +373,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="templates\1-homepage.aspx.cs">
       <DependentUpon>1-homepage.aspx</DependentUpon>
