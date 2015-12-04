@@ -32,16 +32,25 @@
 @media only screen and (max-width: $tablet) {
     .buttons-wrapper .padding-button { margin:2%; padding:10px; }
 }
-
-
- 
-     
+    
 
 .banner {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    }
+@media only screen and (min-width: $tablet) {
+    .banner { height:0; 
+    padding-bottom:25%; }
+}
+
+.banner-big {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom:7%;
     }
 @media only screen and (min-width: $tablet) {
     .banner { height:0; 
@@ -215,4 +224,4 @@
 .contact-form-wrap {position:relative;}
 .wide-post { height:233px; position:relative;}
 
-
+.comment-box{position:relative;}

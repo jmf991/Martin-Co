@@ -113,6 +113,8 @@
     <Content Include="assets\styles\main.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>
+    <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem6.html" />
+    <Content Include="statics\content\modules\backgroundimagewrap\backgroundimagewrapper6.html" />
     <Content Include="statics\content\modules\map\map.html" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem.html" />
     <Content Include="statics\content\modules\backgroundimagewrap\backgroundimageitem2.html" />
@@ -166,6 +168,7 @@
     <Content Include="statics\content\modules\services\serviceswraper.html" />
     <Content Include="statics\content\modules\sidebar\sidebar.html" />
     <Content Include="statics\content\modules\sidebar\sidebar2.html" />
+    <Content Include="statics\content\modules\sidebar\sidebarnoscroll.html" />
     <Content Include="statics\content\modules\sliderswrapper\slideblog.html" />
     <Content Include="statics\content\modules\sliderswrapper\sliderswrapper.html" />
     <Content Include="statics\content\modules\sliderswrapper\entries-slider.html" />
@@ -205,6 +208,7 @@
     <Content Include="statics\master\header\headertop.html" />
     <Content Include="templates\1-homepage.aspx" />
     <Content Include="templates\aboutuspage.aspx" />
+    <Content Include="templates\blogcontentpage.aspx" />
     <Content Include="templates\blogpage.aspx" />
     <Content Include="templates\contactuspage.aspx" />
     <Content Include="templates\projectspage.aspx" />
@@ -379,6 +383,13 @@
     </Compile>
     <Compile Include="templates\aboutuspage.aspx.designer.cs">
       <DependentUpon>aboutuspage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\blogcontentpage.aspx.cs">
+      <DependentUpon>blogcontentpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\blogcontentpage.aspx.designer.cs">
+      <DependentUpon>blogcontentpage.aspx</DependentUpon>
     </Compile>
     <Compile Include="templates\blogpage.aspx.cs">
       <DependentUpon>blogpage.aspx</DependentUpon>

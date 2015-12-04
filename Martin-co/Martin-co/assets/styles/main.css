@@ -460,7 +460,7 @@ pre {
     3. Mobile
 */
 /*0. Global*/
-.box-container {
+.box-container, .box-container-wide {
   max-width: 1170px;
   margin: 0 auto;
   clear: left;
@@ -1789,6 +1789,17 @@ body {
   .banner {
     height: 0;
     padding-bottom: 25%; } }
+.banner-big {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 7%; }
+
+@media only screen and (min-width: 960px) {
+  .banner {
+    height: 0;
+    padding-bottom: 25%; } }
 .banner-wide {
   background-position: center;
   background-repeat: no-repeat;
@@ -2142,6 +2153,9 @@ body {
   height: 233px;
   position: relative; }
 
+.comment-box {
+  position: relative; }
+
 /*borders*/
 /*------------------------------------------*/
 .no-border {
@@ -2149,6 +2163,9 @@ body {
 
 .underlined-title {
   border-bottom: 2px solid #F2F2F2; }
+
+.underline-grey {
+  border-bottom: 1px solid #CCC; }
 
 .underline-white {
   border-bottom: 1px solid #F2F2F2; }
