@@ -211,12 +211,14 @@
     <Content Include="statics\master\header\headerbottom.html" />
     <Content Include="statics\master\header\headertop.html" />
     <Content Include="templates\1-homepage.aspx" />
+    <Content Include="templates\404page.aspx" />
     <Content Include="templates\aboutuspage.aspx" />
     <Content Include="templates\blogcontentpage.aspx" />
     <Content Include="templates\blogpage.aspx" />
     <Content Include="templates\contactuspage.aspx" />
     <Content Include="templates\projectspage.aspx" />
     <Content Include="templates\servicespage.aspx" />
+    <Content Include="templates\sitemap.aspx" />
     <Content Include="to delete\logoInvesmix.png" />
     <Content Include="to delete\no-image.png" />
     <Content Include="assets\images\overlay-bg.png" />
@@ -388,6 +390,13 @@
     <Compile Include="templates\1-homepage.aspx.designer.cs">
       <DependentUpon>1-homepage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="templates\404page.aspx.cs">
+      <DependentUpon>404page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\404page.aspx.designer.cs">
+      <DependentUpon>404page.aspx</DependentUpon>
+    </Compile>
     <Compile Include="templates\aboutuspage.aspx.cs">
       <DependentUpon>aboutuspage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -429,6 +438,13 @@
     </Compile>
     <Compile Include="templates\servicespage.aspx.designer.cs">
       <DependentUpon>servicespage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\sitemap.aspx.cs">
+      <DependentUpon>sitemap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\sitemap.aspx.designer.cs">
+      <DependentUpon>sitemap.aspx</DependentUpon>
     </Compile>
     <Compile Include="to delete\InvesmixAgentsListingsListPage.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
