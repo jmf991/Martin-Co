@@ -8,14 +8,11 @@
 </head>
 <body class="bg-white">
     <!--header -->
-    <!--#include virtual="/statics/master/header/header.html"-->
+    <div class="mb120">
+        <!--#include virtual="/statics/master/header/header.html"-->
+    </div>
     <!--/ header -->
     <!--content -->
-
-    <div class="mb120">
-        <div class="banner" style="background-image: url(/assets/images/samples/happyhelmetguy.jpg)">
-        </div>
-    </div>
     <div class="box-container mb120">
         <p class="extrabig-center-font">404</p>
         <p class="big-center-font">The link you used may be out of date or the address may have been typed incorrectly. Please check and try again.</p>

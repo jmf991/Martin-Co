@@ -13,109 +13,15 @@
     <!--content -->
     <section>
         <div class="mb120">
-            <div class="banner" style="background-image: url(/assets/images/samples/happyhelmetguy.jpg)">
-            </div>
+            <div class="banner" style="background-image: url(/assets/images/samples/happyhelmetguy.jpg)"></div>
+        </div>
     </section>
     <section>
         <div class="box-container">
-            <div class="box-4">
-                <div class="inner">
-                    <h5>Home Page</h5>
-                    <ul>
-                        <li>
-                            <a title="Lore ipsum" href="#">We are Martin & Co</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">We do something</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Latest Projects</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Our Workflow</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">contact Us</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Figures</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Latest News</a>
-                            <ul>
-                                <li>1</li>
-                                <li>2</li>
-                                <li>3</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Our clients say</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Subscribe</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Our Partners</a></li>
-                    </ul>
-                </div>
+            <div class="inner tc">
+                <h2>SITEMAP</h2>
             </div>
-             <div class="box-4">
-                <div class="inner">
-                    <h5>Home Page</h5>
-                    <ul>
-                        <li>
-                            <a title="Lore ipsum" href="#">We are Martin & Co</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">We do something</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Latest Projects</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Our Workflow</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">contact Us</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Figures</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Latest News</a>
-                            <ul>
-                                <li>1</li>
-                                <li>2</li>
-                                <li>3</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Our clients say</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Subscribe</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Our Partners</a></li>
-                    </ul>
-                </div>
-            </div>            <div class="box-4">
-                <div class="inner">
-                    <h5>Home Page</h5>
-                    <ul>
-                        <li>
-                            <a title="Lore ipsum" href="#">We are Martin & Co</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">We do something</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Latest Projects</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Our Workflow</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">contact Us</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Figures</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Latest News</a>
-                            <ul>
-                                <li>1</li>
-                                <li>2</li>
-                                <li>3</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Our clients say</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Subscribe</a></li>
-                        <li>
-                            <a title="Lore ipsum" href="#">Our Partners</a></li>
-                    </ul>
-                </div>
-            </div>
+            <!--#include virtual="/statics/content/modules/sitemapcontent/sitemapcontent.html"-->
             <div class="clearfix"></div>
         </div>
     </section>

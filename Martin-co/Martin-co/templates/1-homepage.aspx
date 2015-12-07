@@ -28,7 +28,6 @@
     <section>
         <div class="box-container-wide">
             <!--#include virtual="/statics/content/modules/masonry/mansorycontainer.html"-->
-
             <div class="clearfix"></div>
         </div>
     </section>

@@ -173,6 +173,11 @@
     <Content Include="statics\content\modules\sidebar\sidebar.html" />
     <Content Include="statics\content\modules\sidebar\sidebar2.html" />
     <Content Include="statics\content\modules\sidebar\sidebarnoscroll.html" />
+    <Content Include="statics\content\modules\sitemapcontent\sitemapcontent.html" />
+    <Content Include="statics\content\modules\sitemapcontent\sitemapcontentcolumn1.html" />
+    <Content Include="statics\content\modules\sitemapcontent\sitemapcontentcolumn2.html" />
+    <Content Include="statics\content\modules\sitemapcontent\sitemapcontentcolumn3.html" />
+    <Content Include="statics\content\modules\sitemapcontent\sitemapcontentcolumn4.html" />
     <Content Include="statics\content\modules\sliderswrapper\slideblog.html" />
     <Content Include="statics\content\modules\sliderswrapper\sliderswrapper.html" />
     <Content Include="statics\content\modules\sliderswrapper\entries-slider.html" />
