@@ -1,7 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="aboutuspage.aspx.cs" Inherits="Martin_co.templates.aboutuspage" %>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,12 +16,10 @@
             <!--#include virtual="/statics/content/modules/backgroundimagewrap/backgroundimagewrapper2.html"-->
         </div>
     </section>
-
     <section>
         <div class="box-container">
             <!-- main  content -->
             <!--#include virtual="/statics/content/modules/logoiconboxes/logoiconboxes.html"-->
-
             <div class="clearfix"></div>
         </div>
     </section>
@@ -36,6 +32,7 @@
             <div class="box-9 fl">
                 <!--#include virtual="/statics/content/modules/contentflow/contentflowvertical.html"-->
             </div>
+            <!-- sidebars-->
             <div class="box-3 sidebar-container bg-grey fr">
                 <div class="inner bg-yellow mb20">
                     <!--#include virtual="/statics/content/modules/sidebar/sidebar.html"-->

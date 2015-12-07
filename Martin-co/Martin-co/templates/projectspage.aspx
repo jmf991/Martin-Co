@@ -11,12 +11,9 @@
     <!--#include virtual="/statics/master/header/header.html"-->
     <!--/ header -->
     <!--content -->
-    <section>
-        
-       <!--#include virtual="/statics/content/modules/backgroundimagewrap/backgroundimagewrapper.html"-->
-          
+    <section>        
+       <!--#include virtual="/statics/content/modules/backgroundimagewrap/backgroundimagewrapper.html"-->          
     </section>
-
     <section>
         <div class="box-container-wide">
             <!--#include virtual="/statics/content/modules/masonry/mansorycontainer.html"-->
