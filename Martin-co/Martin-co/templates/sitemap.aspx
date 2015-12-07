@@ -19,7 +19,7 @@
     <section>
         <div class="box-container">
             <div class="inner tc">
-                <h2>SITEMAP</h2>
+                <h4>SITEMAP</h4>
             </div>
             <!--#include virtual="/statics/content/modules/sitemapcontent/sitemapcontent.html"-->
             <div class="clearfix"></div>
