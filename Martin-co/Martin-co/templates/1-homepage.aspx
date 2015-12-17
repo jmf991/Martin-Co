@@ -57,6 +57,7 @@
             <div class="clearfix"></div>
         </div>
     </section>
+
     <!--#include virtual="/statics/master/footer/footer.html"-->
 </body>
 </html>

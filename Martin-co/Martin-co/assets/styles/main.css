@@ -351,7 +351,7 @@ input[type="button"]:active,
 .icon-box-square-little:focus,
 .btn.active,
 .active.btn-yellow,
-.active.icon-box-square-little, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .menu-item .drop-down-menu a a:hover, .drop-down-menu .menu-item a:focus, .menu-item .drop-down-menu a a:focus, .drop-down-menu .menu-item a.active, .menu-item .drop-down-menu a a.active, .box .overlay-content, .buttons-wrapper .button-item-wrapper:hover,
+.active.icon-box-square-little, .slider-container .slider, .text-carousel, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .menu-item .drop-down-menu a a:hover, .drop-down-menu .menu-item a:focus, .menu-item .drop-down-menu a a:focus, .drop-down-menu .menu-item a.active, .menu-item .drop-down-menu a a.active, .box .overlay-content, .buttons-wrapper .button-item-wrapper:hover,
 .buttons-wrapper .button-item-wrapper:focus,
 .buttons-wrapper .button-item-wrapper.active {
   -webkit-transition: all 0.3s ease-in-out;
@@ -990,7 +990,9 @@ fieldset {
 .slider-navigation-corner.prev-slide-button {
   position: absolute !important;
   top: 0 !important;
+  line-height: normal;
   right: 28px !important;
+  left: auto;
   border-radius: 10px 0 0 10px  !important;
   font-size: 20px !important;
   padding: 9px 10px !important;
@@ -1000,6 +1002,7 @@ fieldset {
 .slider-navigation-corner.next-slide-button {
   position: absolute !important;
   top: 0 !important;
+  line-height: normal;
   right: 0 !important;
   border-radius: 0 10px 10px 0 !important;
   font-size: 20px !important;
@@ -1704,6 +1707,17 @@ body {
   left: 0;
   z-index: 1; }
 
+/*title boxes*/
+/*------------------------------------------*/
+.box-title .yellow {
+  font-size: 24px;
+  background-color: #FED204 !important;
+  color: black !important;
+  padding: 4px;
+  display: inline-block;
+  margin-bottom: 5px !important;
+  line-height: 26px; }
+
 /*Box overlays*/
 /*------------------------------------------*/
 .box .overlay-content {
@@ -2028,20 +2042,6 @@ body {
   display: inline-block;
   list-style: none; }
 
-/*title boxes*/
-/*------------------------------------------*/
-.box-title {
-  background: #343257;
-  margin-bottom: 10px;
-  padding: 5px 10px;
-  color: #fff; }
-
-.box-title p {
-  margin: 0;
-  border: none;
-  color: #fff;
-  padding: 0; }
-
 /*number boxes*/
 /*------------------------------------------*/
 .number-box {
@@ -2159,6 +2159,27 @@ body {
 
 .comment-box {
   position: relative; }
+
+/*subscribe*/
+.subscribe-form .form-wrapper {
+  padding: 50px 20px 70px;
+  overflow: hidden; }
+
+.subscribe-form .form-wrapper .text-input {
+  width: calc(100% - 60px);
+  float: left;
+  margin: 0; }
+
+.subscribe-form .form-wrapper .btn, .subscribe-form .form-wrapper .btn-yellow, .subscribe-form .form-wrapper .icon-box-square-little {
+  display: block;
+  width: 50px;
+  height: 54px;
+  float: left;
+  line-height: 54px;
+  padding: 0;
+  text-align: center;
+  border: 1px solid #CCC;
+  border-left: none; }
 
 /*borders*/
 /*------------------------------------------*/

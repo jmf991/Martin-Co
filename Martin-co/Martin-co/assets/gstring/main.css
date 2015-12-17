@@ -347,7 +347,7 @@ input[type="button"]:active,
 .btn:focus,
 .btn.active, .btn-yellow:hover,
 .btn-yellow:focus,
-.btn-yellow.active, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .drop-down-menu .menu-item a:focus, .drop-down-menu .menu-item a.active {
+.btn-yellow.active, .slider-container .slider, .text-carousel, .accordion .accordion-heading.active, .accordion .accordion-heading:hover, .drop-down-menu .menu-item a:hover, .drop-down-menu .menu-item a:focus, .drop-down-menu .menu-item a.active {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -974,7 +974,9 @@ fieldset {
 .slider-navigation-corner.prev-slide-button {
   position: absolute !important;
   top: 0 !important;
+  line-height: normal;
   right: 28px !important;
+  left: auto;
   border-radius: 10px 0 0 10px  !important;
   font-size: 20px !important;
   padding: 9px 10px !important;
@@ -984,6 +986,7 @@ fieldset {
 .slider-navigation-corner.next-slide-button {
   position: absolute !important;
   top: 0 !important;
+  line-height: normal;
   right: 0 !important;
   border-radius: 0 10px 10px 0 !important;
   font-size: 20px !important;
