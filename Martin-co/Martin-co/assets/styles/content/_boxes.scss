@@ -6,16 +6,11 @@
 /*title boxes*/
 /*------------------------------------------*/
 
-.box-title { }
-.box-title .yellow{
-    font-size: 24px;
-    background-color: #FED204 !important;
-    color: black !important;
-    padding: 4px;
-    display: inline-block;
-    margin-bottom: 5px !important;
-    line-height: 26px;
-}
+.box-title { margin-bottom: 10px;  }
+.box-title span { font-size: 24px; color: black !important; padding: 4px; display: inline-block; margin-bottom: 5px !important; line-height: 26px; }
+
+.box-title span.yellow { background-color: #FED204 !important;}
+.box-title span.blue {  background-color:rgba(4,157,254,0.57) !important}
 
 /*Box overlays*/
 /*------------------------------------------*/
@@ -40,10 +35,9 @@
 @media only screen and (max-width: $mobile) {
     .overflow-box .image-overflow-box { display:none; }
 }
+
 @media only screen and (max-width: $tablet) {
     .overflow-box .buttons-wrapper { position:relative; }
-}
-@media only screen and (max-width: $tablet) {
     .buttons-wrapper .padding-button { margin:2%; padding:10px; }
 }
     
@@ -105,6 +99,9 @@
 .isotope-box .image-wrapper { position: absolute; top: 0; left: 0; height: 100%; width: 100%; }
 .isotope-box .image-wrapper img { display: block;  height: 100%; width: 100%;}
 .isotope-box .content-wrapper { text-align: center; }
+@media only screen and (max-width: $tablet) {
+    .isotope-filters { margin-top: 0 !important; }
+    }
 
 
 /*boxes with colors*/

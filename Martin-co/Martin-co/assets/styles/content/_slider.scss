@@ -15,4 +15,11 @@
 
 .slider-container .slide-caption {
     padding: 0px;
+    padding-top: 60px;
+}
+@media only screen and (max-width: $mobile) {
+    .slider-container .slide-caption {
+    padding: 0px;
+    padding-top: 0;
+}
 }
