@@ -72,8 +72,11 @@
     <Content Include="assets\images\mc_logo_1.png" />
     <Content Include="assets\images\mc_logo_1_w.png" />
     <Content Include="assets\images\mc_logo_2.png" />
+    <Content Include="assets\images\samples\1408193449%282%29.png" />
     <Content Include="assets\images\samples\1408193449.jpg" />
+    <Content Include="assets\images\samples\5-Marketing-tools %281%29.jpg" />
     <Content Include="assets\images\samples\5-Marketing-tools %282%29.jpg" />
+    <Content Include="assets\images\samples\5-Marketing-tools %283%29.jpg" />
     <Content Include="assets\images\samples\5-Marketing-tools %284%29.jpg" />
     <Content Include="assets\images\samples\5-Marketing-tools %285%29.jpg" />
     <Content Include="assets\images\samples\background02.jpg" />
@@ -88,6 +91,8 @@
     <Content Include="assets\images\samples\descarga.png" />
     <Content Include="assets\images\samples\descargadark.png" />
     <Content Include="assets\images\samples\gardenhouse.jpg" />
+    <Content Include="assets\images\samples\Hand.Chisel.3.png" />
+    <Content Include="assets\images\samples\handcraft2.jpg" />
     <Content Include="assets\images\samples\happyhelmetguy.jpg" />
     <Content Include="assets\images\samples\logomartin.png" />
     <Content Include="assets\images\samples\logomartinsolid.png" />
