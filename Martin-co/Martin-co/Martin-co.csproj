@@ -72,6 +72,10 @@
     <Content Include="assets\images\mc_logo_1.png" />
     <Content Include="assets\images\mc_logo_1_w.png" />
     <Content Include="assets\images\mc_logo_2.png" />
+    <Content Include="assets\images\samples\1408193449.jpg" />
+    <Content Include="assets\images\samples\5-Marketing-tools %282%29.jpg" />
+    <Content Include="assets\images\samples\5-Marketing-tools %284%29.jpg" />
+    <Content Include="assets\images\samples\5-Marketing-tools %285%29.jpg" />
     <Content Include="assets\images\samples\background02.jpg" />
     <Content Include="assets\images\samples\background04.jpg" />
     <Content Include="assets\images\samples\background11.jpg" />
