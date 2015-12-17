@@ -69,6 +69,9 @@
     <Content Include="assets\images\hd-pictures-8-Awesome-Wallpapers.png" />
     <Content Include="assets\images\largeSpinner.gif" />
     <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\mc_logo_1.png" />
+    <Content Include="assets\images\mc_logo_1_w.png" />
+    <Content Include="assets\images\mc_logo_2.png" />
     <Content Include="assets\images\samples\background02.jpg" />
     <Content Include="assets\images\samples\background04.jpg" />
     <Content Include="assets\images\samples\background11.jpg" />

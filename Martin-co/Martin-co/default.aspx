@@ -8,16 +8,14 @@
 </head>
 <body class="bg-white">
     <!--header -->
-    <!--#include virtual="/statics/master/header/header.html"-->
+    
     <!--/ header -->
     <!--content -->
-    <section>
-        <div class="mb50">
-            <div class="banner" style="background-image: url(/assets/images/samples/happyhelmetguy.jpg) ">
-        </div>
-    </section>
-    <section>
-        <div class="box-container mb50">
+
+        <div class="box-container">
+            <div class="inner">
+                <h1 class="title">Index</h1>
+            </div>
             <ul>
                 <li>
                     <a href="/templates/1-homepage.aspx">
@@ -56,8 +54,7 @@
                 </li>
             </ul>
         </div>
-    </section>
-    <!--#include virtual="/statics/master/footer/footer.html"-->
+
 </body>
 </html>
 
