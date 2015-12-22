@@ -18,7 +18,6 @@ input[type="email"], select, textarea, .fake-select {
   color: #333; }
 
 .headers, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  color: #343257;
   margin: 0 0 20px 0;
   font-weight: 1000;
   font-family: 'Poiret One', cursive; }
@@ -43,7 +42,7 @@ input[type="email"], select, textarea, .fake-select {
 /********** END RESETS **********/
 /*bg colors*/
 .b1 {
-  background: #343257; }
+  background: rgba(4, 157, 254, 0.57); }
 
 .b2 {
   background: #F7CE58; }
@@ -65,7 +64,7 @@ input[type="email"], select, textarea, .fake-select {
 
 /*font colors*/
 .c1 {
-  color: #343257; }
+  color: rgba(4, 157, 254, 0.57); }
 
 .c2 {
   color: #FFFFFF; }
@@ -675,13 +674,13 @@ input[type="button"]:active,
   color: black; }
 
 .fake-input {
-  color: #343257;
+  color: rgba(4, 157, 254, 0.57);
   cursor: pointer;
   display: inline-block;
   position: static;
   text-decoration: none;
   width: 18px;
-  color: #343257 !important; }
+  color: rgba(4, 157, 254, 0.57) !important; }
 
 a.fake-input {
   text-decoration: none; }
@@ -963,7 +962,7 @@ fieldset {
   line-height: 48px; }
 
 .slider-navigation:hover, .slider-navigation:focus, .slider-navigation.active {
-  background-color: #343257;
+  background-color: rgba(4, 157, 254, 0.57);
   color: #fff; }
 
 .slider-navigation.prev-slide-button {
@@ -975,6 +974,7 @@ fieldset {
   border-radius: 10px 0 0 10px; }
 
 .slider-navigation-corner.prev-slide-button {
+  z-index: 1;
   position: absolute !important;
   top: 0 !important;
   line-height: normal;
@@ -987,6 +987,7 @@ fieldset {
   color: white !important; }
 
 .slider-navigation-corner.next-slide-button {
+  z-index: 1;
   position: absolute !important;
   top: 0 !important;
   line-height: normal;
@@ -1095,7 +1096,7 @@ fieldset {
   position: relative; }
 
 .accordion .accordion-heading.active, .accordion .accordion-heading:hover {
-  background: #343257; }
+  background: rgba(4, 157, 254, 0.57); }
 
 .accordion .accordion-content {
   overflow: hidden;
@@ -1146,7 +1147,7 @@ ul.tabs-menu {
   border-bottom: 1px solid transparent; }
 
 .tabs-menu .active a {
-  color: #343257; }
+  color: rgba(4, 157, 254, 0.57); }
 
 .tab {
   border: 1px solid #CCC;
@@ -1555,7 +1556,7 @@ body.loading .overlay-impulse .item-overlay {
 
 .nested-nav ul li a {
   display: block;
-  background: #343257;
+  background: rgba(4, 157, 254, 0.57);
   color: #FFF;
   padding: 10px;
   width: 120px;

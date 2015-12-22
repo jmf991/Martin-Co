@@ -14,3 +14,16 @@
     background: white !important;
     border: 2px solid black;
 }
+
+
+
+@media only screen and (min-width: $desktop) {
+    
+.drop-down-wrapper { margin-top: 40px !important; }
+}
+@media only screen and (max-width: $mobile) {
+.header-bottom { text-align: center; }
+.mobile-nav-trigger { width: 100%; text-align: right; }
+.logo { float: none !important; }
+.drop-down-menu { margin: 0 -10px !important; }
+}

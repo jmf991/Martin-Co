@@ -7,8 +7,8 @@
 .slider-navigation:hover, .slider-navigation:focus, .slider-navigation.active { background-color: $primary-color; color: #fff; }
 .slider-navigation.prev-slide-button { left: 0; border-radius: 0 10px 10px 0; }
 .slider-navigation.next-slide-button { right: 0; border-radius: 10px 0 0 10px; }
-.slider-navigation-corner.prev-slide-button{ position: absolute !important; top: 0 !important; line-height: normal; right: 28px !important; left: auto; border-radius: 10px 0 0 10px  !important; font-size:20px !important; padding: 9px 10px !important; background: #5E5C5C !important; color:white !important;}
-.slider-navigation-corner.next-slide-button { position: absolute !important; top: 0 !important; line-height: normal; right: 0 !important; border-radius: 0 10px 10px 0 !important; font-size:20px !important; padding: 9px 10px !important; background: #5E5C5C !important; color:white !important;}
+.slider-navigation-corner.prev-slide-button{ z-index: 1; position: absolute !important; top: 0 !important; line-height: normal; right: 28px !important; left: auto; border-radius: 10px 0 0 10px  !important; font-size:20px !important; padding: 9px 10px !important; background: #5E5C5C !important; color:white !important;}
+.slider-navigation-corner.next-slide-button {z-index: 1;  position: absolute !important; top: 0 !important; line-height: normal; right: 0 !important; border-radius: 0 10px 10px 0 !important; font-size:20px !important; padding: 9px 10px !important; background: #5E5C5C !important; color:white !important;}
 .slider-navigation-corner:hover, 
 .slider-navigation-corner:focus, 
 .slider-navigation-corner.active { background: #049DFE !important;}
