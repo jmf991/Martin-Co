@@ -17,7 +17,7 @@
         </div>
     </section>
     <section>
-        <div class="box-container">
+        <div class="box-container mb50">
             <!--#include virtual="/statics/content/modules/image-content/imageboxes.html"-->
             <div class="clearfix"></div>
         </div>

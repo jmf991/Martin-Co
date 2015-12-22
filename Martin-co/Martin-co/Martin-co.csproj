@@ -88,12 +88,15 @@
     <Content Include="assets\images\samples\cta.png" />
     <Content Include="assets\images\samples\descarga.png" />
     <Content Include="assets\images\samples\descargadark.png" />
+    <Content Include="assets\images\samples\desktop.png" />
     <Content Include="assets\images\samples\dropdown-repair-and-service2-v1.jpg" />
     <Content Include="assets\images\samples\gardenhouse.jpg" />
     <Content Include="assets\images\samples\Hand.Chisel.3.png" />
     <Content Include="assets\images\samples\happyhelmetguy.jpg" />
+    <Content Include="assets\images\samples\laptop2.png" />
     <Content Include="assets\images\samples\logomartin.png" />
     <Content Include="assets\images\samples\logomartinsolid.png" />
+    <Content Include="assets\images\samples\mobile2.png" />
     <Content Include="assets\images\samples\oldguyworking.jpg" />
     <Content Include="assets\images\samples\portfolio05.jpg" />
     <Content Include="assets\images\samples\portfoliobeachhouse.jpg" />
@@ -106,6 +109,7 @@
     <Content Include="assets\images\samples\service2.jpg" />
     <Content Include="assets\images\samples\service3.jpg" />
     <Content Include="assets\images\samples\service4.jpg" />
+    <Content Include="assets\images\samples\tablet2.png" />
     <Content Include="assets\images\samples\taller.jpg" />
     <Content Include="assets\images\samples\userpic.jpg" />
     <Content Include="assets\images\samples\worker.png" />

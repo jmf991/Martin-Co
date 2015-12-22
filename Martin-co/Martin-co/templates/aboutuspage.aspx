@@ -12,7 +12,7 @@
     <!--/ header -->
     <!--content -->
     <section>
-        <div class="mb120">
+        <div class="mb40">
             <!--#include virtual="/statics/content/modules/backgroundimagewrap/backgroundimagewrapper2.html"-->
         </div>
     </section>

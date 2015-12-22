@@ -190,6 +190,9 @@ input[type="email"], select, textarea, .fake-select {
 .mb50 {
   margin-bottom: 50px !important; }
 
+.mb80 {
+  margin-bottom: 80px !important; }
+
 .mb120 {
   margin-bottom: 120px !important; }
 
@@ -1783,6 +1786,21 @@ body {
   display: block;
   top: -50px; }
 
+.overflow-box .image-overflow-box.image-bg-1 {
+  z-index: 2 !important; }
+
+.overflow-box .image-overflow-box.image-bg-2 {
+  z-index: 3 !important;
+  margin-left: 100px; }
+
+.overflow-box .image-overflow-box.image-bg-3 {
+  z-index: 4 !important;
+  margin-left: 140px; }
+
+.overflow-box .image-overflow-box.image-bg-4 {
+  z-index: 5 !important;
+  margin-left: 180px; }
+
 @media only screen and (max-width: 520px) {
   .overflow-box .image-overflow-box {
     display: none; } }
@@ -2064,11 +2082,11 @@ body {
   content: " ";
   display: block;
   position: absolute;
-  width: calc(100% - 200px);
+  width: calc(100% - 210px);
   height: 1px;
   border: 1px dashed #ccc;
   top: 90px;
-  left: 0;
+  left: 5px;
   z-index: -1;
   margin: 0 98px; }
 
@@ -2426,7 +2444,7 @@ input[type="button"]:active,
   height: 35px !important;
   width: 40px !important;
   padding-top: 0 !important;
-  margin: 30px auto !important;
+  margin: 30px 10px !important;
   position: relative !important; }
 
 input[type="submit"]:disabled,

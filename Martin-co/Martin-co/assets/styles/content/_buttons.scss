@@ -94,7 +94,7 @@ input[type="button"]:active,
 
 
 
-.icon-box-square-little { @extend .btn; background: #F2F2F2 ; line-height: 31px !important; text-align: center !important; color: #CACACA !important; font-size: 30px !important; border: 2px solid #8C8989 !important; height: 35px !important; width: 40px !important; padding-top:0 !important; margin: 30px auto !important; position: relative !important; }
+.icon-box-square-little { @extend .btn; background: #F2F2F2 ; line-height: 31px !important; text-align: center !important; color: #CACACA !important; font-size: 30px !important; border: 2px solid #8C8989 !important; height: 35px !important; width: 40px !important; padding-top:0 !important; margin: 30px 10px !important; position: relative !important; }
 input[type="submit"]:disabled,
 input[type="button"]:disabled, 
 .icon-box-square-little.disabled { background-color: #F2F2F2 !important; color: #CACACA !important; cursor: default; text-decoration: none; }

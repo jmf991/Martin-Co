@@ -12,7 +12,7 @@
     <!--/ header -->
     <!--content -->
     <section>
-        <div class="mb120">
+        <div class="mb40">
             <div class="banner" style="background-image: url(/assets/images/samples/happyhelmetguy.jpg)"></div>
         </div>
     </section>
