@@ -13,7 +13,7 @@
     <!--content -->
     <section>
         <div class="mb40">
-            <div class="banner" style="background-image: url(/assets/images/samples/happyhelmetguy.jpg)"></div>
+            <div class="banner" style="background-image: url(/assets/images/samples/banner10.png)"></div>
         </div>
     </section>
     <section>
