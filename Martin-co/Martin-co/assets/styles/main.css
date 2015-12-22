@@ -1786,7 +1786,8 @@ body {
   position: absolute;
   background: transparent;
   bottom: 0px;
-  display: block; }
+  display: block;
+  max-width: 290px; }
 
 .overflow-box .buttons-wrapper {
   z-index: 1;

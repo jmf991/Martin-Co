@@ -29,7 +29,7 @@
 .image-block {display:block;}
 
 .overflow-box { z-index:0; overflow:visible; position:relative; display:block; }
-.overflow-box .image-overflow-box { z-index:1; position:absolute; background:transparent; bottom:0px; display:block; }
+.overflow-box .image-overflow-box { z-index:1; position:absolute; background:transparent; bottom:0px; display:block; max-width:290px; }
 .overflow-box .buttons-wrapper { z-index:1; position:absolute; background:transparent; display:block; top:-50px; }
 
 .overflow-box .image-overflow-box.image-bg-1 { z-index:2 !important; }
