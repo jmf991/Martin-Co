@@ -13,7 +13,7 @@
     <!--content -->
     <section>
         <div class="mb40">
-            <!--#include virtual="/statics/content/modules/backgroundimagewrap/backgroundimagewrapper5.html"-->
+            <!--#include virtual="/statics/content/modules/map/map.html"-->
         </div>
     </section>
     <section>
@@ -24,12 +24,6 @@
     </section>
     <section>
         <!--#include virtual="/statics/content/modules/sectionbuttons/sectionbuttons.html"-->
-    </section>
-    <section>
-        <!--#include virtual="/statics/content/modules/map/map.html"-->
-    </section>
-    <section>
-        <!--#include virtual="/statics/content/modules/testimonials/testimonialswrapper.html"-->
     </section>
     <section>
         <div class="box-container">

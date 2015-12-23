@@ -33,7 +33,7 @@
                 <!--#include virtual="/statics/content/modules/contentflow/contentflowvertical.html"-->
             </div>
             <!-- sidebars-->
-            <div class="box-3 sidebar-container bg-grey fr">
+            <div class="box-3 sidebar-container bg-grey fr mb40">
                 <div class="inner bg-yellow mb20">
                     <!--#include virtual="/statics/content/modules/sidebar/sidebar.html"-->
                 </div>
@@ -44,6 +44,9 @@
             </div>
             <div class="clearfix"></div>
         </div>
+    </section>    
+    <section>
+        <!--#include virtual="/statics/content/modules/testimonials/testimonialswrapper.html"-->
     </section>
     <section>
         <div class="box-container">
